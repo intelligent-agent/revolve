@@ -1,0 +1,22 @@
+
+
+
+ - 6 Stepper drivers
+ - 4 thermistor inputs
+ - 3 thermocouple inputs
+ - 
+
+ - USR leds, do they need a transistor?
+ - Perhaps higher power step down converter? 
+
+TODO: 
+ - Everything
+ - 4 or 6 layer
+ - 
+
+
+
+
+TO_VERIFY: 
+ - USB self powered. OK to tie high to USB_DC?
+

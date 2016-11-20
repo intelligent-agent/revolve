@@ -12,8 +12,11 @@
 TODO: 
  - Everything
  - 4 or 6 layer
- - 
-
+ - Switch step down and USB hub to TI components.
+ - Connect VDDCR
+ - Over voltage protection on USB
+ - Support for Thermistor and Thermocouple
+ - MCASP0_AXR1
 
 
 

@@ -1,0 +1,64 @@
+VPB[6] 1 I
+VPB[5] 2 I
+VPB[4] 3 I
+PCLK 4 I
+VDDDC 5 P
+VPB[3] 6 I
+VPB[2] 7 I video port B input bit 2
+VPB[1] 8 I video port B input bit 1
+VPB[0] 9 I video port B input bit 0 (LSB)
+VPC[7] 10 I video port C input bit 7 (MSB)
+VPC[6] 11 I video port C input bit 6
+VPC[5] 12 I video port C input bit 5
+VPC[4] 13 I video port C input bit 4
+VDDD(IO)(1V8) 14 P I/O digital supply voltage (1.8 V)
+VPC[3] 15 I video port C input bit 3
+VPC[2] 16 I video port C input bit 2
+VPC[1] 17 I video port C input bit 1
+VPC[0] 18 I video port C input bit 0 LSB)
+VPP 19 to be connected to GND
+DE/FREF 20 I data enable or field reference input
+VSYNC/VREF 21 I input vertical synchronization or reference input
+HSYNC/HREF 22 I input horizontal synchronization or reference input
+ACLK 23 I audio clock input
+AP0 24 I audio port 0 input
+AP1 25 I audio port 1 input
+AP2 26 I audio port 2 input
+OSC_IN/AP3 27 I input connected to the external oscillator circuit or external clock source/audio port 3 input
+AP4 28 I audio port 4 input
+VDDDC 29 P core digital supply voltage (1.8 V)
+CEC 30 I/O CEC connection (open-drain) to HDMI connector
+HPD 31 I hot plug detect; 5 V tolerant
+DSDA 32 I/O DDC-bus data input/output; 5 V tolerant
+DSCL 33 I DDC-bus clock input; 5 V tolerant
+EXT_SWING 34 O TMDS output swing adjustment; place resistor (REXT_SWING = 10 k  1 %) between this pin and analog ground.
+VDDA(1V8) 35 P analog supply voltage (1.8 V), is used for parallel-to-serial shift register and miscellaneous blocks
+VDDA(Tx)(1V8) 36 P Tx analog supply voltage (1.8 V)
+TXC 37 O negative clock channel for TMDS output
+TXC+ 38 O positive clock channel for TMDS output
+TX0 39 O negative data channel 0 for TMDS output
+TX0+ 40 O positive data channel 0 for TMDS output
+VDDA(Tx)(1V8) 41 P Tx analog supply voltage (1.8 V)
+TX1 42 O negative data channel 1 for TMDS output
+TX1+ 43 O positive data channel 1 for TMDS output
+TX2 44 O negative data channel 2 for TMDS output
+TX2+ 45 O positive data channel 2 for TMDS output
+VDDA(Tx)(1V8) 46 P Tx analog supply voltage (1.8 V)
+VDDA(PLL)(1V8) 47 P PLL analog supply voltage (1.8 V), this PLL provides the clock for the serializer
+VDDA(PLL)(1V8) 48 P PLL analog supply voltage (1.8 V), this PLL provides the clock for the serializer
+TEST 49 to be connected to GND
+INT 50 I/O 
+CSDA 51 I/O 
+CSCL 52 I 
+A0_I2C 53 I 
+A1_I2C 54 I 
+VDDD(IO)(1V8) 55 P I/O 
+VPA[7] 56 I
+VPA[6] 57 I
+VPA[5] 58 I
+VPA[4] 59 I
+VPA[3] 60 I
+VPA[2] 61 I
+VPA[1] 62 I
+VPA[0] 63 I
+VPB[7] 64 I

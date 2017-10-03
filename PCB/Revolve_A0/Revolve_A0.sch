@@ -594,172 +594,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="sn74hc595">
-<packages>
-<package name="SOP65P640X120-16N">
-<wire x1="-2.2606" y1="2.1336" x2="-2.2606" y2="2.4384" width="0" layer="51"/>
-<wire x1="-2.2606" y1="2.4384" x2="-3.302" y2="2.4384" width="0" layer="51"/>
-<wire x1="-3.302" y1="2.4384" x2="-3.302" y2="2.1336" width="0" layer="51"/>
-<wire x1="-3.302" y1="2.1336" x2="-2.2606" y2="2.1336" width="0" layer="51"/>
-<wire x1="-2.2606" y1="1.4732" x2="-2.2606" y2="1.778" width="0" layer="51"/>
-<wire x1="-2.2606" y1="1.778" x2="-3.302" y2="1.778" width="0" layer="51"/>
-<wire x1="-3.302" y1="1.778" x2="-3.302" y2="1.4732" width="0" layer="51"/>
-<wire x1="-3.302" y1="1.4732" x2="-2.2606" y2="1.4732" width="0" layer="51"/>
-<wire x1="-2.2606" y1="0.8128" x2="-2.2606" y2="1.1176" width="0" layer="51"/>
-<wire x1="-2.2606" y1="1.1176" x2="-3.302" y2="1.1176" width="0" layer="51"/>
-<wire x1="-3.302" y1="1.1176" x2="-3.302" y2="0.8128" width="0" layer="51"/>
-<wire x1="-3.302" y1="0.8128" x2="-2.2606" y2="0.8128" width="0" layer="51"/>
-<wire x1="-2.2606" y1="0.1778" x2="-2.2606" y2="0.4826" width="0" layer="51"/>
-<wire x1="-2.2606" y1="0.4826" x2="-3.302" y2="0.4826" width="0" layer="51"/>
-<wire x1="-3.302" y1="0.4826" x2="-3.302" y2="0.1778" width="0" layer="51"/>
-<wire x1="-3.302" y1="0.1778" x2="-2.2606" y2="0.1778" width="0" layer="51"/>
-<wire x1="-2.2606" y1="-0.4826" x2="-2.2606" y2="-0.1778" width="0" layer="51"/>
-<wire x1="-2.2606" y1="-0.1778" x2="-3.302" y2="-0.1778" width="0" layer="51"/>
-<wire x1="-3.302" y1="-0.1778" x2="-3.302" y2="-0.4826" width="0" layer="51"/>
-<wire x1="-3.302" y1="-0.4826" x2="-2.2606" y2="-0.4826" width="0" layer="51"/>
-<wire x1="-2.2606" y1="-1.1176" x2="-2.2606" y2="-0.8128" width="0" layer="51"/>
-<wire x1="-2.2606" y1="-0.8128" x2="-3.302" y2="-0.8128" width="0" layer="51"/>
-<wire x1="-3.302" y1="-0.8128" x2="-3.302" y2="-1.1176" width="0" layer="51"/>
-<wire x1="-3.302" y1="-1.1176" x2="-2.2606" y2="-1.1176" width="0" layer="51"/>
-<wire x1="-2.2606" y1="-1.778" x2="-2.2606" y2="-1.4732" width="0" layer="51"/>
-<wire x1="-2.2606" y1="-1.4732" x2="-3.302" y2="-1.4732" width="0" layer="51"/>
-<wire x1="-3.302" y1="-1.4732" x2="-3.302" y2="-1.778" width="0" layer="51"/>
-<wire x1="-3.302" y1="-1.778" x2="-2.2606" y2="-1.778" width="0" layer="51"/>
-<wire x1="-2.2606" y1="-2.4384" x2="-2.2606" y2="-2.1336" width="0" layer="51"/>
-<wire x1="-2.2606" y1="-2.1336" x2="-3.302" y2="-2.1336" width="0" layer="51"/>
-<wire x1="-3.302" y1="-2.1336" x2="-3.302" y2="-2.4384" width="0" layer="51"/>
-<wire x1="-3.302" y1="-2.4384" x2="-2.2606" y2="-2.4384" width="0" layer="51"/>
-<wire x1="2.2606" y1="-2.1336" x2="2.2606" y2="-2.4384" width="0" layer="51"/>
-<wire x1="2.2606" y1="-2.4384" x2="3.302" y2="-2.4384" width="0" layer="51"/>
-<wire x1="3.302" y1="-2.4384" x2="3.302" y2="-2.1336" width="0" layer="51"/>
-<wire x1="3.302" y1="-2.1336" x2="2.2606" y2="-2.1336" width="0" layer="51"/>
-<wire x1="2.2606" y1="-1.4732" x2="2.2606" y2="-1.778" width="0" layer="51"/>
-<wire x1="2.2606" y1="-1.778" x2="3.302" y2="-1.778" width="0" layer="51"/>
-<wire x1="3.302" y1="-1.778" x2="3.302" y2="-1.4732" width="0" layer="51"/>
-<wire x1="3.302" y1="-1.4732" x2="2.2606" y2="-1.4732" width="0" layer="51"/>
-<wire x1="2.2606" y1="-0.8128" x2="2.2606" y2="-1.1176" width="0" layer="51"/>
-<wire x1="2.2606" y1="-1.1176" x2="3.302" y2="-1.1176" width="0" layer="51"/>
-<wire x1="3.302" y1="-1.1176" x2="3.302" y2="-0.8128" width="0" layer="51"/>
-<wire x1="3.302" y1="-0.8128" x2="2.2606" y2="-0.8128" width="0" layer="51"/>
-<wire x1="2.2606" y1="-0.1778" x2="2.2606" y2="-0.4826" width="0" layer="51"/>
-<wire x1="2.2606" y1="-0.4826" x2="3.302" y2="-0.4826" width="0" layer="51"/>
-<wire x1="3.302" y1="-0.4826" x2="3.302" y2="-0.1778" width="0" layer="51"/>
-<wire x1="3.302" y1="-0.1778" x2="2.2606" y2="-0.1778" width="0" layer="51"/>
-<wire x1="2.2606" y1="0.4826" x2="2.2606" y2="0.1778" width="0" layer="51"/>
-<wire x1="2.2606" y1="0.1778" x2="3.302" y2="0.1778" width="0" layer="51"/>
-<wire x1="3.302" y1="0.1778" x2="3.302" y2="0.4826" width="0" layer="51"/>
-<wire x1="3.302" y1="0.4826" x2="2.2606" y2="0.4826" width="0" layer="51"/>
-<wire x1="2.2606" y1="1.1176" x2="2.2606" y2="0.8128" width="0" layer="51"/>
-<wire x1="2.2606" y1="0.8128" x2="3.302" y2="0.8128" width="0" layer="51"/>
-<wire x1="3.302" y1="0.8128" x2="3.302" y2="1.1176" width="0" layer="51"/>
-<wire x1="3.302" y1="1.1176" x2="2.2606" y2="1.1176" width="0" layer="51"/>
-<wire x1="2.2606" y1="1.778" x2="2.2606" y2="1.4732" width="0" layer="51"/>
-<wire x1="2.2606" y1="1.4732" x2="3.302" y2="1.4732" width="0" layer="51"/>
-<wire x1="3.302" y1="1.4732" x2="3.302" y2="1.778" width="0" layer="51"/>
-<wire x1="3.302" y1="1.778" x2="2.2606" y2="1.778" width="0" layer="51"/>
-<wire x1="2.2606" y1="2.4384" x2="2.2606" y2="2.1336" width="0" layer="51"/>
-<wire x1="2.2606" y1="2.1336" x2="3.302" y2="2.1336" width="0" layer="51"/>
-<wire x1="3.302" y1="2.1336" x2="3.302" y2="2.4384" width="0" layer="51"/>
-<wire x1="3.302" y1="2.4384" x2="2.2606" y2="2.4384" width="0" layer="51"/>
-<wire x1="-2.2606" y1="-2.54" x2="2.2606" y2="-2.54" width="0" layer="51"/>
-<wire x1="2.2606" y1="-2.54" x2="2.2606" y2="2.54" width="0" layer="51"/>
-<wire x1="2.2606" y1="2.54" x2="0.3048" y2="2.54" width="0" layer="51"/>
-<wire x1="0.3048" y1="2.54" x2="-0.3048" y2="2.54" width="0" layer="51"/>
-<wire x1="-0.3048" y1="2.54" x2="-2.2606" y2="2.54" width="0" layer="51"/>
-<wire x1="-2.2606" y1="2.54" x2="-2.2606" y2="-2.54" width="0" layer="51"/>
-<wire x1="0.3048" y1="2.54" x2="-0.3048" y2="2.54" width="0" layer="51" curve="-180"/>
-<wire x1="-1.8796" y1="-2.54" x2="1.8796" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="1.8796" y1="2.54" x2="0.3048" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="0.3048" y1="2.54" x2="-0.3048" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-0.3048" y1="2.54" x2="-1.8796" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="0.3048" y1="2.54" x2="-0.3048" y2="2.54" width="0.1524" layer="21" curve="-180"/>
-<circle x="-1.8" y="2" radius="0.2828" width="0.127" layer="21"/>
-<smd name="1" x="-2.921" y="2.286" dx="1.4732" dy="0.3556" layer="1"/>
-<smd name="2" x="-2.921" y="1.6256" dx="1.4732" dy="0.3556" layer="1"/>
-<smd name="3" x="-2.921" y="0.9652" dx="1.4732" dy="0.3556" layer="1"/>
-<smd name="4" x="-2.921" y="0.3302" dx="1.4732" dy="0.3556" layer="1"/>
-<smd name="5" x="-2.921" y="-0.3302" dx="1.4732" dy="0.3556" layer="1"/>
-<smd name="6" x="-2.921" y="-0.9652" dx="1.4732" dy="0.3556" layer="1"/>
-<smd name="7" x="-2.921" y="-1.6256" dx="1.4732" dy="0.3556" layer="1"/>
-<smd name="8" x="-2.921" y="-2.286" dx="1.4732" dy="0.3556" layer="1"/>
-<smd name="9" x="2.921" y="-2.286" dx="1.4732" dy="0.3556" layer="1"/>
-<smd name="10" x="2.921" y="-1.6256" dx="1.4732" dy="0.3556" layer="1"/>
-<smd name="11" x="2.921" y="-0.9652" dx="1.4732" dy="0.3556" layer="1"/>
-<smd name="12" x="2.921" y="-0.3302" dx="1.4732" dy="0.3556" layer="1"/>
-<smd name="13" x="2.921" y="0.3302" dx="1.4732" dy="0.3556" layer="1"/>
-<smd name="14" x="2.921" y="0.9652" dx="1.4732" dy="0.3556" layer="1"/>
-<smd name="15" x="2.921" y="1.6256" dx="1.4732" dy="0.3556" layer="1"/>
-<smd name="16" x="2.921" y="2.286" dx="1.4732" dy="0.3556" layer="1"/>
-<text x="-3.4544" y="3.175" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.4544" y="-5.08" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="SN74AHC595PW">
-<wire x1="-12.7" y1="15.24" x2="-12.7" y2="-22.86" width="0.4064" layer="94"/>
-<wire x1="-12.7" y1="-22.86" x2="12.7" y2="-22.86" width="0.4064" layer="94"/>
-<wire x1="12.7" y1="-22.86" x2="12.7" y2="15.24" width="0.4064" layer="94"/>
-<wire x1="12.7" y1="15.24" x2="-12.7" y2="15.24" width="0.4064" layer="94"/>
-<text x="-5.715" y="17.5768" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-4.1402" y="-26.924" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
-<pin name="VCC" x="-17.78" y="10.16" length="middle" direction="pwr"/>
-<pin name="SER" x="-17.78" y="5.08" length="middle" direction="in"/>
-<pin name="~OE" x="-17.78" y="0" length="middle" direction="in"/>
-<pin name="RCLK" x="-17.78" y="-5.08" length="middle" direction="in"/>
-<pin name="~SRCLR" x="-17.78" y="-10.16" length="middle" direction="in"/>
-<pin name="SRCLK" x="-17.78" y="-12.7" length="middle" direction="in"/>
-<pin name="GND" x="-17.78" y="-17.78" length="middle" direction="pas"/>
-<pin name="QH_2" x="17.78" y="10.16" length="middle" direction="out" rot="R180"/>
-<pin name="QA" x="17.78" y="7.62" length="middle" direction="out" rot="R180"/>
-<pin name="QB" x="17.78" y="5.08" length="middle" direction="out" rot="R180"/>
-<pin name="QC" x="17.78" y="2.54" length="middle" direction="out" rot="R180"/>
-<pin name="QD" x="17.78" y="0" length="middle" direction="out" rot="R180"/>
-<pin name="QE" x="17.78" y="-2.54" length="middle" direction="out" rot="R180"/>
-<pin name="QF" x="17.78" y="-5.08" length="middle" direction="out" rot="R180"/>
-<pin name="QG" x="17.78" y="-7.62" length="middle" direction="out" rot="R180"/>
-<pin name="QH" x="17.78" y="-10.16" length="middle" direction="out" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SN74AHC595PW" prefix="U">
-<description>8 bit shift registers with 3-state  output registers</description>
-<gates>
-<gate name="A" symbol="SN74AHC595PW" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOP65P640X120-16N">
-<connects>
-<connect gate="A" pin="GND" pad="8"/>
-<connect gate="A" pin="QA" pad="15"/>
-<connect gate="A" pin="QB" pad="1"/>
-<connect gate="A" pin="QC" pad="2"/>
-<connect gate="A" pin="QD" pad="3"/>
-<connect gate="A" pin="QE" pad="4"/>
-<connect gate="A" pin="QF" pad="5"/>
-<connect gate="A" pin="QG" pad="6"/>
-<connect gate="A" pin="QH" pad="7"/>
-<connect gate="A" pin="QH_2" pad="9"/>
-<connect gate="A" pin="RCLK" pad="12"/>
-<connect gate="A" pin="SER" pad="14"/>
-<connect gate="A" pin="SRCLK" pad="11"/>
-<connect gate="A" pin="VCC" pad="16"/>
-<connect gate="A" pin="~OE" pad="13"/>
-<connect gate="A" pin="~SRCLR" pad="10"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="SN74AHC595PW" constant="no"/>
-<attribute name="OC_FARNELL" value="1741463" constant="no"/>
-<attribute name="OC_NEWARK" value="50R5930" constant="no"/>
-<attribute name="PACKAGE" value="TSSOP-16" constant="no"/>
-<attribute name="SUPPLIER" value="Texas Instruments" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="frames">
 <packages>
 </packages>
@@ -18725,9 +18559,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 </class>
 </classes>
 <parts>
-<part name="U1" library="sn74hc595" deviceset="SN74AHC595PW" device="">
-<attribute name="MPN" value="MC74HC595ADTR2G"/>
-</part>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device="" value="Stepper Motor Drivers"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0402" value="22nF">
 <attribute name="MPN" value="C1005X7R1E223K050BB"/>
@@ -18739,7 +18570,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" value="RL1220S-R10-F"/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME2" library="frames" deviceset="A3L-LOC" device="" value="Control logic"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="LED5" library="led" deviceset="LED" device="CHIP-LED0603" value="blue">
@@ -18806,15 +18636,10 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" value="CL10B104KB8NNND"/>
 </part>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
-<part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 <part name="C31" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
 </part>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
-<part name="C41" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
-<attribute name="MPN" value="CL10B104KB8NNND"/>
-</part>
-<part name="GND56" library="supply1" deviceset="GND" device=""/>
 <part name="X6" library="con-molex" deviceset="22-?-02" device="05-7028">
 <attribute name="MPN" value="640455-2"/>
 </part>
@@ -18824,7 +18649,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <part name="X4" library="con-molex" deviceset="22-?-02" device="05-7028">
 <attribute name="MPN" value="640455-2"/>
 </part>
-<part name="+3V18" library="supply1" deviceset="+3V3" device=""/>
 <part name="X2" library="con-phoenix-508" deviceset="MSTBA4" device="">
 <attribute name="MPN" value="39532-1004"/>
 </part>
@@ -19022,9 +18846,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" value="CL10B104KB8NNND"/>
 </part>
 <part name="GND64" library="supply1" deviceset="GND" device=""/>
-<part name="IC3" library="74xx-little-de" deviceset="74*1G126" device="DCK" technology="AHC">
-<attribute name="MPN" value="M74VHC1GT126DF1G"/>
-</part>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="C21" library="rcl" deviceset="C-EU" device="C0402" value="4.7uF">
 <attribute name="MPN" value="GRM155R60J475ME47D"/>
@@ -19032,12 +18853,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <part name="GND68" library="supply1" deviceset="GND" device=""/>
 <part name="C22" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
-</part>
-<part name="IC4" library="74xx-little-de" deviceset="74*1G126" device="DCK" technology="AHC">
-<attribute name="MPN" value="M74VHC1GT126DF1G"/>
-</part>
-<part name="U2" library="sn74hc595" deviceset="SN74AHC595PW" device="">
-<attribute name="MPN" value="MC74HC595ADTR2G"/>
 </part>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0402" value="22nF">
 <attribute name="MPN" value="C1005X7R1E223K050BB"/>
@@ -19049,17 +18864,10 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" value="RL1220S-R10-F"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
-<attribute name="MPN" value="CL10B104KB8NNND"/>
-</part>
-<part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="+3V13" library="supply1" deviceset="+3V3" device=""/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
 </part>
@@ -19090,9 +18898,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" value="CL10B104KB8NNND"/>
 </part>
 <part name="GND55" library="supply1" deviceset="GND" device=""/>
-<part name="IC8" library="74xx-little-de" deviceset="74*1G126" device="DCK" technology="AHC">
-<attribute name="MPN" value="M74VHC1GT126DF1G"/>
-</part>
 <part name="GND90" library="supply1" deviceset="GND" device=""/>
 <part name="C33" library="rcl" deviceset="C-EU" device="C0402" value="4.7uF">
 <attribute name="MPN" value="GRM155R60J475ME47D"/>
@@ -19100,12 +18905,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <part name="GND91" library="supply1" deviceset="GND" device=""/>
 <part name="C35" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
-</part>
-<part name="IC9" library="74xx-little-de" deviceset="74*1G126" device="DCK" technology="AHC">
-<attribute name="MPN" value="M74VHC1GT126DF1G"/>
-</part>
-<part name="U3" library="sn74hc595" deviceset="SN74AHC595PW" device="">
-<attribute name="MPN" value="MC74HC595ADTR2G"/>
 </part>
 <part name="FRAME6" library="frames" deviceset="A3L-LOC" device="" value="Stepper Motor Drivers"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0402" value="22nF">
@@ -19118,17 +18917,10 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" value="RL1220S-R10-F"/>
 </part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
 </part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="C14" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
-<attribute name="MPN" value="CL10B104KB8NNND"/>
-</part>
-<part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="C19" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
 </part>
@@ -19159,9 +18951,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" value="CL10B104KB8NNND"/>
 </part>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
-<part name="IC10" library="74xx-little-de" deviceset="74*1G126" device="DCK" technology="AHC">
-<attribute name="MPN" value="M74VHC1GT126DF1G"/>
-</part>
 <part name="GND52" library="supply1" deviceset="GND" device=""/>
 <part name="C37" library="rcl" deviceset="C-EU" device="C0402" value="4.7uF">
 <attribute name="MPN" value="GRM155R60J475ME47D"/>
@@ -19169,12 +18958,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <part name="GND54" library="supply1" deviceset="GND" device=""/>
 <part name="C38" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
-</part>
-<part name="IC11" library="74xx-little-de" deviceset="74*1G126" device="DCK" technology="AHC">
-<attribute name="MPN" value="M74VHC1GT126DF1G"/>
-</part>
-<part name="U4" library="sn74hc595" deviceset="SN74AHC595PW" device="">
-<attribute name="MPN" value="MC74HC595ADTR2G"/>
 </part>
 <part name="C39" library="rcl" deviceset="C-EU" device="C0402" value="22nF">
 <attribute name="MPN" value="C1005X7R1E223K050BB"/>
@@ -19186,17 +18969,10 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" value="RL1220S-R10-F"/>
 </part>
 <part name="GND60" library="supply1" deviceset="GND" device=""/>
-<part name="GND70" library="supply1" deviceset="GND" device=""/>
-<part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="C40" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
 </part>
 <part name="GND77" library="supply1" deviceset="GND" device=""/>
-<part name="C42" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
-<attribute name="MPN" value="CL10B104KB8NNND"/>
-</part>
-<part name="GND82" library="supply1" deviceset="GND" device=""/>
-<part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
 <part name="C43" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
 </part>
@@ -19227,9 +19003,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" value="CL10B104KB8NNND"/>
 </part>
 <part name="GND92" library="supply1" deviceset="GND" device=""/>
-<part name="IC13" library="74xx-little-de" deviceset="74*1G126" device="DCK" technology="AHC">
-<attribute name="MPN" value="M74VHC1GT126DF1G"/>
-</part>
 <part name="GND93" library="supply1" deviceset="GND" device=""/>
 <part name="C65" library="rcl" deviceset="C-EU" device="C0402" value="4.7uF">
 <attribute name="MPN" value="GRM155R60J475ME47D"/>
@@ -19237,12 +19010,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <part name="GND94" library="supply1" deviceset="GND" device=""/>
 <part name="C66" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
-</part>
-<part name="IC14" library="74xx-little-de" deviceset="74*1G126" device="DCK" technology="AHC">
-<attribute name="MPN" value="M74VHC1GT126DF1G"/>
-</part>
-<part name="U5" library="sn74hc595" deviceset="SN74AHC595PW" device="">
-<attribute name="MPN" value="MC74HC595ADTR2G"/>
 </part>
 <part name="FRAME5" library="frames" deviceset="A3L-LOC" device="" value="Stepper Motor Drivers"/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0402" value="22nF">
@@ -19255,17 +19022,10 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" value="RL1220S-R10-F"/>
 </part>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
 </part>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="C15" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
-<attribute name="MPN" value="CL10B104KB8NNND"/>
-</part>
-<part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="C29" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
 </part>
@@ -19296,9 +19056,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" value="CL10B104KB8NNND"/>
 </part>
 <part name="GND96" library="supply1" deviceset="GND" device=""/>
-<part name="IC16" library="74xx-little-de" deviceset="74*1G126" device="DCK" technology="AHC">
-<attribute name="MPN" value="M74VHC1GT126DF1G"/>
-</part>
 <part name="GND97" library="supply1" deviceset="GND" device=""/>
 <part name="C68" library="rcl" deviceset="C-EU" device="C0402" value="4.7uF">
 <attribute name="MPN" value="GRM155R60J475ME47D"/>
@@ -19307,11 +19064,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <part name="C69" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
 </part>
-<part name="IC17" library="74xx-little-de" deviceset="74*1G126" device="DCK" technology="AHC">
-<attribute name="MPN" value="M74VHC1GT126DF1G"/>
-</part>
-<part name="GND99" library="supply1" deviceset="GND" device=""/>
-<part name="GND100" library="supply1" deviceset="GND" device=""/>
 <part name="C70" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
 </part>
@@ -19320,14 +19072,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" value="RC1005J2R2CS"/>
 </part>
 <part name="+3V19" library="supply1" deviceset="+3V3" device=""/>
-<part name="GND102" library="supply1" deviceset="GND" device=""/>
-<part name="GND103" library="supply1" deviceset="GND" device=""/>
-<part name="GND104" library="supply1" deviceset="GND" device=""/>
-<part name="GND105" library="supply1" deviceset="GND" device=""/>
-<part name="GND106" library="supply1" deviceset="GND" device=""/>
-<part name="GND107" library="supply1" deviceset="GND" device=""/>
-<part name="GND108" library="supply1" deviceset="GND" device=""/>
-<part name="GND109" library="supply1" deviceset="GND" device=""/>
 <part name="+3V20" library="supply1" deviceset="+3V3" device=""/>
 <part name="R53" library="rcl" deviceset="R-EU_" device="R0402" value="2.2R">
 <attribute name="MPN" value="RC1005J2R2CS"/>
@@ -19481,48 +19225,8 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" value="CL10B104KB8NNND"/>
 </part>
 <part name="GND130" library="supply1" deviceset="GND" device=""/>
-<part name="C84" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
-<attribute name="MPN" value="CL10B104KB8NNND"/>
-</part>
-<part name="GND131" library="supply1" deviceset="GND" device=""/>
-<part name="C85" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
-<attribute name="MPN" value="CL10B104KB8NNND"/>
-</part>
-<part name="GND132" library="supply1" deviceset="GND" device=""/>
-<part name="C86" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
-<attribute name="MPN" value="CL10B104KB8NNND"/>
-</part>
-<part name="GND133" library="supply1" deviceset="GND" device=""/>
-<part name="C87" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
-<attribute name="MPN" value="CL10B104KB8NNND"/>
-</part>
-<part name="GND134" library="supply1" deviceset="GND" device=""/>
-<part name="C88" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
-<attribute name="MPN" value="CL10B104KB8NNND"/>
-</part>
-<part name="GND135" library="supply1" deviceset="GND" device=""/>
 <part name="U$4" library="Replicape_B3" deviceset="CC-BY-SA" device=""/>
-<part name="IC18" library="74xx-little-de" deviceset="74*1G126" device="DCK" technology="AHC">
-<attribute name="MPN" value="M74VHC1GT126DF1G"/>
-</part>
-<part name="IC19" library="74xx-little-de" deviceset="74*1G126" device="DCK" technology="AHC">
-<attribute name="MPN" value="M74VHC1GT126DF1G"/>
-</part>
 <part name="+3V25" library="supply1" deviceset="+3V3" device=""/>
-<part name="GND136" library="supply1" deviceset="GND" device=""/>
-<part name="GND137" library="supply1" deviceset="GND" device=""/>
-<part name="IC20" library="74xx-little-de" deviceset="74*1G126" device="DCK" technology="AHC">
-<attribute name="MPN" value="M74VHC1GT126DF1G"/>
-</part>
-<part name="IC21" library="74xx-little-de" deviceset="74*1G126" device="DCK" technology="AHC">
-<attribute name="MPN" value="M74VHC1GT126DF1G"/>
-</part>
-<part name="IC22" library="74xx-little-de" deviceset="74*1G126" device="DCK" technology="AHC">
-<attribute name="MPN" value="M74VHC1GT126DF1G"/>
-</part>
-<part name="GND138" library="supply1" deviceset="GND" device=""/>
-<part name="GND139" library="supply1" deviceset="GND" device=""/>
-<part name="GND140" library="supply1" deviceset="GND" device=""/>
 <part name="C89" library="rcl" deviceset="C-EU" device="C0805" value="10uF">
 <attribute name="MPN" value="C2012X5R1V106M085AC"/>
 </part>
@@ -19603,9 +19307,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <part name="USB" library="frames" deviceset="A3L-LOC" device="" value="Connectors"/>
 <part name="U$5" library="Revolve" deviceset="USB-A" device=""/>
 <part name="U$6" library="Revolve" deviceset="USB-A" device=""/>
-<part name="U8" library="sn74hc595" deviceset="SN74AHC595PW" device="">
-<attribute name="MPN" value="MC74HC595ADTR2G"/>
-</part>
 <part name="C11" library="rcl" deviceset="C-EU" device="C0402" value="22nF">
 <attribute name="MPN" value="C1005X7R1E223K050BB"/>
 </part>
@@ -19616,17 +19317,10 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" value="RL1220S-R10-F"/>
 </part>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
-<part name="GND32" library="supply1" deviceset="GND" device=""/>
-<part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
 </part>
 <part name="GND53" library="supply1" deviceset="GND" device=""/>
-<part name="C24" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
-<attribute name="MPN" value="CL10B104KB8NNND"/>
-</part>
-<part name="GND58" library="supply1" deviceset="GND" device=""/>
-<part name="+3V21" library="supply1" deviceset="+3V3" device=""/>
 <part name="C34" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
 </part>
@@ -19657,9 +19351,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" value="CL10B104KB8NNND"/>
 </part>
 <part name="GND66" library="supply1" deviceset="GND" device=""/>
-<part name="IC25" library="74xx-little-de" deviceset="74*1G126" device="DCK" technology="AHC">
-<attribute name="MPN" value="M74VHC1GT126DF1G"/>
-</part>
 <part name="GND67" library="supply1" deviceset="GND" device=""/>
 <part name="C55" library="rcl" deviceset="C-EU" device="C0402" value="4.7uF">
 <attribute name="MPN" value="GRM155R60J475ME47D"/>
@@ -19667,9 +19358,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <part name="GND71" library="supply1" deviceset="GND" device=""/>
 <part name="C56" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
-</part>
-<part name="IC26" library="74xx-little-de" deviceset="74*1G126" device="DCK" technology="AHC">
-<attribute name="MPN" value="M74VHC1GT126DF1G"/>
 </part>
 <part name="C60" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
@@ -19679,8 +19367,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" value="RC1005J2R2CS"/>
 </part>
 <part name="+3V27" library="supply1" deviceset="+3V3" device=""/>
-<part name="GND76" library="supply1" deviceset="GND" device=""/>
-<part name="GND115" library="supply1" deviceset="GND" device=""/>
 <part name="C81" library="rcl" deviceset="C-EU" device="C0402" value="4.7uF">
 <attribute name="MPN" value="GRM155R60J475ME47D"/>
 </part>
@@ -19688,14 +19374,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <part name="R73" library="rcl" deviceset="R-EU_" device="R0402" value="10K">
 <attribute name="MPN" value="RC0402FR-0710KL"/>
 </part>
-<part name="C99" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
-<attribute name="MPN" value="CL10B104KB8NNND"/>
-</part>
-<part name="GND142" library="supply1" deviceset="GND" device=""/>
-<part name="IC27" library="74xx-little-de" deviceset="74*1G126" device="DCK" technology="AHC">
-<attribute name="MPN" value="M74VHC1GT126DF1G"/>
-</part>
-<part name="GND143" library="supply1" deviceset="GND" device=""/>
 <part name="C100" library="rcl" deviceset="C-EU" device="C0805" value="10uF">
 <attribute name="MPN" value="C2012X5R1V106M085AC"/>
 </part>
@@ -20444,7 +20122,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <instance part="F1" gate="G$1" x="459.74" y="223.52">
 <attribute name="MPN" x="459.74" y="223.52" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U1" gate="A" x="91.44" y="711.2"/>
 <instance part="FRAME1" gate="G$1" x="0" y="538.48"/>
 <instance part="C1" gate="G$1" x="248.92" y="746.76" rot="R90">
 <attribute name="MPN" x="248.92" y="746.76" size="1.778" layer="96" rot="R90" display="off"/>
@@ -20456,17 +20133,10 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" x="254" y="711.2" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND3" gate="1" x="264.16" y="703.58"/>
-<instance part="GND4" gate="1" x="60.96" y="680.72"/>
-<instance part="+3V12" gate="G$1" x="60.96" y="756.92"/>
 <instance part="C31" gate="G$1" x="279.4" y="741.68" rot="MR270">
 <attribute name="MPN" x="279.4" y="741.68" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="GND48" gate="1" x="284.48" y="721.36" rot="MR0"/>
-<instance part="C41" gate="G$1" x="50.8" y="744.22" rot="MR0">
-<attribute name="MPN" x="50.8" y="744.22" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
-<instance part="GND56" gate="1" x="50.8" y="734.06" rot="MR0"/>
-<instance part="+3V18" gate="G$1" x="27.94" y="706.12"/>
 <instance part="C27" gate="G$1" x="279.4" y="731.52" rot="MR270">
 <attribute name="MPN" x="279.4" y="731.52" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
@@ -20629,11 +20299,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" x="187.96" y="762" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="GND64" gate="1" x="177.8" y="762" rot="R270"/>
-<instance part="IC3" gate="A" x="142.24" y="716.28" smashed="yes" rot="MR180">
-<attribute name="NAME" x="144.78" y="713.105" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="134.62" y="723.9" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="142.24" y="716.28" size="1.778" layer="96" rot="MR180" display="off"/>
-</instance>
 <instance part="GND2" gate="1" x="198.12" y="731.52" rot="R270"/>
 <instance part="C21" gate="G$1" x="190.5" y="741.68" rot="MR180">
 <attribute name="MPN" x="190.5" y="741.68" size="1.778" layer="96" rot="MR180" display="off"/>
@@ -20642,12 +20307,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <instance part="C22" gate="G$1" x="256.54" y="751.84" rot="MR270">
 <attribute name="MPN" x="256.54" y="751.84" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
-<instance part="IC4" gate="A" x="139.7" y="683.26" smashed="yes" rot="MR180">
-<attribute name="NAME" x="142.24" y="680.085" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="124.46" y="690.88" size="1.778" layer="96" rot="MR180"/>
-<attribute name="MPN" x="139.7" y="683.26" size="1.778" layer="96" rot="MR180" display="off"/>
-</instance>
-<instance part="U2" gate="A" x="91.44" y="596.9"/>
 <instance part="C3" gate="G$1" x="248.92" y="632.46" rot="R90">
 <attribute name="MPN" x="248.92" y="632.46" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -20658,17 +20317,10 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" x="254" y="596.9" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="264.16" y="589.28"/>
-<instance part="GND5" gate="1" x="60.96" y="566.42"/>
-<instance part="+3V11" gate="G$1" x="60.96" y="642.62"/>
 <instance part="C4" gate="G$1" x="279.4" y="627.38" rot="MR270">
 <attribute name="MPN" x="279.4" y="627.38" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="GND6" gate="1" x="284.48" y="604.52" rot="MR0"/>
-<instance part="C5" gate="G$1" x="50.8" y="627.38" rot="MR0">
-<attribute name="MPN" x="50.8" y="627.38" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
-<instance part="GND10" gate="1" x="50.8" y="617.22" rot="MR0"/>
-<instance part="+3V13" gate="G$1" x="35.56" y="591.82"/>
 <instance part="C6" gate="G$1" x="279.4" y="617.22" rot="MR270">
 <attribute name="MPN" x="279.4" y="617.22" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
@@ -20703,11 +20355,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" x="187.96" y="647.7" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="GND55" gate="1" x="177.8" y="647.7" rot="R270"/>
-<instance part="IC8" gate="A" x="142.24" y="601.98" smashed="yes" rot="MR180">
-<attribute name="NAME" x="144.78" y="598.805" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="134.62" y="612.14" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="142.24" y="601.98" size="1.778" layer="96" rot="MR180" display="off"/>
-</instance>
 <instance part="GND90" gate="1" x="198.12" y="617.22" rot="R270"/>
 <instance part="C33" gate="G$1" x="190.5" y="627.38" rot="MR180">
 <attribute name="MPN" x="190.5" y="627.38" size="1.778" layer="96" rot="MR180" display="off"/>
@@ -20716,12 +20363,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <instance part="C35" gate="G$1" x="256.54" y="637.54" rot="MR270">
 <attribute name="MPN" x="256.54" y="637.54" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
-<instance part="IC9" gate="A" x="139.7" y="568.96" smashed="yes" rot="MR180">
-<attribute name="NAME" x="142.24" y="565.785" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="124.46" y="576.58" size="1.778" layer="96" rot="MR180"/>
-<attribute name="MPN" x="139.7" y="568.96" size="1.778" layer="96" rot="MR180" display="off"/>
-</instance>
-<instance part="U3" gate="A" x="91.44" y="444.5"/>
 <instance part="FRAME6" gate="G$1" x="0" y="269.24"/>
 <instance part="C7" gate="G$1" x="248.92" y="480.06" rot="R90">
 <attribute name="MPN" x="248.92" y="480.06" size="1.778" layer="96" rot="R90" display="off"/>
@@ -20733,17 +20374,10 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" x="254" y="444.5" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND9" gate="1" x="264.16" y="436.88"/>
-<instance part="GND12" gate="1" x="60.96" y="414.02"/>
-<instance part="+3V3" gate="G$1" x="60.96" y="490.22"/>
 <instance part="C8" gate="G$1" x="279.4" y="472.44" rot="MR270">
 <attribute name="MPN" x="279.4" y="472.44" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="GND13" gate="1" x="284.48" y="457.2" rot="MR0"/>
-<instance part="C14" gate="G$1" x="50.8" y="474.98" rot="MR0">
-<attribute name="MPN" x="50.8" y="474.98" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
-<instance part="GND15" gate="1" x="50.8" y="464.82" rot="MR0"/>
-<instance part="+3V6" gate="G$1" x="38.1" y="439.42"/>
 <instance part="C19" gate="G$1" x="279.4" y="462.28" rot="MR270">
 <attribute name="MPN" x="279.4" y="462.28" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
@@ -20778,11 +20412,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" x="187.96" y="495.3" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="GND39" gate="1" x="177.8" y="495.3" rot="R270"/>
-<instance part="IC10" gate="A" x="142.24" y="449.58" smashed="yes" rot="MR180">
-<attribute name="NAME" x="144.78" y="446.405" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="139.7" y="457.2" size="1.778" layer="96" rot="MR180"/>
-<attribute name="MPN" x="142.24" y="449.58" size="1.778" layer="96" rot="MR180" display="off"/>
-</instance>
 <instance part="GND52" gate="1" x="198.12" y="464.82" rot="R270"/>
 <instance part="C37" gate="G$1" x="190.5" y="474.98" rot="MR180">
 <attribute name="MPN" x="190.5" y="474.98" size="1.778" layer="96" rot="MR180" display="off"/>
@@ -20791,12 +20420,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <instance part="C38" gate="G$1" x="256.54" y="485.14" rot="MR270">
 <attribute name="MPN" x="256.54" y="485.14" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
-<instance part="IC11" gate="A" x="139.7" y="416.56" smashed="yes" rot="MR180">
-<attribute name="NAME" x="142.24" y="413.385" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="124.46" y="424.18" size="1.778" layer="96" rot="MR180"/>
-<attribute name="MPN" x="139.7" y="416.56" size="1.778" layer="96" rot="MR180" display="off"/>
-</instance>
-<instance part="U4" gate="A" x="91.44" y="327.66"/>
 <instance part="C39" gate="G$1" x="248.92" y="363.22" rot="R90">
 <attribute name="MPN" x="248.92" y="363.22" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -20807,17 +20430,10 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" x="254" y="327.66" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND60" gate="1" x="264.16" y="320.04"/>
-<instance part="GND70" gate="1" x="60.96" y="297.18"/>
-<instance part="+3V10" gate="G$1" x="60.96" y="373.38"/>
 <instance part="C40" gate="G$1" x="279.4" y="355.6" rot="MR270">
 <attribute name="MPN" x="279.4" y="355.6" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="GND77" gate="1" x="284.48" y="335.28" rot="MR0"/>
-<instance part="C42" gate="G$1" x="50.8" y="358.14" rot="MR0">
-<attribute name="MPN" x="50.8" y="358.14" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
-<instance part="GND82" gate="1" x="50.8" y="347.98" rot="MR0"/>
-<instance part="+3V15" gate="G$1" x="38.1" y="322.58"/>
 <instance part="C43" gate="G$1" x="279.4" y="345.44" rot="MR270">
 <attribute name="MPN" x="279.4" y="345.44" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
@@ -20852,11 +20468,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" x="187.96" y="378.46" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="GND92" gate="1" x="177.8" y="378.46" rot="R270"/>
-<instance part="IC13" gate="A" x="142.24" y="332.74" smashed="yes" rot="MR180">
-<attribute name="NAME" x="144.78" y="329.565" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="134.62" y="340.36" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="142.24" y="332.74" size="1.778" layer="96" rot="MR180" display="off"/>
-</instance>
 <instance part="GND93" gate="1" x="198.12" y="347.98" rot="R270"/>
 <instance part="C65" gate="G$1" x="190.5" y="358.14" rot="MR180">
 <attribute name="MPN" x="190.5" y="358.14" size="1.778" layer="96" rot="MR180" display="off"/>
@@ -20865,12 +20476,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <instance part="C66" gate="G$1" x="256.54" y="368.3" rot="MR270">
 <attribute name="MPN" x="256.54" y="368.3" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
-<instance part="IC14" gate="A" x="139.7" y="299.72" smashed="yes" rot="MR180">
-<attribute name="NAME" x="142.24" y="296.545" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="121.92" y="309.88" size="1.778" layer="96" rot="MR180"/>
-<attribute name="MPN" x="139.7" y="299.72" size="1.778" layer="96" rot="MR180" display="off"/>
-</instance>
-<instance part="U5" gate="A" x="73.66" y="170.18"/>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
 <instance part="C9" gate="G$1" x="231.14" y="205.74" rot="R90">
 <attribute name="MPN" x="231.14" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
@@ -20882,17 +20487,10 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" x="236.22" y="170.18" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND20" gate="1" x="246.38" y="162.56"/>
-<instance part="GND21" gate="1" x="43.18" y="139.7"/>
-<instance part="+3V4" gate="G$1" x="43.18" y="215.9"/>
 <instance part="C10" gate="G$1" x="261.62" y="198.12" rot="MR270">
 <attribute name="MPN" x="261.62" y="198.12" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="GND22" gate="1" x="266.7" y="177.8" rot="MR0"/>
-<instance part="C15" gate="G$1" x="33.02" y="203.2" rot="MR0">
-<attribute name="MPN" x="33.02" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
-<instance part="GND23" gate="1" x="33.02" y="193.04" rot="MR0"/>
-<instance part="+3V7" gate="G$1" x="25.4" y="165.1"/>
 <instance part="C29" gate="G$1" x="261.62" y="187.96" rot="MR270">
 <attribute name="MPN" x="261.62" y="187.96" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
@@ -20927,11 +20525,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" x="170.18" y="220.98" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="GND96" gate="1" x="160.02" y="220.98" rot="R270"/>
-<instance part="IC16" gate="A" x="124.46" y="175.26" smashed="yes" rot="MR180">
-<attribute name="NAME" x="127" y="172.085" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="106.68" y="182.88" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="124.46" y="175.26" size="1.778" layer="96" rot="MR180" display="off"/>
-</instance>
 <instance part="GND97" gate="1" x="180.34" y="190.5" rot="R270"/>
 <instance part="C68" gate="G$1" x="175.26" y="200.66" rot="MR180">
 <attribute name="MPN" x="175.26" y="200.66" size="1.778" layer="96" rot="MR180" display="off"/>
@@ -20940,17 +20533,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <instance part="C69" gate="G$1" x="241.3" y="210.82" rot="MR270">
 <attribute name="MPN" x="241.3" y="210.82" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
-<instance part="IC17" gate="A" x="121.92" y="142.24" smashed="yes" rot="MR180">
-<attribute name="NAME" x="124.46" y="139.065" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="106.68" y="152.4" size="1.778" layer="96" rot="MR180"/>
-<attribute name="MPN" x="121.92" y="142.24" size="1.778" layer="96" rot="MR180" display="off"/>
-</instance>
-<instance part="IC10" gate="P" x="68.58" y="477.52"/>
-<instance part="IC11" gate="P" x="76.2" y="477.52"/>
-<instance part="IC3" gate="P" x="66.04" y="744.22"/>
-<instance part="IC4" gate="P" x="73.66" y="744.22"/>
-<instance part="GND99" gate="1" x="66.04" y="734.06" rot="MR0"/>
-<instance part="GND100" gate="1" x="73.66" y="734.06" rot="MR0"/>
 <instance part="C70" gate="G$1" x="139.7" y="205.74" rot="MR0">
 <attribute name="MPN" x="139.7" y="205.74" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
@@ -20959,20 +20541,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" x="160.02" y="205.74" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="+3V19" gate="G$1" x="129.54" y="220.98"/>
-<instance part="IC8" gate="P" x="66.04" y="629.92"/>
-<instance part="IC9" gate="P" x="73.66" y="629.92"/>
-<instance part="GND102" gate="1" x="66.04" y="619.76" rot="MR0"/>
-<instance part="GND103" gate="1" x="73.66" y="619.76" rot="MR0"/>
-<instance part="GND104" gate="1" x="68.58" y="467.36" rot="MR0"/>
-<instance part="GND105" gate="1" x="76.2" y="467.36" rot="MR0"/>
-<instance part="IC16" gate="P" x="48.26" y="203.2"/>
-<instance part="IC17" gate="P" x="55.88" y="203.2"/>
-<instance part="GND106" gate="1" x="48.26" y="193.04" rot="MR0"/>
-<instance part="GND107" gate="1" x="55.88" y="193.04" rot="MR0"/>
-<instance part="IC13" gate="P" x="66.04" y="360.68"/>
-<instance part="IC14" gate="P" x="73.66" y="360.68"/>
-<instance part="GND108" gate="1" x="66.04" y="350.52" rot="MR0"/>
-<instance part="GND109" gate="1" x="73.66" y="350.52" rot="MR0"/>
 <instance part="+3V20" gate="G$1" x="144.78" y="759.46"/>
 <instance part="R53" gate="G$1" x="180.34" y="746.76" rot="R180">
 <attribute name="MPN" x="180.34" y="746.76" size="1.778" layer="96" rot="R180" display="off"/>
@@ -21126,73 +20694,8 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" x="1120.14" y="495.3" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND130" gate="1" x="1120.14" y="485.14"/>
-<instance part="C84" gate="G$1" x="71.12" y="203.2" smashed="yes" rot="MR0">
-<attribute name="NAME" x="72.644" y="205.359" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="79.756" y="198.501" size="1.778" layer="96" rot="MR0"/>
-<attribute name="MPN" x="71.12" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
-<instance part="GND131" gate="1" x="71.12" y="193.04" rot="MR0"/>
-<instance part="C85" gate="G$1" x="91.44" y="744.22" smashed="yes" rot="MR0">
-<attribute name="NAME" x="92.964" y="746.379" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="100.076" y="739.521" size="1.778" layer="96" rot="MR0"/>
-<attribute name="MPN" x="91.44" y="744.22" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
-<instance part="GND132" gate="1" x="91.44" y="734.06" rot="MR0"/>
-<instance part="C86" gate="G$1" x="88.9" y="629.92" smashed="yes" rot="MR0">
-<attribute name="NAME" x="90.424" y="632.079" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="97.536" y="625.221" size="1.778" layer="96" rot="MR0"/>
-<attribute name="MPN" x="88.9" y="629.92" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
-<instance part="GND133" gate="1" x="88.9" y="619.76" rot="MR0"/>
-<instance part="C87" gate="G$1" x="91.44" y="477.52" smashed="yes" rot="MR0">
-<attribute name="NAME" x="92.964" y="479.679" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="100.076" y="472.821" size="1.778" layer="96" rot="MR0"/>
-<attribute name="MPN" x="91.44" y="477.52" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
-<instance part="GND134" gate="1" x="91.44" y="467.36" rot="MR0"/>
-<instance part="C88" gate="G$1" x="88.9" y="360.68" smashed="yes" rot="MR0">
-<attribute name="NAME" x="90.424" y="362.839" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="97.536" y="355.981" size="1.778" layer="96" rot="MR0"/>
-<attribute name="MPN" x="88.9" y="360.68" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
-<instance part="GND135" gate="1" x="88.9" y="350.52" rot="MR0"/>
 <instance part="U$4" gate="A" x="1125.22" y="50.8"/>
-<instance part="IC18" gate="A" x="129.54" y="734.06" smashed="yes" rot="MR180">
-<attribute name="NAME" x="132.08" y="730.885" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="119.38" y="741.68" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="129.54" y="734.06" size="1.778" layer="96" rot="MR180" display="off"/>
-</instance>
-<instance part="IC19" gate="A" x="134.62" y="350.52" smashed="yes" rot="MR180">
-<attribute name="NAME" x="137.16" y="347.345" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="124.46" y="358.14" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="134.62" y="350.52" size="1.778" layer="96" rot="MR180" display="off"/>
-</instance>
 <instance part="+3V25" gate="G$1" x="142.24" y="375.92"/>
-<instance part="IC18" gate="P" x="81.28" y="744.22"/>
-<instance part="GND136" gate="1" x="81.28" y="734.06" rot="MR0"/>
-<instance part="IC19" gate="P" x="81.28" y="360.68"/>
-<instance part="GND137" gate="1" x="81.28" y="350.52" rot="MR0"/>
-<instance part="IC20" gate="A" x="127" y="619.76" smashed="yes" rot="MR180">
-<attribute name="NAME" x="129.54" y="616.585" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="116.84" y="627.38" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="127" y="619.76" size="1.778" layer="96" rot="MR180" display="off"/>
-</instance>
-<instance part="IC21" gate="A" x="124.46" y="467.36" smashed="yes" rot="MR180">
-<attribute name="NAME" x="127" y="464.185" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="114.3" y="474.98" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="124.46" y="467.36" size="1.778" layer="96" rot="MR180" display="off"/>
-</instance>
-<instance part="IC22" gate="A" x="109.22" y="193.04" smashed="yes" rot="MR180">
-<attribute name="NAME" x="111.76" y="189.865" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="99.06" y="200.66" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="109.22" y="193.04" size="1.778" layer="96" rot="MR180" display="off"/>
-</instance>
-<instance part="IC22" gate="P" x="63.5" y="203.2"/>
-<instance part="GND138" gate="1" x="63.5" y="193.04" rot="MR0"/>
-<instance part="IC20" gate="P" x="81.28" y="629.92"/>
-<instance part="GND139" gate="1" x="81.28" y="619.76" rot="MR0"/>
-<instance part="IC21" gate="P" x="83.82" y="477.52"/>
-<instance part="GND140" gate="1" x="83.82" y="467.36" rot="MR0"/>
 <instance part="C89" gate="G$1" x="279.4" y="637.54" rot="MR270">
 <attribute name="MPN" x="279.4" y="637.54" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
@@ -21317,7 +20820,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <instance part="USB" gate="G$1" x="393.7" y="807.72"/>
 <instance part="U$5" gate="G$1" x="609.6" y="982.98"/>
 <instance part="U$6" gate="G$1" x="612.14" y="911.86"/>
-<instance part="U8" gate="A" x="73.66" y="60.96"/>
 <instance part="C11" gate="G$1" x="231.14" y="96.52" rot="R90">
 <attribute name="MPN" x="231.14" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -21328,17 +20830,10 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" x="236.22" y="60.96" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND25" gate="1" x="246.38" y="53.34"/>
-<instance part="GND32" gate="1" x="43.18" y="30.48"/>
-<instance part="+3V5" gate="G$1" x="43.18" y="106.68"/>
 <instance part="C16" gate="G$1" x="261.62" y="88.9" rot="MR270">
 <attribute name="MPN" x="261.62" y="88.9" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="GND53" gate="1" x="266.7" y="68.58" rot="MR0"/>
-<instance part="C24" gate="G$1" x="33.02" y="93.98" rot="MR0">
-<attribute name="MPN" x="33.02" y="93.98" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
-<instance part="GND58" gate="1" x="33.02" y="83.82" rot="MR0"/>
-<instance part="+3V21" gate="G$1" x="25.4" y="55.88"/>
 <instance part="C34" gate="G$1" x="261.62" y="78.74" rot="MR270">
 <attribute name="MPN" x="261.62" y="78.74" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
@@ -21373,11 +20868,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" x="170.18" y="111.76" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="GND66" gate="1" x="160.02" y="111.76" rot="R270"/>
-<instance part="IC25" gate="A" x="124.46" y="66.04" smashed="yes" rot="MR180">
-<attribute name="NAME" x="127" y="62.865" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="106.68" y="73.66" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="124.46" y="66.04" size="1.778" layer="96" rot="MR180" display="off"/>
-</instance>
 <instance part="GND67" gate="1" x="180.34" y="81.28" rot="R270"/>
 <instance part="C55" gate="G$1" x="175.26" y="91.44" rot="MR180">
 <attribute name="MPN" x="175.26" y="91.44" size="1.778" layer="96" rot="MR180" display="off"/>
@@ -21385,11 +20875,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <instance part="GND71" gate="1" x="180.34" y="53.34" rot="R270"/>
 <instance part="C56" gate="G$1" x="241.3" y="101.6" rot="MR270">
 <attribute name="MPN" x="241.3" y="101.6" size="1.778" layer="96" rot="MR270" display="off"/>
-</instance>
-<instance part="IC26" gate="A" x="121.92" y="33.02" smashed="yes" rot="MR180">
-<attribute name="NAME" x="124.46" y="29.845" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="106.68" y="43.18" size="1.778" layer="96" rot="MR180"/>
-<attribute name="MPN" x="121.92" y="33.02" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="C60" gate="G$1" x="139.7" y="96.52" rot="MR0">
 <attribute name="MPN" x="139.7" y="96.52" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -21399,10 +20884,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <attribute name="MPN" x="160.02" y="96.52" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="+3V27" gate="G$1" x="129.54" y="111.76"/>
-<instance part="IC25" gate="P" x="48.26" y="93.98"/>
-<instance part="IC26" gate="P" x="55.88" y="93.98"/>
-<instance part="GND76" gate="1" x="48.26" y="83.82" rot="MR0"/>
-<instance part="GND115" gate="1" x="55.88" y="83.82" rot="MR0"/>
 <instance part="C81" gate="G$1" x="259.08" y="40.64" rot="MR0">
 <attribute name="MPN" x="259.08" y="40.64" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
@@ -21410,19 +20891,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <instance part="R73" gate="G$1" x="271.78" y="45.72" rot="MR180">
 <attribute name="MPN" x="271.78" y="45.72" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="C99" gate="G$1" x="71.12" y="93.98" smashed="yes" rot="MR0">
-<attribute name="NAME" x="72.644" y="96.139" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="79.756" y="89.281" size="1.778" layer="96" rot="MR0"/>
-<attribute name="MPN" x="71.12" y="93.98" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
-<instance part="GND142" gate="1" x="71.12" y="83.82" rot="MR0"/>
-<instance part="IC27" gate="A" x="109.22" y="83.82" smashed="yes" rot="MR180">
-<attribute name="NAME" x="111.76" y="80.645" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="99.06" y="91.44" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="109.22" y="83.82" size="1.778" layer="96" rot="MR180" display="off"/>
-</instance>
-<instance part="IC27" gate="P" x="63.5" y="93.98"/>
-<instance part="GND143" gate="1" x="63.5" y="83.82" rot="MR0"/>
 <instance part="C100" gate="G$1" x="261.62" y="99.06" rot="MR270">
 <attribute name="MPN" x="261.62" y="99.06" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
@@ -22211,16 +21679,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <wire x1="264.16" y1="706.12" x2="259.08" y2="706.12" width="0.6096" layer="91"/>
 </segment>
 <segment>
-<wire x1="73.66" y1="693.42" x2="60.96" y2="693.42" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="693.42" x2="60.96" y2="683.26" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="711.2" x2="60.96" y2="711.2" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="711.2" x2="60.96" y2="693.42" width="0.1524" layer="91"/>
-<junction x="60.96" y="693.42"/>
-<pinref part="U1" gate="A" pin="GND"/>
-<pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="U1" gate="A" pin="~OE"/>
-</segment>
-<segment>
 <wire x1="284.48" y1="759.46" x2="284.48" y2="751.84" width="0.6096" layer="91"/>
 <wire x1="284.48" y1="751.84" x2="284.48" y2="741.68" width="0.6096" layer="91"/>
 <wire x1="284.48" y1="741.68" x2="284.48" y2="731.52" width="0.6096" layer="91"/>
@@ -22234,11 +21692,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <junction x="284.48" y="751.84"/>
 <pinref part="C96" gate="G$1" pin="-"/>
 <junction x="284.48" y="759.46"/>
-</segment>
-<segment>
-<wire x1="50.8" y1="739.14" x2="50.8" y2="736.6" width="0.1524" layer="91"/>
-<pinref part="C41" gate="G$1" pin="2"/>
-<pinref part="GND56" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="1046.48" y1="457.2" x2="1046.48" y2="447.04" width="0.1524" layer="91"/>
@@ -22426,16 +21879,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <wire x1="264.16" y1="591.82" x2="259.08" y2="591.82" width="0.6096" layer="91"/>
 </segment>
 <segment>
-<wire x1="73.66" y1="579.12" x2="60.96" y2="579.12" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="579.12" x2="60.96" y2="568.96" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="596.9" x2="60.96" y2="596.9" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="596.9" x2="60.96" y2="579.12" width="0.1524" layer="91"/>
-<junction x="60.96" y="579.12"/>
-<pinref part="U2" gate="A" pin="GND"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="U2" gate="A" pin="~OE"/>
-</segment>
-<segment>
 <wire x1="284.48" y1="645.16" x2="284.48" y2="637.54" width="0.6096" layer="91"/>
 <wire x1="284.48" y1="637.54" x2="284.48" y2="627.38" width="0.6096" layer="91"/>
 <wire x1="284.48" y1="627.38" x2="284.48" y2="617.22" width="0.6096" layer="91"/>
@@ -22449,11 +21892,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <junction x="284.48" y="637.54"/>
 <pinref part="C97" gate="G$1" pin="-"/>
 <junction x="284.48" y="645.16"/>
-</segment>
-<segment>
-<wire x1="50.8" y1="622.3" x2="50.8" y2="619.76" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C18" gate="G$1" pin="2"/>
@@ -22507,16 +21945,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <wire x1="264.16" y1="439.42" x2="259.08" y2="439.42" width="0.6096" layer="91"/>
 </segment>
 <segment>
-<wire x1="73.66" y1="426.72" x2="60.96" y2="426.72" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="426.72" x2="60.96" y2="416.56" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="444.5" x2="60.96" y2="444.5" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="444.5" x2="60.96" y2="426.72" width="0.1524" layer="91"/>
-<junction x="60.96" y="426.72"/>
-<pinref part="U3" gate="A" pin="GND"/>
-<pinref part="GND12" gate="1" pin="GND"/>
-<pinref part="U3" gate="A" pin="~OE"/>
-</segment>
-<segment>
 <wire x1="284.48" y1="492.76" x2="284.48" y2="482.6" width="0.6096" layer="91"/>
 <wire x1="284.48" y1="482.6" x2="284.48" y2="472.44" width="0.6096" layer="91"/>
 <wire x1="284.48" y1="472.44" x2="284.48" y2="462.28" width="0.6096" layer="91"/>
@@ -22530,11 +21958,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <junction x="284.48" y="482.6"/>
 <pinref part="C94" gate="G$1" pin="-"/>
 <junction x="284.48" y="492.76"/>
-</segment>
-<segment>
-<wire x1="50.8" y1="469.9" x2="50.8" y2="467.36" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="2"/>
-<pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C25" gate="G$1" pin="2"/>
@@ -22588,16 +22011,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <wire x1="264.16" y1="322.58" x2="259.08" y2="322.58" width="0.6096" layer="91"/>
 </segment>
 <segment>
-<wire x1="73.66" y1="309.88" x2="60.96" y2="309.88" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="309.88" x2="60.96" y2="299.72" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="327.66" x2="60.96" y2="327.66" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="327.66" x2="60.96" y2="309.88" width="0.1524" layer="91"/>
-<junction x="60.96" y="309.88"/>
-<pinref part="U4" gate="A" pin="GND"/>
-<pinref part="GND70" gate="1" pin="GND"/>
-<pinref part="U4" gate="A" pin="~OE"/>
-</segment>
-<segment>
 <wire x1="284.48" y1="375.92" x2="284.48" y2="365.76" width="0.6096" layer="91"/>
 <wire x1="284.48" y1="365.76" x2="284.48" y2="355.6" width="0.6096" layer="91"/>
 <wire x1="284.48" y1="355.6" x2="284.48" y2="345.44" width="0.6096" layer="91"/>
@@ -22611,11 +22024,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <junction x="284.48" y="365.76"/>
 <pinref part="C95" gate="G$1" pin="-"/>
 <junction x="284.48" y="375.92"/>
-</segment>
-<segment>
-<wire x1="50.8" y1="353.06" x2="50.8" y2="350.52" width="0.1524" layer="91"/>
-<pinref part="C42" gate="G$1" pin="2"/>
-<pinref part="GND82" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C62" gate="G$1" pin="2"/>
@@ -22668,16 +22076,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <wire x1="246.38" y1="165.1" x2="241.3" y2="165.1" width="0.6096" layer="91"/>
 </segment>
 <segment>
-<wire x1="55.88" y1="152.4" x2="43.18" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="152.4" x2="43.18" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="170.18" x2="43.18" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="170.18" x2="43.18" y2="152.4" width="0.1524" layer="91"/>
-<junction x="43.18" y="152.4"/>
-<pinref part="U5" gate="A" pin="GND"/>
-<pinref part="GND21" gate="1" pin="GND"/>
-<pinref part="U5" gate="A" pin="~OE"/>
-</segment>
-<segment>
 <wire x1="266.7" y1="218.44" x2="266.7" y2="208.28" width="0.6096" layer="91"/>
 <wire x1="266.7" y1="208.28" x2="266.7" y2="198.12" width="0.6096" layer="91"/>
 <wire x1="266.7" y1="198.12" x2="266.7" y2="187.96" width="0.6096" layer="91"/>
@@ -22691,11 +22089,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <junction x="266.7" y="208.28"/>
 <pinref part="C98" gate="G$1" pin="-"/>
 <junction x="266.7" y="218.44"/>
-</segment>
-<segment>
-<wire x1="33.02" y1="198.12" x2="33.02" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="2"/>
-<pinref part="GND23" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C36" gate="G$1" pin="2"/>
@@ -22743,48 +22136,8 @@ NOTE: CD1 and CD2 are connected internally</description>
 <pinref part="GND98" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="P" pin="GND"/>
-<pinref part="GND99" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="P" pin="GND"/>
-<pinref part="GND100" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="C70" gate="G$1" pin="2"/>
 <pinref part="GND101" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC8" gate="P" pin="GND"/>
-<pinref part="GND102" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC9" gate="P" pin="GND"/>
-<pinref part="GND103" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC10" gate="P" pin="GND"/>
-<pinref part="GND104" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC11" gate="P" pin="GND"/>
-<pinref part="GND105" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC16" gate="P" pin="GND"/>
-<pinref part="GND106" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC17" gate="P" pin="GND"/>
-<pinref part="GND107" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC13" gate="P" pin="GND"/>
-<pinref part="GND108" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC14" gate="P" pin="GND"/>
-<pinref part="GND109" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C71" gate="G$1" pin="2"/>
@@ -22899,51 +22252,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <wire x1="1120.14" y1="487.68" x2="1120.14" y2="490.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C84" gate="G$1" pin="2"/>
-<pinref part="GND131" gate="1" pin="GND"/>
-<wire x1="71.12" y1="195.58" x2="71.12" y2="198.12" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C85" gate="G$1" pin="2"/>
-<pinref part="GND132" gate="1" pin="GND"/>
-<wire x1="91.44" y1="736.6" x2="91.44" y2="739.14" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C86" gate="G$1" pin="2"/>
-<pinref part="GND133" gate="1" pin="GND"/>
-<wire x1="88.9" y1="622.3" x2="88.9" y2="624.84" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C87" gate="G$1" pin="2"/>
-<pinref part="GND134" gate="1" pin="GND"/>
-<wire x1="91.44" y1="469.9" x2="91.44" y2="472.44" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C88" gate="G$1" pin="2"/>
-<pinref part="GND135" gate="1" pin="GND"/>
-<wire x1="88.9" y1="353.06" x2="88.9" y2="355.6" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC18" gate="P" pin="GND"/>
-<pinref part="GND136" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC19" gate="P" pin="GND"/>
-<pinref part="GND137" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC22" gate="P" pin="GND"/>
-<pinref part="GND138" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC20" gate="P" pin="GND"/>
-<pinref part="GND139" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC21" gate="P" pin="GND"/>
-<pinref part="GND140" gate="1" pin="GND"/>
-</segment>
-<segment>
 <wire x1="246.38" y1="55.88" x2="246.38" y2="60.96" width="0.6096" layer="91"/>
 <wire x1="246.38" y1="60.96" x2="241.3" y2="60.96" width="0.6096" layer="91"/>
 <junction x="246.38" y="55.88"/>
@@ -22951,16 +22259,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <pinref part="R42" gate="G$1" pin="1"/>
 <pinref part="GND25" gate="1" pin="GND"/>
 <wire x1="246.38" y1="55.88" x2="241.3" y2="55.88" width="0.6096" layer="91"/>
-</segment>
-<segment>
-<wire x1="55.88" y1="43.18" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="43.18" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="60.96" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="60.96" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
-<junction x="43.18" y="43.18"/>
-<pinref part="U8" gate="A" pin="GND"/>
-<pinref part="GND32" gate="1" pin="GND"/>
-<pinref part="U8" gate="A" pin="~OE"/>
 </segment>
 <segment>
 <wire x1="266.7" y1="109.22" x2="266.7" y2="99.06" width="0.6096" layer="91"/>
@@ -22976,11 +22274,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <junction x="266.7" y="99.06"/>
 <pinref part="C101" gate="G$1" pin="-"/>
 <junction x="266.7" y="109.22"/>
-</segment>
-<segment>
-<wire x1="33.02" y1="88.9" x2="33.02" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="C24" gate="G$1" pin="2"/>
-<pinref part="GND58" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C52" gate="G$1" pin="2"/>
@@ -23031,25 +22324,8 @@ NOTE: CD1 and CD2 are connected internally</description>
 <pinref part="GND72" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC25" gate="P" pin="GND"/>
-<pinref part="GND76" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC26" gate="P" pin="GND"/>
-<pinref part="GND115" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="C81" gate="G$1" pin="2"/>
 <pinref part="GND141" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C99" gate="G$1" pin="2"/>
-<pinref part="GND142" gate="1" pin="GND"/>
-<wire x1="71.12" y1="86.36" x2="71.12" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC27" gate="P" pin="GND"/>
-<pinref part="GND143" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C102" gate="G$1" pin="2"/>
@@ -24034,36 +23310,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 </net>
 <net name="+3V3" class="0">
 <segment>
-<wire x1="73.66" y1="721.36" x2="60.96" y2="721.36" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="721.36" x2="60.96" y2="751.84" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="751.84" x2="60.96" y2="754.38" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="746.76" x2="50.8" y2="751.84" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="751.84" x2="60.96" y2="751.84" width="0.1524" layer="91"/>
-<junction x="60.96" y="751.84"/>
-<pinref part="U1" gate="A" pin="VCC"/>
-<pinref part="+3V12" gate="G$1" pin="+3V3"/>
-<pinref part="C41" gate="G$1" pin="1"/>
-<pinref part="IC3" gate="P" pin="VCC"/>
-<wire x1="60.96" y1="751.84" x2="66.04" y2="751.84" width="0.1524" layer="91"/>
-<junction x="60.96" y="751.84"/>
-<pinref part="IC4" gate="P" pin="VCC"/>
-<wire x1="66.04" y1="751.84" x2="73.66" y2="751.84" width="0.1524" layer="91"/>
-<junction x="66.04" y="751.84"/>
-<pinref part="C85" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="751.84" x2="81.28" y2="751.84" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="751.84" x2="91.44" y2="751.84" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="751.84" x2="91.44" y2="746.76" width="0.1524" layer="91"/>
-<junction x="73.66" y="751.84"/>
-<pinref part="IC18" gate="P" pin="VCC"/>
-<junction x="81.28" y="751.84"/>
-</segment>
-<segment>
-<pinref part="+3V18" gate="G$1" pin="+3V3"/>
-<wire x1="27.94" y1="703.58" x2="27.94" y2="701.04" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="701.04" x2="27.94" y2="701.04" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="~SRCLR"/>
-</segment>
-<segment>
 <wire x1="937.26" y1="200.66" x2="937.26" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="937.26" y1="220.98" x2="937.26" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="932.18" y1="218.44" x2="932.18" y2="220.98" width="0.1524" layer="91"/>
@@ -24104,36 +23350,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <pinref part="+3V20" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<wire x1="73.66" y1="607.06" x2="60.96" y2="607.06" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="607.06" x2="60.96" y2="637.54" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="637.54" x2="60.96" y2="640.08" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="629.92" x2="50.8" y2="637.54" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="637.54" x2="60.96" y2="637.54" width="0.1524" layer="91"/>
-<junction x="60.96" y="637.54"/>
-<pinref part="U2" gate="A" pin="VCC"/>
-<pinref part="+3V11" gate="G$1" pin="+3V3"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<pinref part="IC8" gate="P" pin="VCC"/>
-<wire x1="60.96" y1="637.54" x2="66.04" y2="637.54" width="0.1524" layer="91"/>
-<junction x="60.96" y="637.54"/>
-<pinref part="IC9" gate="P" pin="VCC"/>
-<wire x1="66.04" y1="637.54" x2="73.66" y2="637.54" width="0.1524" layer="91"/>
-<junction x="66.04" y="637.54"/>
-<pinref part="C86" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="637.54" x2="81.28" y2="637.54" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="637.54" x2="88.9" y2="637.54" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="637.54" x2="88.9" y2="632.46" width="0.1524" layer="91"/>
-<junction x="73.66" y="637.54"/>
-<pinref part="IC20" gate="P" pin="VCC"/>
-<junction x="81.28" y="637.54"/>
-</segment>
-<segment>
-<pinref part="+3V13" gate="G$1" pin="+3V3"/>
-<wire x1="35.56" y1="589.28" x2="35.56" y2="586.74" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="586.74" x2="35.56" y2="586.74" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="~SRCLR"/>
-</segment>
-<segment>
 <pinref part="R24" gate="G$1" pin="2"/>
 <pinref part="+3V16" gate="G$1" pin="+3V3"/>
 <wire x1="180.34" y1="607.06" x2="177.8" y2="607.06" width="0.1524" layer="91"/>
@@ -24149,36 +23365,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <wire x1="142.24" y1="640.08" x2="142.24" y2="642.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="73.66" y1="454.66" x2="60.96" y2="454.66" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="454.66" x2="60.96" y2="485.14" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="485.14" x2="60.96" y2="487.68" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="477.52" x2="50.8" y2="485.14" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="485.14" x2="60.96" y2="485.14" width="0.1524" layer="91"/>
-<junction x="60.96" y="485.14"/>
-<pinref part="U3" gate="A" pin="VCC"/>
-<pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<pinref part="C14" gate="G$1" pin="1"/>
-<pinref part="IC11" gate="P" pin="VCC"/>
-<wire x1="60.96" y1="485.14" x2="68.58" y2="485.14" width="0.1524" layer="91"/>
-<junction x="60.96" y="485.14"/>
-<pinref part="IC10" gate="P" pin="VCC"/>
-<wire x1="68.58" y1="485.14" x2="76.2" y2="485.14" width="0.1524" layer="91"/>
-<junction x="68.58" y="485.14"/>
-<pinref part="C87" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="485.14" x2="83.82" y2="485.14" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="485.14" x2="91.44" y2="485.14" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="485.14" x2="91.44" y2="480.06" width="0.1524" layer="91"/>
-<junction x="76.2" y="485.14"/>
-<pinref part="IC21" gate="P" pin="VCC"/>
-<junction x="83.82" y="485.14"/>
-</segment>
-<segment>
-<pinref part="+3V6" gate="G$1" pin="+3V3"/>
-<wire x1="73.66" y1="434.34" x2="38.1" y2="434.34" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="434.34" x2="38.1" y2="436.88" width="0.1524" layer="91"/>
-<pinref part="U3" gate="A" pin="~SRCLR"/>
-</segment>
-<segment>
 <pinref part="R28" gate="G$1" pin="2"/>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
 <wire x1="172.72" y1="454.66" x2="170.18" y2="454.66" width="0.1524" layer="91"/>
@@ -24190,37 +23376,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <wire x1="144.78" y1="487.68" x2="144.78" y2="490.22" width="0.1524" layer="91"/>
 <junction x="144.78" y="487.68"/>
 <pinref part="+3V24" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<wire x1="73.66" y1="337.82" x2="60.96" y2="337.82" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="337.82" x2="60.96" y2="365.76" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="365.76" x2="60.96" y2="368.3" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="368.3" x2="60.96" y2="370.84" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="360.68" x2="50.8" y2="365.76" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="365.76" x2="60.96" y2="365.76" width="0.1524" layer="91"/>
-<junction x="60.96" y="365.76"/>
-<pinref part="U4" gate="A" pin="VCC"/>
-<pinref part="+3V10" gate="G$1" pin="+3V3"/>
-<pinref part="C42" gate="G$1" pin="1"/>
-<pinref part="IC13" gate="P" pin="VCC"/>
-<wire x1="60.96" y1="368.3" x2="66.04" y2="368.3" width="0.1524" layer="91"/>
-<junction x="60.96" y="368.3"/>
-<pinref part="IC14" gate="P" pin="VCC"/>
-<wire x1="66.04" y1="368.3" x2="73.66" y2="368.3" width="0.1524" layer="91"/>
-<junction x="66.04" y="368.3"/>
-<pinref part="C88" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="368.3" x2="81.28" y2="368.3" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="368.3" x2="88.9" y2="368.3" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="368.3" x2="88.9" y2="363.22" width="0.1524" layer="91"/>
-<junction x="73.66" y="368.3"/>
-<pinref part="IC19" gate="P" pin="VCC"/>
-<junction x="81.28" y="368.3"/>
-</segment>
-<segment>
-<pinref part="+3V15" gate="G$1" pin="+3V3"/>
-<wire x1="73.66" y1="317.5" x2="38.1" y2="317.5" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="317.5" x2="38.1" y2="320.04" width="0.1524" layer="91"/>
-<pinref part="U4" gate="A" pin="~SRCLR"/>
 </segment>
 <segment>
 <pinref part="R36" gate="G$1" pin="2"/>
@@ -24235,35 +23390,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <junction x="142.24" y="370.84"/>
 <label x="157.48" y="370.84" size="1.778" layer="95"/>
 <pinref part="+3V25" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<wire x1="55.88" y1="180.34" x2="43.18" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="180.34" x2="43.18" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="210.82" x2="43.18" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="205.74" x2="33.02" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="210.82" x2="43.18" y2="210.82" width="0.1524" layer="91"/>
-<junction x="43.18" y="210.82"/>
-<pinref part="U5" gate="A" pin="VCC"/>
-<pinref part="+3V4" gate="G$1" pin="+3V3"/>
-<pinref part="C15" gate="G$1" pin="1"/>
-<pinref part="IC16" gate="P" pin="VCC"/>
-<wire x1="43.18" y1="210.82" x2="48.26" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="IC17" gate="P" pin="VCC"/>
-<wire x1="48.26" y1="210.82" x2="55.88" y2="210.82" width="0.1524" layer="91"/>
-<junction x="48.26" y="210.82"/>
-<pinref part="C84" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="210.82" x2="63.5" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="210.82" x2="71.12" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="210.82" x2="71.12" y2="205.74" width="0.1524" layer="91"/>
-<junction x="55.88" y="210.82"/>
-<pinref part="IC22" gate="P" pin="VCC"/>
-<junction x="63.5" y="210.82"/>
-</segment>
-<segment>
-<pinref part="+3V7" gate="G$1" pin="+3V3"/>
-<wire x1="25.4" y1="162.56" x2="25.4" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="160.02" x2="25.4" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="U5" gate="A" pin="~SRCLR"/>
 </segment>
 <segment>
 <pinref part="R51" gate="G$1" pin="2"/>
@@ -24283,35 +23409,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <wire x1="838.2" y1="198.12" x2="840.74" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="840.74" y1="198.12" x2="840.74" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="+3V22" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<wire x1="55.88" y1="71.12" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="71.12" x2="43.18" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="101.6" x2="43.18" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="96.52" x2="33.02" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="101.6" x2="43.18" y2="101.6" width="0.1524" layer="91"/>
-<junction x="43.18" y="101.6"/>
-<pinref part="U8" gate="A" pin="VCC"/>
-<pinref part="+3V5" gate="G$1" pin="+3V3"/>
-<pinref part="C24" gate="G$1" pin="1"/>
-<pinref part="IC25" gate="P" pin="VCC"/>
-<wire x1="43.18" y1="101.6" x2="48.26" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="IC26" gate="P" pin="VCC"/>
-<wire x1="48.26" y1="101.6" x2="55.88" y2="101.6" width="0.1524" layer="91"/>
-<junction x="48.26" y="101.6"/>
-<pinref part="C99" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="101.6" x2="63.5" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="101.6" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="101.6" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
-<junction x="55.88" y="101.6"/>
-<pinref part="IC27" gate="P" pin="VCC"/>
-<junction x="63.5" y="101.6"/>
-</segment>
-<segment>
-<pinref part="+3V21" gate="G$1" pin="+3V3"/>
-<wire x1="25.4" y1="53.34" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U8" gate="A" pin="~SRCLR"/>
 </segment>
 <segment>
 <pinref part="R44" gate="G$1" pin="2"/>
@@ -24591,72 +23688,12 @@ NOTE: CD1 and CD2 are connected internally</description>
 </net>
 <net name="SPI1_SCLK" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="SRCLK"/>
-<wire x1="45.72" y1="698.5" x2="73.66" y2="698.5" width="0.1524" layer="91"/>
-<label x="45.72" y="698.5" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U2" gate="A" pin="SRCLK"/>
-<wire x1="43.18" y1="584.2" x2="73.66" y2="584.2" width="0.1524" layer="91"/>
-<label x="43.18" y="584.2" size="1.778" layer="95" rot="MR180"/>
-</segment>
-<segment>
-<pinref part="U3" gate="A" pin="SRCLK"/>
-<wire x1="53.34" y1="431.8" x2="73.66" y2="431.8" width="0.1524" layer="91"/>
-<label x="53.34" y="431.8" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U4" gate="A" pin="SRCLK"/>
-<wire x1="55.88" y1="314.96" x2="73.66" y2="314.96" width="0.1524" layer="91"/>
-<label x="58.42" y="314.96" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="U5" gate="A" pin="SRCLK"/>
-<wire x1="38.1" y1="157.48" x2="55.88" y2="157.48" width="0.1524" layer="91"/>
-<label x="27.94" y="154.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U8" gate="A" pin="SRCLK"/>
-<wire x1="38.1" y1="48.26" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
-<label x="27.94" y="45.72" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="G$2" pin="MCASP0_ACLKX"/>
 <wire x1="208.28" y1="894.08" x2="223.52" y2="894.08" width="0.1524" layer="91"/>
 <label x="223.52" y="894.08" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SPI1_CS1" class="0">
-<segment>
-<wire x1="73.66" y1="706.12" x2="45.72" y2="706.12" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="RCLK"/>
-<label x="45.72" y="706.12" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="73.66" y1="591.82" x2="43.18" y2="591.82" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="RCLK"/>
-<label x="43.18" y="591.82" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="73.66" y1="439.42" x2="53.34" y2="439.42" width="0.1524" layer="91"/>
-<pinref part="U3" gate="A" pin="RCLK"/>
-<label x="53.34" y="439.42" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="55.88" y1="165.1" x2="40.64" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="U5" gate="A" pin="RCLK"/>
-<label x="30.48" y="165.1" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="73.66" y1="322.58" x2="58.42" y2="322.58" width="0.1524" layer="91"/>
-<pinref part="U4" gate="A" pin="RCLK"/>
-<label x="50.8" y="322.58" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="55.88" y1="55.88" x2="40.64" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="U8" gate="A" pin="RCLK"/>
-<label x="30.48" y="55.88" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$2" gate="G$2" pin="ECAP0_IN_PWM0_OUT"/>
 <wire x1="208.28" y1="876.3" x2="223.52" y2="876.3" width="0.1524" layer="91"/>
@@ -24687,15 +23724,9 @@ NOTE: CD1 and CD2 are connected internally</description>
 </net>
 <net name="SER_2" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="QH_2"/>
 <wire x1="109.22" y1="721.36" x2="111.76" y2="721.36" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="721.36" x2="111.76" y2="728.98" width="0.1524" layer="91"/>
 <label x="111.76" y="728.98" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="U2" gate="A" pin="SER"/>
-<wire x1="73.66" y1="601.98" x2="71.12" y2="601.98" width="0.1524" layer="91"/>
-<label x="71.12" y="601.98" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DIR_Z" class="0">
@@ -24822,11 +23853,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 </segment>
 </net>
 <net name="SPI1_MOSI" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="SER"/>
-<wire x1="73.66" y1="716.28" x2="45.72" y2="716.28" width="0.1524" layer="91"/>
-<label x="45.72" y="716.28" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$2" gate="G$2" pin="MCASP0_AXR0"/>
 <wire x1="208.28" y1="889" x2="223.52" y2="889" width="0.1524" layer="91"/>
@@ -25165,7 +24191,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <label x="1038.86" y="502.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U2" gate="A" pin="QA"/>
 <wire x1="109.22" y1="604.52" x2="129.54" y2="604.52" width="0.1524" layer="91"/>
 <label x="119.38" y="604.52" size="1.778" layer="95"/>
 </segment>
@@ -25178,7 +24203,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <label x="1084.58" y="502.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U3" gate="A" pin="QA"/>
 <wire x1="109.22" y1="452.12" x2="127" y2="452.12" width="0.1524" layer="91"/>
 <label x="111.76" y="452.12" size="1.778" layer="95"/>
 </segment>
@@ -25315,7 +24339,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 </net>
 <net name="X_CFG2" class="0">
 <segment>
-<pinref part="IC3" gate="A" pin="O"/>
 <pinref part="IC1" gate="IC" pin="SCK_CFG2"/>
 <wire x1="149.86" y1="716.28" x2="160.02" y2="716.28" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="716.28" x2="160.02" y2="713.74" width="0.1524" layer="91"/>
@@ -25355,7 +24378,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 </net>
 <net name="X_CFG1" class="0">
 <segment>
-<pinref part="IC4" gate="A" pin="O"/>
 <wire x1="147.32" y1="683.26" x2="147.32" y2="711.2" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="IC" pin="SDI_NAI_CFG1"/>
 <wire x1="147.32" y1="711.2" x2="203.2" y2="711.2" width="0.1524" layer="91"/>
@@ -25365,7 +24387,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <segment>
 <pinref part="IC1" gate="IC" pin="ENCB_DCEN_CFG4"/>
 <wire x1="114.3" y1="695.96" x2="203.2" y2="695.96" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="QC"/>
 <wire x1="109.22" y1="713.74" x2="114.3" y2="713.74" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="713.74" x2="114.3" y2="695.96" width="0.1524" layer="91"/>
 </segment>
@@ -25374,34 +24395,27 @@ NOTE: CD1 and CD2 are connected internally</description>
 <segment>
 <pinref part="IC1" gate="IC" pin="ENCA_DCIN_CFG5"/>
 <wire x1="203.2" y1="698.5" x2="116.84" y2="698.5" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="QB"/>
 <wire x1="116.84" y1="698.5" x2="116.84" y2="716.28" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="716.28" x2="109.22" y2="716.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="QH"/>
-<pinref part="IC4" gate="A" pin="OE"/>
 <wire x1="109.22" y1="701.04" x2="109.22" y2="675.64" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="675.64" x2="139.7" y2="675.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="IC4" gate="A" pin="I"/>
 <wire x1="134.62" y1="683.26" x2="111.76" y2="683.26" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="QG"/>
 <wire x1="111.76" y1="683.26" x2="111.76" y2="703.58" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="703.58" x2="109.22" y2="703.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$34" class="0">
 <segment>
-<pinref part="IC3" gate="A" pin="I"/>
 <wire x1="134.62" y1="708.66" x2="134.62" y2="716.28" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="716.28" x2="137.16" y2="716.28" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="QE"/>
 <wire x1="134.62" y1="708.66" x2="109.22" y2="708.66" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -25449,7 +24463,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 </net>
 <net name="N$42" class="0">
 <segment>
-<pinref part="IC8" gate="A" pin="O"/>
 <pinref part="IC2" gate="IC" pin="SCK_CFG2"/>
 <wire x1="149.86" y1="601.98" x2="160.02" y2="601.98" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="601.98" x2="160.02" y2="599.44" width="0.1524" layer="91"/>
@@ -25489,7 +24502,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 </net>
 <net name="N$49" class="0">
 <segment>
-<pinref part="IC9" gate="A" pin="O"/>
 <wire x1="147.32" y1="568.96" x2="147.32" y2="596.9" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="IC" pin="SDI_NAI_CFG1"/>
 <wire x1="147.32" y1="596.9" x2="203.2" y2="596.9" width="0.1524" layer="91"/>
@@ -25499,7 +24511,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <segment>
 <pinref part="IC2" gate="IC" pin="SDO_NAO_CFG0"/>
 <wire x1="152.4" y1="594.36" x2="203.2" y2="594.36" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="QD"/>
 <wire x1="109.22" y1="596.9" x2="129.54" y2="596.9" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="596.9" x2="129.54" y2="589.28" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="589.28" x2="152.4" y2="589.28" width="0.1524" layer="91"/>
@@ -25510,7 +24521,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <segment>
 <pinref part="IC2" gate="IC" pin="ENCB_DCEN_CFG4"/>
 <wire x1="114.3" y1="581.66" x2="203.2" y2="581.66" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="QC"/>
 <wire x1="109.22" y1="599.44" x2="114.3" y2="599.44" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="599.44" x2="114.3" y2="581.66" width="0.1524" layer="91"/>
 </segment>
@@ -25519,34 +24529,27 @@ NOTE: CD1 and CD2 are connected internally</description>
 <segment>
 <pinref part="IC2" gate="IC" pin="ENCA_DCIN_CFG5"/>
 <wire x1="203.2" y1="584.2" x2="116.84" y2="584.2" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="QB"/>
 <wire x1="116.84" y1="584.2" x2="116.84" y2="601.98" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="601.98" x2="109.22" y2="601.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$66" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="QH"/>
-<pinref part="IC9" gate="A" pin="OE"/>
 <wire x1="109.22" y1="586.74" x2="109.22" y2="561.34" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="561.34" x2="139.7" y2="561.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$67" class="0">
 <segment>
-<pinref part="IC9" gate="A" pin="I"/>
 <wire x1="134.62" y1="568.96" x2="111.76" y2="568.96" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="QG"/>
 <wire x1="111.76" y1="568.96" x2="111.76" y2="589.28" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="589.28" x2="109.22" y2="589.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$69" class="0">
 <segment>
-<pinref part="IC8" gate="A" pin="I"/>
 <wire x1="134.62" y1="594.36" x2="134.62" y2="601.98" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="601.98" x2="137.16" y2="601.98" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="QE"/>
 <wire x1="134.62" y1="594.36" x2="109.22" y2="594.36" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -25594,7 +24597,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="IC10" gate="A" pin="O"/>
 <pinref part="IC5" gate="IC" pin="SCK_CFG2"/>
 <wire x1="149.86" y1="449.58" x2="160.02" y2="449.58" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="449.58" x2="160.02" y2="447.04" width="0.1524" layer="91"/>
@@ -25634,7 +24636,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 </net>
 <net name="N$54" class="0">
 <segment>
-<pinref part="IC11" gate="A" pin="O"/>
 <wire x1="147.32" y1="416.56" x2="147.32" y2="444.5" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="IC" pin="SDI_NAI_CFG1"/>
 <wire x1="147.32" y1="444.5" x2="203.2" y2="444.5" width="0.1524" layer="91"/>
@@ -25644,7 +24645,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <segment>
 <pinref part="IC5" gate="IC" pin="SDO_NAO_CFG0"/>
 <wire x1="152.4" y1="441.96" x2="203.2" y2="441.96" width="0.1524" layer="91"/>
-<pinref part="U3" gate="A" pin="QD"/>
 <wire x1="109.22" y1="444.5" x2="129.54" y2="444.5" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="444.5" x2="129.54" y2="436.88" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="436.88" x2="152.4" y2="436.88" width="0.1524" layer="91"/>
@@ -25655,7 +24655,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <segment>
 <pinref part="IC5" gate="IC" pin="ENCB_DCEN_CFG4"/>
 <wire x1="114.3" y1="429.26" x2="203.2" y2="429.26" width="0.1524" layer="91"/>
-<pinref part="U3" gate="A" pin="QC"/>
 <wire x1="109.22" y1="447.04" x2="114.3" y2="447.04" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="447.04" x2="114.3" y2="429.26" width="0.1524" layer="91"/>
 </segment>
@@ -25664,34 +24663,26 @@ NOTE: CD1 and CD2 are connected internally</description>
 <segment>
 <pinref part="IC5" gate="IC" pin="ENCA_DCIN_CFG5"/>
 <wire x1="203.2" y1="431.8" x2="116.84" y2="431.8" width="0.1524" layer="91"/>
-<pinref part="U3" gate="A" pin="QB"/>
 <wire x1="116.84" y1="431.8" x2="116.84" y2="449.58" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="449.58" x2="109.22" y2="449.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$59" class="0">
 <segment>
-<pinref part="U3" gate="A" pin="QH"/>
-<pinref part="IC11" gate="A" pin="OE"/>
 <wire x1="109.22" y1="434.34" x2="109.22" y2="408.94" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="408.94" x2="139.7" y2="408.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$61" class="0">
 <segment>
-<pinref part="IC11" gate="A" pin="I"/>
 <wire x1="134.62" y1="416.56" x2="111.76" y2="416.56" width="0.1524" layer="91"/>
-<pinref part="U3" gate="A" pin="QG"/>
 <wire x1="111.76" y1="416.56" x2="111.76" y2="436.88" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="436.88" x2="109.22" y2="436.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$63" class="0">
 <segment>
-<pinref part="IC10" gate="A" pin="I"/>
 <wire x1="134.62" y1="441.96" x2="134.62" y2="449.58" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="449.58" x2="137.16" y2="449.58" width="0.1524" layer="91"/>
-<pinref part="U3" gate="A" pin="QE"/>
 <wire x1="109.22" y1="441.96" x2="134.62" y2="441.96" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -25739,7 +24730,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 </net>
 <net name="N$76" class="0">
 <segment>
-<pinref part="IC13" gate="A" pin="O"/>
 <pinref part="IC12" gate="IC" pin="SCK_CFG2"/>
 <wire x1="149.86" y1="332.74" x2="160.02" y2="332.74" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="332.74" x2="160.02" y2="330.2" width="0.1524" layer="91"/>
@@ -25779,7 +24769,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 </net>
 <net name="N$81" class="0">
 <segment>
-<pinref part="IC14" gate="A" pin="O"/>
 <wire x1="147.32" y1="299.72" x2="147.32" y2="327.66" width="0.1524" layer="91"/>
 <pinref part="IC12" gate="IC" pin="SDI_NAI_CFG1"/>
 <wire x1="147.32" y1="327.66" x2="203.2" y2="327.66" width="0.1524" layer="91"/>
@@ -25789,7 +24778,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <segment>
 <pinref part="IC12" gate="IC" pin="SDO_NAO_CFG0"/>
 <wire x1="152.4" y1="325.12" x2="203.2" y2="325.12" width="0.1524" layer="91"/>
-<pinref part="U4" gate="A" pin="QD"/>
 <wire x1="109.22" y1="327.66" x2="127" y2="327.66" width="0.1524" layer="91"/>
 <wire x1="127" y1="327.66" x2="127" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="127" y1="320.04" x2="152.4" y2="320.04" width="0.1524" layer="91"/>
@@ -25800,7 +24788,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <segment>
 <pinref part="IC12" gate="IC" pin="ENCB_DCEN_CFG4"/>
 <wire x1="114.3" y1="312.42" x2="203.2" y2="312.42" width="0.1524" layer="91"/>
-<pinref part="U4" gate="A" pin="QC"/>
 <wire x1="109.22" y1="330.2" x2="114.3" y2="330.2" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="330.2" x2="114.3" y2="312.42" width="0.1524" layer="91"/>
 </segment>
@@ -25809,34 +24796,27 @@ NOTE: CD1 and CD2 are connected internally</description>
 <segment>
 <pinref part="IC12" gate="IC" pin="ENCA_DCIN_CFG5"/>
 <wire x1="203.2" y1="314.96" x2="116.84" y2="314.96" width="0.1524" layer="91"/>
-<pinref part="U4" gate="A" pin="QB"/>
 <wire x1="116.84" y1="314.96" x2="116.84" y2="332.74" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="332.74" x2="109.22" y2="332.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$85" class="0">
 <segment>
-<pinref part="U4" gate="A" pin="QH"/>
-<pinref part="IC14" gate="A" pin="OE"/>
 <wire x1="109.22" y1="317.5" x2="109.22" y2="292.1" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="292.1" x2="139.7" y2="292.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$86" class="0">
 <segment>
-<pinref part="IC14" gate="A" pin="I"/>
 <wire x1="134.62" y1="299.72" x2="111.76" y2="299.72" width="0.1524" layer="91"/>
-<pinref part="U4" gate="A" pin="QG"/>
 <wire x1="111.76" y1="299.72" x2="111.76" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="320.04" x2="109.22" y2="320.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$93" class="0">
 <segment>
-<pinref part="IC13" gate="A" pin="I"/>
 <wire x1="134.62" y1="325.12" x2="134.62" y2="332.74" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="332.74" x2="137.16" y2="332.74" width="0.1524" layer="91"/>
-<pinref part="U4" gate="A" pin="QE"/>
 <wire x1="109.22" y1="325.12" x2="134.62" y2="325.12" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -25884,10 +24864,7 @@ NOTE: CD1 and CD2 are connected internally</description>
 </net>
 <net name="N$91" class="0">
 <segment>
-<pinref part="IC16" gate="A" pin="O"/>
 <pinref part="IC15" gate="IC" pin="SCK_CFG2"/>
-<wire x1="132.08" y1="175.26" x2="142.24" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="175.26" x2="142.24" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="172.72" x2="185.42" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -25924,8 +24901,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 </net>
 <net name="N$99" class="0">
 <segment>
-<pinref part="IC17" gate="A" pin="O"/>
-<wire x1="129.54" y1="142.24" x2="129.54" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="IC15" gate="IC" pin="SDI_NAI_CFG1"/>
 <wire x1="129.54" y1="170.18" x2="185.42" y2="170.18" width="0.1524" layer="91"/>
 </segment>
@@ -25934,55 +24909,18 @@ NOTE: CD1 and CD2 are connected internally</description>
 <segment>
 <pinref part="IC15" gate="IC" pin="SDO_NAO_CFG0"/>
 <wire x1="134.62" y1="167.64" x2="185.42" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="U5" gate="A" pin="QD"/>
-<wire x1="91.44" y1="170.18" x2="111.76" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="170.18" x2="111.76" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="162.56" x2="134.62" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="162.56" x2="134.62" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$101" class="0">
 <segment>
 <pinref part="IC15" gate="IC" pin="ENCB_DCEN_CFG4"/>
 <wire x1="96.52" y1="154.94" x2="185.42" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="U5" gate="A" pin="QC"/>
-<wire x1="91.44" y1="172.72" x2="96.52" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="172.72" x2="96.52" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$102" class="0">
 <segment>
 <pinref part="IC15" gate="IC" pin="ENCA_DCIN_CFG5"/>
 <wire x1="185.42" y1="157.48" x2="99.06" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="U5" gate="A" pin="QB"/>
-<wire x1="99.06" y1="157.48" x2="99.06" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="175.26" x2="91.44" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$103" class="0">
-<segment>
-<pinref part="U5" gate="A" pin="QH"/>
-<pinref part="IC17" gate="A" pin="OE"/>
-<wire x1="91.44" y1="160.02" x2="91.44" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="134.62" x2="121.92" y2="134.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$104" class="0">
-<segment>
-<pinref part="IC17" gate="A" pin="I"/>
-<wire x1="116.84" y1="142.24" x2="93.98" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="U5" gate="A" pin="QG"/>
-<wire x1="93.98" y1="142.24" x2="93.98" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="162.56" x2="91.44" y2="162.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$106" class="0">
-<segment>
-<pinref part="IC16" gate="A" pin="I"/>
-<wire x1="116.84" y1="167.64" x2="116.84" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="175.26" x2="119.38" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="U5" gate="A" pin="QE"/>
-<wire x1="91.44" y1="167.64" x2="116.84" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FAULT_E" class="0">
@@ -26067,41 +25005,23 @@ NOTE: CD1 and CD2 are connected internally</description>
 </net>
 <net name="SER_3" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="QH_2"/>
 <wire x1="109.22" y1="607.06" x2="111.76" y2="607.06" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="607.06" x2="111.76" y2="612.14" width="0.1524" layer="91"/>
 <label x="111.76" y="612.14" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
-<segment>
-<pinref part="U3" gate="A" pin="SER"/>
-<wire x1="73.66" y1="449.58" x2="71.12" y2="449.58" width="0.1524" layer="91"/>
-<label x="71.12" y="449.58" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="SER_4" class="0">
 <segment>
-<pinref part="U3" gate="A" pin="QH_2"/>
 <wire x1="109.22" y1="454.66" x2="111.76" y2="454.66" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="454.66" x2="111.76" y2="459.74" width="0.1524" layer="91"/>
 <label x="111.76" y="459.74" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
-<segment>
-<pinref part="U4" gate="A" pin="SER"/>
-<wire x1="73.66" y1="332.74" x2="71.12" y2="332.74" width="0.1524" layer="91"/>
-<label x="71.12" y="332.74" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="SER_5" class="0">
 <segment>
-<pinref part="U4" gate="A" pin="QH_2"/>
 <wire x1="109.22" y1="337.82" x2="111.76" y2="337.82" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="337.82" x2="111.76" y2="350.52" width="0.1524" layer="91"/>
 <label x="111.76" y="350.52" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U5" gate="A" pin="SER"/>
-<wire x1="55.88" y1="175.26" x2="53.34" y2="175.26" width="0.1524" layer="91"/>
-<label x="53.34" y="175.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IREF_E" class="0">
@@ -26141,15 +25061,12 @@ NOTE: CD1 and CD2 are connected internally</description>
 </net>
 <net name="N$40" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="QF"/>
 <wire x1="109.22" y1="706.12" x2="142.24" y2="706.12" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A" pin="OE"/>
 <wire x1="142.24" y1="706.12" x2="142.24" y2="708.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$44" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="QD"/>
 <wire x1="109.22" y1="711.2" x2="129.54" y2="711.2" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="711.2" x2="129.54" y2="703.58" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="703.58" x2="172.72" y2="703.58" width="0.1524" layer="91"/>
@@ -26160,34 +25077,20 @@ NOTE: CD1 and CD2 are connected internally</description>
 </net>
 <net name="N$68" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="QF"/>
 <wire x1="109.22" y1="591.82" x2="142.24" y2="591.82" width="0.1524" layer="91"/>
-<pinref part="IC8" gate="A" pin="OE"/>
 <wire x1="142.24" y1="591.82" x2="142.24" y2="594.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$62" class="0">
 <segment>
-<pinref part="U3" gate="A" pin="QF"/>
-<pinref part="IC10" gate="A" pin="OE"/>
 <wire x1="109.22" y1="439.42" x2="142.24" y2="439.42" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="439.42" x2="142.24" y2="441.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$87" class="0">
 <segment>
-<pinref part="U4" gate="A" pin="QF"/>
-<pinref part="IC13" gate="A" pin="OE"/>
 <wire x1="109.22" y1="322.58" x2="142.24" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="322.58" x2="142.24" y2="325.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$105" class="0">
-<segment>
-<pinref part="U5" gate="A" pin="QF"/>
-<pinref part="IC16" gate="A" pin="OE"/>
-<wire x1="91.44" y1="165.1" x2="124.46" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="165.1" x2="124.46" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$108" class="0">
@@ -26359,7 +25262,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <segment>
 <pinref part="IC15" gate="IC" pin="DRV_ENN_CFG6"/>
 <label x="157.48" y="193.04" size="1.778" layer="95"/>
-<pinref part="IC22" gate="A" pin="O"/>
 <wire x1="185.42" y1="193.04" x2="116.84" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -26367,7 +25269,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <segment>
 <pinref part="IC5" gate="IC" pin="DRV_ENN_CFG6"/>
 <label x="172.72" y="467.36" size="1.778" layer="95"/>
-<pinref part="IC21" gate="A" pin="O"/>
 <wire x1="132.08" y1="467.36" x2="203.2" y2="467.36" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -26443,87 +25344,55 @@ NOTE: CD1 and CD2 are connected internally</description>
 </net>
 <net name="EN_XYZ" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="QA"/>
 <wire x1="124.46" y1="718.82" x2="109.22" y2="718.82" width="0.1524" layer="91"/>
 <label x="114.3" y="718.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC18" gate="A" pin="I"/>
 <wire x1="124.46" y1="734.06" x2="124.46" y2="744.22" width="0.1524" layer="91"/>
 <label x="124.46" y="744.22" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="IC20" gate="A" pin="I"/>
 <wire x1="121.92" y1="619.76" x2="121.92" y2="632.46" width="0.1524" layer="91"/>
 <label x="121.92" y="632.46" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="IC21" gate="A" pin="I"/>
 <wire x1="119.38" y1="467.36" x2="119.38" y2="480.06" width="0.1524" layer="91"/>
 <label x="119.38" y="480.06" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="EN_EHA" class="0">
 <segment>
-<pinref part="U4" gate="A" pin="QA"/>
 <wire x1="127" y1="335.28" x2="109.22" y2="335.28" width="0.1524" layer="91"/>
 <label x="114.3" y="335.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC19" gate="A" pin="I"/>
 <wire x1="129.54" y1="350.52" x2="127" y2="350.52" width="0.1524" layer="91"/>
 <wire x1="127" y1="350.52" x2="127" y2="368.3" width="0.1524" layer="91"/>
 <label x="127" y="368.3" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="IC22" gate="A" pin="I"/>
-<wire x1="104.14" y1="193.04" x2="104.14" y2="210.82" width="0.1524" layer="91"/>
-<label x="104.14" y="210.82" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="IC27" gate="A" pin="I"/>
 <wire x1="104.14" y1="83.82" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
 <label x="104.14" y="101.6" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="TRISTATE_STEPPERS" class="0">
 <segment>
-<pinref part="U5" gate="A" pin="QA"/>
-<wire x1="91.44" y1="177.8" x2="114.3" y2="177.8" width="0.1524" layer="91"/>
-<label x="91.44" y="177.8" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC19" gate="A" pin="OE"/>
 <wire x1="134.62" y1="342.9" x2="167.64" y2="342.9" width="0.1524" layer="91"/>
 <label x="142.24" y="342.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC18" gate="A" pin="OE"/>
 <wire x1="129.54" y1="726.44" x2="165.1" y2="726.44" width="0.1524" layer="91"/>
 <label x="137.16" y="726.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC20" gate="A" pin="OE"/>
 <wire x1="127" y1="612.14" x2="160.02" y2="612.14" width="0.1524" layer="91"/>
 <label x="134.62" y="612.14" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC21" gate="A" pin="OE"/>
 <wire x1="124.46" y1="459.74" x2="160.02" y2="459.74" width="0.1524" layer="91"/>
 <label x="132.08" y="459.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC22" gate="A" pin="OE"/>
-<wire x1="109.22" y1="185.42" x2="134.62" y2="185.42" width="0.1524" layer="91"/>
-<label x="116.84" y="185.42" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U8" gate="A" pin="QA"/>
-<wire x1="91.44" y1="68.58" x2="114.3" y2="68.58" width="0.1524" layer="91"/>
-<label x="91.44" y="68.58" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC27" gate="A" pin="OE"/>
 <wire x1="109.22" y1="76.2" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
 <label x="116.84" y="76.2" size="1.778" layer="95"/>
 </segment>
@@ -26532,7 +25401,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <segment>
 <pinref part="IC1" gate="IC" pin="DRV_ENN_CFG6"/>
 <label x="170.18" y="734.06" size="1.778" layer="95"/>
-<pinref part="IC18" gate="A" pin="O"/>
 <wire x1="203.2" y1="734.06" x2="137.16" y2="734.06" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -26540,7 +25408,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <segment>
 <pinref part="IC2" gate="IC" pin="DRV_ENN_CFG6"/>
 <label x="170.18" y="619.76" size="1.778" layer="95"/>
-<pinref part="IC20" gate="A" pin="O"/>
 <wire x1="203.2" y1="619.76" x2="134.62" y2="619.76" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -26549,7 +25416,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <wire x1="142.24" y1="350.52" x2="203.2" y2="350.52" width="0.1524" layer="91"/>
 <pinref part="IC12" gate="IC" pin="DRV_ENN_CFG6"/>
 <label x="160.02" y="350.52" size="1.778" layer="95"/>
-<pinref part="IC19" gate="A" pin="O"/>
 </segment>
 </net>
 <net name="SYS_5V" class="0">
@@ -26710,10 +25576,7 @@ NOTE: CD1 and CD2 are connected internally</description>
 </net>
 <net name="N$133" class="0">
 <segment>
-<pinref part="IC25" gate="A" pin="O"/>
 <pinref part="IC24" gate="IC" pin="SCK_CFG2"/>
-<wire x1="132.08" y1="66.04" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="66.04" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="63.5" x2="185.42" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -26750,8 +25613,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 </net>
 <net name="N$138" class="0">
 <segment>
-<pinref part="IC26" gate="A" pin="O"/>
-<wire x1="129.54" y1="33.02" x2="129.54" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="IC24" gate="IC" pin="SDI_NAI_CFG1"/>
 <wire x1="129.54" y1="60.96" x2="185.42" y2="60.96" width="0.1524" layer="91"/>
 </segment>
@@ -26760,55 +25621,18 @@ NOTE: CD1 and CD2 are connected internally</description>
 <segment>
 <pinref part="IC24" gate="IC" pin="SDO_NAO_CFG0"/>
 <wire x1="134.62" y1="58.42" x2="185.42" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U8" gate="A" pin="QD"/>
-<wire x1="91.44" y1="60.96" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="60.96" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="53.34" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="53.34" x2="134.62" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$140" class="0">
 <segment>
 <pinref part="IC24" gate="IC" pin="ENCB_DCEN_CFG4"/>
 <wire x1="96.52" y1="45.72" x2="185.42" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="U8" gate="A" pin="QC"/>
-<wire x1="91.44" y1="63.5" x2="96.52" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="63.5" x2="96.52" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$141" class="0">
 <segment>
 <pinref part="IC24" gate="IC" pin="ENCA_DCIN_CFG5"/>
 <wire x1="185.42" y1="48.26" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U8" gate="A" pin="QB"/>
-<wire x1="99.06" y1="48.26" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="66.04" x2="91.44" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$142" class="0">
-<segment>
-<pinref part="U8" gate="A" pin="QH"/>
-<pinref part="IC26" gate="A" pin="OE"/>
-<wire x1="91.44" y1="50.8" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="25.4" x2="121.92" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$143" class="0">
-<segment>
-<pinref part="IC26" gate="A" pin="I"/>
-<wire x1="116.84" y1="33.02" x2="93.98" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="U8" gate="A" pin="QG"/>
-<wire x1="93.98" y1="33.02" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="53.34" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$144" class="0">
-<segment>
-<pinref part="IC25" gate="A" pin="I"/>
-<wire x1="116.84" y1="58.42" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="66.04" x2="119.38" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U8" gate="A" pin="QE"/>
-<wire x1="91.44" y1="58.42" x2="116.84" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IREF_H1" class="0">
@@ -26835,14 +25659,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <junction x="152.4" y="101.6"/>
 </segment>
 </net>
-<net name="N$146" class="0">
-<segment>
-<pinref part="U8" gate="A" pin="QF"/>
-<pinref part="IC25" gate="A" pin="OE"/>
-<wire x1="91.44" y1="55.88" x2="124.46" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="55.88" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$147" class="0">
 <segment>
 <pinref part="IC24" gate="IC" pin="OB1"/>
@@ -26855,13 +25671,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <pinref part="IC24" gate="IC" pin="OA2"/>
 <pinref part="X25" gate="-1" pin="S"/>
 <wire x1="226.06" y1="78.74" x2="233.68" y2="78.74" width="0.6096" layer="91"/>
-</segment>
-</net>
-<net name="SER_6" class="0">
-<segment>
-<pinref part="U8" gate="A" pin="SER"/>
-<wire x1="55.88" y1="66.04" x2="53.34" y2="66.04" width="0.1524" layer="91"/>
-<label x="53.34" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IREF_A_RAW" class="0">
@@ -26880,7 +25689,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <segment>
 <pinref part="IC24" gate="IC" pin="DRV_ENN_CFG6"/>
 <label x="157.48" y="83.82" size="1.778" layer="95"/>
-<pinref part="IC27" gate="A" pin="O"/>
 <wire x1="185.42" y1="83.82" x2="116.84" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -29291,14 +28099,6 @@ NOTE: CD1 and CD2 are connected internally</description>
 <wire x1="462.28" y1="429.26" x2="477.52" y2="429.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SER6" class="0">
-<segment>
-<pinref part="U5" gate="A" pin="QH_2"/>
-<wire x1="91.44" y1="180.34" x2="93.98" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="180.34" x2="93.98" y2="185.42" width="0.1524" layer="91"/>
-<label x="93.98" y="185.42" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
 <net name="+24V" class="1">
 <segment>
 <wire x1="485.14" y1="223.52" x2="513.08" y2="223.52" width="0.6096" layer="91"/>
@@ -29862,6 +28662,12 @@ NOTE: CD1 and CD2 are connected internally</description>
 <pinref part="X24" gate="G$1" pin="TDMS_DATA2+"/>
 <wire x1="1115.06" y1="678.18" x2="1135.38" y2="678.18" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="G$1" pin="TX2+"/>
+</segment>
+</net>
+<net name="TERM_B" class="0">
+<segment>
+<wire x1="868.68" y1="383.54" x2="843.28" y2="383.54" width="0.1524" layer="91"/>
+<label x="861.06" y="383.54" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

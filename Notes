@@ -1,17 +1,38 @@
 
-
-
- - 6 Stepper drivers
+Main selling points. 
+ - $99 MRSP for entry level 4 driver (or TMC2208) version.
+ - 12-24 V input, limited by step down converters. 
+ - 4 - 6 Stepper TMC2130 drivers
  - 4 thermistor inputs
- - 3 thermocouple inputs
- - 
+ - 4 thermocouple inputs
+ - 4 USB connectors. 
+ - 4 USR leds, perhaps one for Redeem heartbeat. 
+ - CE and FCC markings.
+ - Direct connection PRU on step pins, perhaps also on dir and endstops. 
+ - 48MByte/sec eMMC booting. Focus on fast boot-up. 
 
- - USR leds, do they need a transistor?
- - Perhaps higher power step down converter? 
+
+Design goals:
+ - Sub 1 minute boot time to OctoPrint. 
+ - USB Live-image distro. 
+ - Power out detection. 
+ - STEP/DIR direct control to PRU. 
+ - Stepper Vin up to 46V? 
+ - Heater/board Vin up to 24V? 
+
+Involved parties: 
+ - BB.org: Official stamp, community, lower prices. 
+ - Aleph Objects: B2B customer, software support. 
+ - OSH park: PCB prototypes and early PR. 
+ - Seeed Studio: PCB+PCBA, component sourcing, Re-seller, shipping. 
+ - Crowd Supply: Crowd funding, pre-order, pre-launch. 
+ - Ultimachine: Component sourcing, PCBA, distribution. 
 
 TODO: 
- - Everything
- - 4 or 6 layer
+ + Switch to AM335x-SM
+ - Switch to TMC2130
+ - Add CGND for ESD shielding
+ - 4 layer
  - Switch step down and USB hub to TI components.
  - Connect VDDCR
  - Over voltage protection on USB
@@ -22,4 +43,31 @@ TODO:
 
 TO_VERIFY: 
  - USB self powered. OK to tie high to USB_DC?
+ - Two boot modes, USB for flashing and running, EMMC for running. USB device for initial setup. 
+ - USR leds, do they need a transistor? A: No. 
+ - Perhaps higher power step down converter? A: Use TPS54202 - 2A.
+ - Put 
+ - Use Peripheral PLL for RTC? 
+ - What is the 125MHz limitation on the HDMI? 
+    The TDA19988 handles up to 150MHz, 
+    The LCDC looks like it can have a pixel clock up to 200 MHz. 
+
+SAVE_COST:
+ - Remove microSD slot. Flash/boot from USB instead. 
+ - Remove Serial to parallel converters. 
+ - Remove RTC crystal? 
+ - 4 stepper version. 
+ - Source Electrolytic Capacitors from China. 
+ - Use built in PWM_SS, remove PWM-chip. 
+ - Consider lower cost connectors from China. 
+ - Surface mount components wherever possible. (USB connector,.. )
+ - Single side assembly. 
+ - 4 layer 6 mil track/gap PCB
+ - Switch to 25MHz Crystal on SIP, can also be used for Ethernet? 
+
+
+
+Notes: 
+ - pr1_pru0_pru_r30[15:0] O PRU0 Register R30 Outputs
+
 

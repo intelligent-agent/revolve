@@ -10,6 +10,7 @@ Main selling points.
  - CE and FCC markings.
  - Direct connection PRU on step pins, perhaps also on dir and endstops. 
  - 48MByte/sec eMMC booting. Focus on fast boot-up. 
+ - Spread spectrum PWM for cost reduced FCC/CE pass. 
 
 
 Design goals:
@@ -60,11 +61,13 @@ SAVE_COST:
  - Source Electrolytic Capacitors from China. 
  - Use built in PWM_SS, remove PWM-chip. 
  - Consider lower cost connectors from China. 
+    Molex compatible 5.08 
+    
  - Surface mount components wherever possible. (USB connector,.. )
  - Single side assembly. 
  - 4 layer 6 mil track/gap PCB
  - Switch to 25MHz Crystal on SIP, can also be used for Ethernet? 
-
+    ABLS-25.000MHZ-B4-F-T
 
 
 Notes: 

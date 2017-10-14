@@ -1,8 +1,8 @@
 
 Main selling points. 
- - $99 MRSP for entry level 4 driver (or TMC2208) version.
- - 12-24 V input, limited by step down converters. 
- - 4 - 6 Stepper TMC2130 drivers
+ - $99 MRSP
+ - 12-24 V input
+ - 6 Stepper TMC2130 drivers
  - 4 thermistor inputs
  - 4 thermocouple inputs
  - 4 USB connectors. 
@@ -11,7 +11,6 @@ Main selling points.
  - Direct connection PRU on step pins, perhaps also on dir and endstops. 
  - 48MByte/sec eMMC booting. Focus on fast boot-up. 
  - Spread spectrum PWM for cost reduced FCC/CE pass. 
-
 
 Design goals:
  - Sub 1 minute boot time to OctoPrint. 
@@ -28,41 +27,55 @@ Involved parties:
  - Seeed Studio: PCB+PCBA, component sourcing, Re-seller, shipping. 
  - Crowd Supply: Crowd funding, pre-order, pre-launch. 
  - Ultimachine: Component sourcing, PCBA, distribution. 
+ - Michael Welling: Board review
 
 TODO: 
  + Switch to AM335x-SM
- - Switch to TMC2130
- - Add CGND for ESD shielding
- - 4 layer
- - Switch step down and USB hub to TI components.
+ + Switch to TMC2130
+ - Power out detection. 
+ + Add CGND for ESD shielding
+ + 4 layer
+ + Switch step down and USB hub to TI components.
  - Connect VDDCR
- - Over voltage protection on USB
+ - Over voltage protection on USB? A: No...
  - Support for Thermistor and Thermocouple
- - MCASP0_AXR1
-
-
+ + Calculate voltage divider for step down
+ - Check trace lengths on eMMCS?
+ - Check if necessary to use buffer on heaters and fans!
+ - Get pricing on 16 bit buffer from Jason
+ - Check pricing with Jason on CSD17577Q3A. Also check if gate buffer is necessary. 
+ - Smaller footprint crystal 25MHz
+    - Add to BOM. 
+ - Add TPD3S044 for ganged over current. 
+ - Move LAN chip to reduce trace lenghts? 
+ - Find out if RTC is possible using battery. 
+ - Check bootmode. 
+ - Add external driver footprints. 
+ - Add 22R resistors to USB
+ - Check Current measurment resistors on TMC2130
+ - Change ESD to TPD12S016
 
 TO_VERIFY: 
  - USB self powered. OK to tie high to USB_DC?
  - Two boot modes, USB for flashing and running, EMMC for running. USB device for initial setup. 
- - USR leds, do they need a transistor? A: No. 
- - Perhaps higher power step down converter? A: Use TPS54202 - 2A.
- - Put 
+ + USR leds, do they need a transistor? A: No. 
+ + Perhaps higher power step down converter? A: Use TPS54202 - 2A.
  - Use Peripheral PLL for RTC? 
  - What is the 125MHz limitation on the HDMI? 
     The TDA19988 handles up to 150MHz, 
     The LCDC looks like it can have a pixel clock up to 200 MHz. 
+ - Can RESET on USB HUB be connected to reset on SIP?
+ - 
 
 SAVE_COST:
  - Remove microSD slot. Flash/boot from USB instead. 
  - Remove Serial to parallel converters. 
- - Remove RTC crystal? 
- - 4 stepper version. 
+ - Remove RTC crystal? No,need to put it back
+ - 4 stepper version?
  - Source Electrolytic Capacitors from China. 
  - Use built in PWM_SS, remove PWM-chip. 
  - Consider lower cost connectors from China. 
-    Molex compatible 5.08 
-    
+    Molex compatible 5.08   
  - Surface mount components wherever possible. (USB connector,.. )
  - Single side assembly. 
  - 4 layer 6 mil track/gap PCB
@@ -72,5 +85,22 @@ SAVE_COST:
 
 Notes: 
  - pr1_pru0_pru_r30[15:0] O PRU0 Register R30 Outputs
+ - Removing MMC0 allows PRU direct outputs to step/dir
+ - Choosing Z1 and Z2 endstop inputs as direct pru pins, for fast Z-probing. 
 
+**USB HUB**
+ - Choosing BUSPWR low to indicate self powered mode. 
+ - Choosing EXTMEM high to disable external EEPROM with name. 
+ - Choosing EECLK floating since extmem is disabled. 
+ - Choosing Ganged power mode to save Bom cost. 
+ - 
+ - Choosing one two 0.5A and two 1A USB hosts for high power applications like Manga Screen 2
+ - Choosing a DNI resistor connected with CLKOUT2 to experiment with eliminating the 6MHz crystal on the USB hub. 
+ - Choosing a DNI resistor on TST mode to experiment with 48MHz clock from SIP
+
+ - Typical $2 wifi dongle consumes 70 mA
+ - Typical USB thumb drive consumes 110 mA
+ - Max Manga Screen consumption is 700 mA
+ - Typical Webcam cunsumes 50 mA
+ - 1A is pushing it. 1.5A seems ideal. 
 

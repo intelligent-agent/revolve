@@ -32,28 +32,36 @@ Involved parties:
 TODO: 
  + Switch to AM335x-SM
  + Switch to TMC2130
- - Power out detection. 
+ + Power out detection. 
  + Add CGND for ESD shielding
  + 4 layer
  + Switch step down and USB hub to TI components.
- - Connect VDDCR
- - Over voltage protection on USB? A: No...
- - Support for Thermistor and Thermocouple
+ + Connect VDDCR
+ + Over current protection on USB? A: No...
+ + Support for Thermistor and Thermocouple
  + Calculate voltage divider for step down
  - Check trace lengths on eMMCS?
- - Check if necessary to use buffer on heaters and fans!
- - Get pricing on 16 bit buffer from Jason
+ + Check if necessary to use buffer on heaters and fans!
  - Check pricing with Jason on CSD17577Q3A. Also check if gate buffer is necessary. 
- - Smaller footprint crystal 25MHz
+ + Smaller footprint crystal 25MHz
     - Add to BOM. 
- - Add TPD3S044 for ganged over current. 
- - Move LAN chip to reduce trace lenghts? 
- - Find out if RTC is possible using battery. 
- - Check bootmode. 
+ + Add TPS2061 for ganged over current. 
+ + Move LAN chip to reduce trace lenghts? 
+ + Find out if RTC is possible using battery. A: Dropping RTC.
+ - Check bootmode!
  - Add external driver footprints. 
  - Add 22R resistors to USB
  - Check Current measurment resistors on TMC2130
- - Change ESD to TPD12S016
+ + Change ESD to TPD4S012
+ - 
+
+
+
+EMI considerations:
+===================
+ - Consider 1.8V on MII and LCDC signals. 
+ - What is the effect of removing caps on LCDC signals? 
+ - 
 
 TO_VERIFY: 
  - USB self powered. OK to tie high to USB_DC?
@@ -103,4 +111,8 @@ Notes:
  - Max Manga Screen consumption is 700 mA
  - Typical Webcam cunsumes 50 mA
  - 1A is pushing it. 1.5A seems ideal. 
+
+ - TUSB2046 has +/-4K ESD suppression, no additional ESD required? 
+
+
 

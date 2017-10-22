@@ -49,11 +49,13 @@ TODO:
  + Move LAN chip to reduce trace lenghts? 
  + Find out if RTC is possible using battery. A: Dropping RTC.
  - Check bootmode!
- - Add external driver footprints. 
+ + Add external driver footprints. 
  - Add 22R resistors to USB
  - Check Current measurment resistors on TMC2130
  + Change ESD to TPD4S012
- - 
+ + Add Grove connectors
+ + Add temp sensor
+
 
 
 

@@ -64,21 +64,22 @@ EMI considerations:
 ===================
  - Consider 1.8V on MII and LCDC signals. 
  - What is the effect of removing caps on LCDC signals? 
- - 
+ - TVS diodes on USB needs vias for routing. Is this critical? 
+
 
 TO_VERIFY: 
  - USB self powered. OK to tie high to USB_DC?
- - Two boot modes, USB for flashing and running, EMMC for running. USB device for initial setup. 
+ + Two boot modes, USB for flashing and running, EMMC for running. USB device for initial setup. 
  + USR leds, do they need a transistor? A: No. 
  + Perhaps higher power step down converter? A: Use TPS54202 - 2A.
  + Use Peripheral PLL for RTC? A: Yes, according to Micheal Welling
  - What is the 125MHz limitation on the HDMI? 
     The TDA19988 handles up to 150MHz, 
     The LCDC looks like it can have a pixel clock up to 200 MHz. 
- - Can RESET on USB HUB be connected to reset on SIP? A: Yes. 
+ + Can RESET on USB HUB be connected to reset on SIP? A: Yes. 
  - Analog layout.
  - OK to leave don't care SYSBOOT pins unconnected?     
-
+ - 
 
 SAVE_COST:
  - Remove microSD slot. Flash/boot from USB instead. 

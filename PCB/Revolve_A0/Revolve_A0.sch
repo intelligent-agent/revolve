@@ -18854,12 +18854,6 @@ by exp-lbrs.ulp</description>
 <package name="LPJ0011BBNL">
 <hole x="-5.715" y="0" drill="3.2"/>
 <hole x="5.715" y="0" drill="3.2"/>
-<hole x="-3.785" y="-3.38" drill="1.02"/>
-<hole x="6.325" y="-3.38" drill="1.02"/>
-<hole x="-6.325" y="-4.9" drill="1.02"/>
-<hole x="3.785" y="-4.9" drill="1.02"/>
-<hole x="-7.875" y="3.05" drill="1.7"/>
-<hole x="7.875" y="3.05" drill="1.7"/>
 <pad name="1" x="-3.81" y="7.62" drill="0.9"/>
 <pad name="2" x="-2.54" y="10.16" drill="0.9"/>
 <pad name="3" x="-1.27" y="7.62" drill="0.9"/>
@@ -22540,14 +22534,14 @@ W = angled&lt;p&gt;
 <wire x1="2.54" y1="-1.905" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
 <wire x1="4.445" y1="-2.54" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
 <wire x1="5.08" y1="-1.905" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="1" x="-3.81" y="-1.27" drill="1.016"/>
 <pad name="3" x="-1.27" y="-1.27" drill="1.016" shape="octagon"/>
 <pad name="5" x="1.27" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="7" x="3.81" y="-1.27" drill="1.016"/>
+<pad name="7" x="3.81" y="-1.27" drill="1.016" shape="octagon"/>
 <pad name="2" x="-3.81" y="1.27" drill="1.016" shape="octagon"/>
 <pad name="4" x="-1.27" y="1.27" drill="1.016" shape="octagon"/>
 <pad name="6" x="1.27" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="8" x="3.81" y="1.27" drill="1.016"/>
+<pad name="8" x="3.81" y="1.27" drill="1.016" shape="octagon"/>
 <text x="-4.318" y="-4.191" size="1.27" layer="21" ratio="10">1</text>
 <text x="-5.08" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>

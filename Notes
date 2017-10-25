@@ -11,6 +11,7 @@ Main selling points.
  - Direct connection PRU on step pins, perhaps also on dir and endstops. 
  - 48MByte/sec eMMC booting. Focus on fast boot-up. 
  - Spread spectrum PWM for cost reduced FCC/CE pass. 
+ - 4 layer 0.15 mm track/gap
 
 Design goals:
  - Sub 1 minute boot time to OctoPrint. 
@@ -38,26 +39,26 @@ TODO:
  + Switch step down and USB hub to TI components.
  + Connect VDDCR
  + Over current protection on USB? A: No...
- + Support for Thermistor and Thermocouple
+ + Support for Thermistor and Thermocouple:
  + Calculate voltage divider for step down
- - Check trace lengths on eMMCS?
+ + Check trace lengths on eMMCS? A: Not relevant
  + Check if necessary to use buffer on heaters and fans!
  - Check pricing with Jason on CSD17577Q3A. Also check if gate buffer is necessary. 
  + Smaller footprint crystal 25MHz
-    - Add to BOM. 
+    + Add to BOM. 
  + Add TPS2061 for ganged over current. 
  + Move LAN chip to reduce trace lenghts? 
  + Find out if RTC is possible using battery. A: Dropping RTC.
- - Check bootmode!
+ + Check bootmode!
  + Add external driver footprints. 
  - Add 22R resistors to USB
- - Check Current measurment resistors on TMC2130
+ + Check Current measurment resistors on TMC2130
  + Change ESD to TPD4S012
  + Add Grove connectors
  + Add temp sensor
-
-
-
+ - Verify that PMOS can be decoupled. 
+ - Using CMOS, verify with simulation/meassurment.
+ - Check which circuits are running thorugh SYS_5V, for USB.
 
 EMI considerations:
 ===================
@@ -70,12 +71,14 @@ TO_VERIFY:
  - Two boot modes, USB for flashing and running, EMMC for running. USB device for initial setup. 
  + USR leds, do they need a transistor? A: No. 
  + Perhaps higher power step down converter? A: Use TPS54202 - 2A.
- - Use Peripheral PLL for RTC? 
+ + Use Peripheral PLL for RTC? A: Yes, according to Micheal Welling
  - What is the 125MHz limitation on the HDMI? 
     The TDA19988 handles up to 150MHz, 
     The LCDC looks like it can have a pixel clock up to 200 MHz. 
- - Can RESET on USB HUB be connected to reset on SIP?
- - 
+ - Can RESET on USB HUB be connected to reset on SIP? A: Yes. 
+ - Analog layout.
+ - OK to leave don't care SYSBOOT pins unconnected?     
+
 
 SAVE_COST:
  - Remove microSD slot. Flash/boot from USB instead. 

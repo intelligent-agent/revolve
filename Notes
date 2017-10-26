@@ -1,34 +1,24 @@
 
 Main selling points. 
- - $99 MRSP
- - 12-24 V input
+ - 1 GHz ARM Cortex A8 CPU, Two PRUs, one Cortex M3
  - 6 Stepper TMC2130 drivers
+ - 4 high power heater outputs 
  - 4 thermistor inputs
  - 4 thermocouple inputs
- - 4 USB connectors. 
+ - 4 USB host connectors 
  - 4 USR leds, perhaps one for Redeem heartbeat. 
- - CE and FCC markings.
- - Direct connection PRU on step pins, perhaps also on dir and endstops. 
- - 48MByte/sec eMMC booting. Focus on fast boot-up. 
- - Spread spectrum PWM for cost reduced FCC/CE pass. 
+ - 4 Fan outputs
+ - 10/100 Ethernet
+ - 1080p HDMI output
+ - Direct connection PRU on step pins
+ - 12-24 V input
+ - 4 GB, 48MByte/sec eMMC booting.
  - 4 layer 0.15 mm track/gap
-
-Design goals:
- - Sub 1 minute boot time to OctoPrint. 
- - USB Live-image distro. 
- - Power out detection. 
- - STEP/DIR direct control to PRU. 
- - Stepper Vin up to 46V? 
- - Heater/board Vin up to 24V? 
-
-Involved parties: 
- - BB.org: Official stamp, community, lower prices. 
- - Aleph Objects: B2B customer, software support. 
- - OSH park: PCB prototypes and early PR. 
- - Seeed Studio: PCB+PCBA, component sourcing, Re-seller, shipping. 
- - Crowd Supply: Crowd funding, pre-order, pre-launch. 
- - Ultimachine: Component sourcing, PCBA, distribution. 
- - Michael Welling: Board review
+ - Flexible PWM configurations on all MOSFETs
+ - CE and FCC markings
+ - Cost efficient, single board solution. 
+ - Programmable current limit with temperature sens.
+ - Open source hardware and software (CC BY-SA / GPL 3.0)
 
 TODO: 
  + Switch to AM335x-SM
@@ -79,22 +69,18 @@ TO_VERIFY:
  + Can RESET on USB HUB be connected to reset on SIP? A: Yes. 
  - Analog layout.
  - OK to leave don't care SYSBOOT pins unconnected?     
+ + TUSB2046 has +/-4K ESD suppression, no additional ESD required? A: Yes. 
 
 SAVE_COST:
  - Remove microSD slot. Flash/boot from USB instead. 
  - Remove Serial to parallel converters. 
- - Remove RTC crystal? No,need to put it back
- - 4 stepper version?
- - Source Electrolytic Capacitors from China. 
+ - Remove RTC crystal
+ - 4 stepper version? A: No, only 6.
  - Use built in PWM_SS, remove PWM-chip. 
- - Consider lower cost connectors from China. 
-    Molex compatible 5.08   
  - Surface mount components wherever possible. (USB connector,.. )
  - Single side assembly. 
  - 4 layer 6 mil track/gap PCB
  - Switch to 25MHz Crystal on SIP, can also be used for Ethernet? 
-    ABLS-25.000MHZ-B4-F-T
-
 
 Notes: 
  - pr1_pru0_pru_r30[15:0] O PRU0 Register R30 Outputs
@@ -116,8 +102,6 @@ Notes:
  - Max Manga Screen consumption is 700 mA
  - Typical Webcam cunsumes 50 mA
  - 1A is pushing it. 1.5A seems ideal. 
-
- - TUSB2046 has +/-4K ESD suppression, no additional ESD required? 
 
 
 

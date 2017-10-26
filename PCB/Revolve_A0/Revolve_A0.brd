@@ -33,7 +33,7 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -6871,7 +6871,6 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U$7" library="Revolve" package="SOT804-4" value="TDA19988BHN/C1,557" x="52.1" y="41.09" smashed="yes">
 <attribute name="SPN" value="568-12059-ND" x="52.1" y="41.09" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="TDA19988BHN/C1,518" x="52.1" y="41.09" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="48.95" y="46.84" size="1.27" layer="26"/>
 <attribute name="VALUE" x="46.85" y="34.09" size="1.27" layer="27"/>
 </element>
 <element name="U1" library="Octavo-Systems" package="OSD335X-BGA-256" value="OSD3358-512M-BSM" x="40.91" y="63.58" smashed="yes">
@@ -15326,7 +15325,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C27" pad="1"/>
 <wire x1="87" y1="39.25" x2="86.15" y2="39.25" width="0.3" layer="1"/>
 </signal>
-<signal name="CLKOUT2_48MHZ">
+<signal name="UNUSED_1">
 <contactref element="U1" pad="B4"/>
 </signal>
 <signal name="END_STOP_Y1">

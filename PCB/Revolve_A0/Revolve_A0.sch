@@ -35321,7 +35321,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="746.76" y="99.06" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CLKOUT2_48MHZ" class="0">
+<net name="UNUSED_1" class="0">
 <segment>
 <pinref part="U1" gate="C" pin="XDMA_EVENT_INTR1"/>
 <wire x1="640.08" y1="632.46" x2="627.38" y2="632.46" width="0.1524" layer="91"/>

@@ -30,11 +30,11 @@ _/    _/    _/_/_/      _/        _/_/    _/      _/        _/_/_/
 - Inductive sensor input
 - Two Grove connectors, I2C and UART
 
-![Revolve_A0.png](attachment:Docs/images/Revolve_A0.png)
+![Revolve_A0.png](https://bytebucket.org/intelligentagent/revolve/raw/97b1a0cad75ce536b2f8b18876a0b33b466d837e/Docs/images/Revolve_A0.png?token=e280c8951e9c163e0fad308786b3b8ad8ad6f3af)
 
 ## Power management
 Here is an overview of the power distribution
-![Revolve%20power%20diagram.svg](attachment:Docs/images/Revolve_power_diagram.svg)
+![Revolve%20power%20diagram.svg](https://bytebucket.org/intelligentagent/revolve/raw/97b1a0cad75ce536b2f8b18876a0b33b466d837e/Docs/images/Revolve_power_diagram.svg?token=ce2d3e246ebac86e53b8beaab79c23dab550cdee)
 
 ## Contact
  - Licence: CC BY-SA, you can copy and use this, but you must keep the licence and give credit to the original author. 

@@ -43,7 +43,7 @@ TODO:
  + Calculate voltage divider for step down
  + Check trace lengths on eMMCS? A: Not relevant
  + Check if necessary to use buffer on heaters and fans!
- - Check pricing with Jason on CSD17577Q3A. Also check if gate buffer is necessary. 
+ + Check pricing with Jason on CSD17577Q3A. Also check if gate buffer is necessary. A: No buffer. 
  + Smaller footprint crystal 25MHz
     + Add to BOM. 
  + Add TPS2061 for ganged over current. 
@@ -58,7 +58,7 @@ TODO:
  + Add temp sensor
  - Verify that PMOS can be decoupled. 
  - Using CMOS, verify with simulation/meassurment.
- - Check which circuits are running thorugh SYS_5V, for USB.
+ + Check which circuits are running thorugh SYS_5V, for USB.
 
 EMI considerations:
 ===================
@@ -79,7 +79,6 @@ TO_VERIFY:
  + Can RESET on USB HUB be connected to reset on SIP? A: Yes. 
  - Analog layout.
  - OK to leave don't care SYSBOOT pins unconnected?     
- - 
 
 SAVE_COST:
  - Remove microSD slot. Flash/boot from USB instead. 

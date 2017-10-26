@@ -27194,10 +27194,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="P+7" library="supply1" deviceset="+24V" device=""/>
 <part name="P+8" library="supply1" deviceset="+24V" device=""/>
 <part name="P+9" library="supply1" deviceset="+24V" device=""/>
-<part name="P+10" library="supply1" deviceset="+5V" device=""/>
-<part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
-<part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V29" library="supply1" deviceset="+3V3" device=""/>
 <part name="C107" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
@@ -27232,8 +27229,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="Y4" library="Revolve" deviceset="445C33D24M00000" device="3.2X2.5" value="6 MHz">
 <attribute name="MPN" value="NX8045GB-6MHZ-STD-CSF-3"/>
 </part>
-<part name="P+16" library="supply1" deviceset="+5V" device=""/>
-<part name="P+18" library="supply1" deviceset="+5V" device=""/>
 <part name="L2" library="rcl" deviceset="L-US" device="L2012C" value="150OHM,800mA">
 <attribute name="MPN" value="MU2029-151Y"/>
 </part>
@@ -27263,8 +27258,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="R149" library="rcl" deviceset="R-EU_" device="R0805" value="0.1R">
 <attribute name="MPN" value="RL1220S-R10-F"/>
 </part>
-<part name="SYS_5V" library="testpad" deviceset="TP" device="B1,27" value="TPB1,27"/>
-<part name="SYS_VDD1_3V3" library="testpad" deviceset="TP" device="B1,27" value="TPB1,27"/>
+<part name="SYS_5V" library="testpad" deviceset="TP" device="TP06R" value="TPTP06R"/>
+<part name="SYS_VDD1_3V3" library="testpad" deviceset="TP" device="TP06R" value="TPTP06R"/>
 <part name="SYS_VDD2_3V3" library="testpad" deviceset="TP" device="B1,27" value="TPB1,27"/>
 <part name="SYS_VDD3_3V3" library="testpad" deviceset="TP" device="B1,27" value="TPB1,27"/>
 <part name="SYS_RTC_1V8" library="testpad" deviceset="TP" device="B1,27" value="TPB1,27"/>
@@ -27322,11 +27317,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="MPN" value="RC0402FR-0710KL"/>
 </part>
 <part name="EEPROM_WP" library="testpad" deviceset="TP" device="B1,27" value="TPB1,27"/>
-<part name="VDDS_DDR" library="testpad" deviceset="TP" device="B1,27" value="TPB1,27"/>
-<part name="VDD_CODE" library="testpad" deviceset="TP" device="B1,27" value="TPB1,27"/>
+<part name="VDDS_DDR" library="testpad" deviceset="TP" device="TP06R" value="TPTP06R"/>
+<part name="VDD_CODE" library="testpad" deviceset="TP" device="TP06R" value="TPTP06R"/>
 <part name="VDD_MPU" library="testpad" deviceset="TP" device="TP06R" value="TPTP06R"/>
 <part name="VDDS_PLL" library="testpad" deviceset="TP" device="TP06R" value="TPTP06R"/>
-<part name="PMIC_NRESET" library="testpad" deviceset="TP" device="B1,27" value="TPB1,27"/>
+<part name="PMIC_NRESET" library="testpad" deviceset="TP" device="TP06R" value="TPTP06R"/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="U$8" library="Manga_screen_rev_B-3" deviceset="USB-MICRO" device="">
 <attribute name="MPN" value="10118193-0001LF"/>
@@ -27644,6 +27639,10 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="S1" library="Manga_custom" deviceset="KRM_TACT_SWITCH" device="">
 <attribute name="MPN" value="KMR241G ULC LFS"/>
 </part>
+<part name="C27" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
+<attribute name="MPN" value="CL10B104KB8NNND"/>
+</part>
+<part name="GND174" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -28794,10 +28793,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="P+7" gate="1" x="934.72" y="360.68"/>
 <instance part="P+8" gate="1" x="1000.76" y="360.68"/>
 <instance part="P+9" gate="1" x="1069.34" y="358.14"/>
-<instance part="P+10" gate="1" x="947.42" y="741.68"/>
-<instance part="P+11" gate="1" x="1018.54" y="767.08"/>
 <instance part="P+12" gate="1" x="551.18" y="160.02"/>
-<instance part="P+13" gate="1" x="1145.54" y="769.62"/>
 <instance part="+3V29" gate="G$1" x="490.22" y="396.24"/>
 <instance part="C107" gate="G$1" x="541.02" y="685.8" smashed="yes">
 <attribute name="NAME" x="539.496" y="687.959" size="1.778" layer="95" rot="R180"/>
@@ -28843,8 +28839,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="Y4" gate="G$1" x="502.92" y="993.14">
 <attribute name="MPN" x="502.92" y="993.14" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="P+16" gate="1" x="1023.62" y="220.98"/>
-<instance part="P+18" gate="1" x="1104.9" y="736.6"/>
 <instance part="L2" gate="G$1" x="927.1" y="1005.84" rot="R90">
 <attribute name="MPN" x="927.1" y="1005.84" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -29279,6 +29273,10 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="S1" gate="G$1" x="525.78" y="309.88">
 <attribute name="MPN" x="525.78" y="309.88" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="C27" gate="G$1" x="276.86" y="944.88" rot="MR0">
+<attribute name="MPN" x="276.86" y="944.88" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
+<instance part="GND174" gate="1" x="276.86" y="937.26"/>
 </instances>
 <busses>
 <bus name="LCD_D[0..15],LCD_VSYNC,LCD_HSYNC,LCD_DE,LCD_PCLK">
@@ -30815,6 +30813,10 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="SV1" gate="1" pin="1"/>
 <pinref part="GND173" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C27" gate="G$1" pin="2"/>
+<pinref part="GND174" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="N$114" class="0">
 <segment>
@@ -32006,7 +32008,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="924.56" y1="718.82" x2="947.42" y2="718.82" width="0.1524" layer="91"/>
 <pinref part="X13" gate="-3" pin="S"/>
 <wire x1="970.28" y1="718.82" x2="993.14" y2="718.82" width="0.1524" layer="91"/>
-<pinref part="P+10" gate="1" pin="+5V"/>
+<label x="947.42" y="739.14" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC6" gate="P" pin="VCC"/>
@@ -32016,7 +32018,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="1010.92" y1="759.46" x2="1018.54" y2="759.46" width="0.1524" layer="91"/>
 <wire x1="1018.54" y1="759.46" x2="1018.54" y2="764.54" width="0.1524" layer="91"/>
 <junction x="1018.54" y="759.46"/>
-<pinref part="P+11" gate="1" pin="+5V"/>
+<label x="1018.54" y="764.54" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC7" gate="P" pin="VCC"/>
@@ -32026,7 +32028,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="1137.92" y1="754.38" x2="1137.92" y2="762" width="0.1524" layer="91"/>
 <wire x1="1137.92" y1="762" x2="1145.54" y2="762" width="0.1524" layer="91"/>
 <junction x="1145.54" y="762"/>
-<pinref part="P+13" gate="1" pin="+5V"/>
+<label x="1145.54" y="767.08" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="1104.9" y1="731.52" x2="1104.9" y2="734.06" width="0.1524" layer="91"/>
@@ -32042,7 +32044,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="1084.58" y1="718.82" x2="1104.9" y2="718.82" width="0.1524" layer="91"/>
 <pinref part="X12" gate="-3" pin="S"/>
 <wire x1="1127.76" y1="718.82" x2="1153.16" y2="718.82" width="0.1524" layer="91"/>
-<pinref part="P+18" gate="1" pin="+5V"/>
+<label x="1104.9" y="734.06" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R66" gate="G$1" pin="2"/>
@@ -32068,7 +32070,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="1054.1" y="213.36"/>
 <wire x1="1023.62" y1="213.36" x2="1023.62" y2="218.44" width="0.1524" layer="91"/>
 <junction x="1023.62" y="213.36"/>
-<pinref part="P+16" gate="1" pin="+5V"/>
+<label x="1023.62" y="218.44" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$18" gate="G$1" pin="VCC5V"/>
@@ -35299,6 +35301,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="276.86" y1="949.96" x2="276.86" y2="947.42" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="947.42" x2="284.48" y2="947.42" width="0.1524" layer="91"/>
 <junction x="284.48" y="947.42"/>
+<pinref part="C27" gate="G$1" pin="1"/>
+<junction x="276.86" y="947.42"/>
 </segment>
 <segment>
 <pinref part="U13" gate="A" pin="V+"/>

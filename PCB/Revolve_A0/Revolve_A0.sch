@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
@@ -21690,7 +21690,7 @@ at 30/07/2012 17:45:58</description>
 <wire x1="2.5654" y1="2.5654" x2="2.2352" y2="2.5654" width="0.1524" layer="21"/>
 <wire x1="-2.5654" y1="2.5654" x2="-2.5654" y2="2.2352" width="0.1524" layer="21"/>
 <wire x1="-2.5654" y1="-2.2352" x2="-2.5654" y2="-2.5654" width="0.1524" layer="21"/>
-<text x="-4.0894" y="1.7526" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-3.3894" y="1.3526" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <wire x1="-2.5654" y1="1.2954" x2="-1.2954" y2="2.5654" width="0" layer="51"/>
 <wire x1="1.905" y1="2.5654" x2="1.6002" y2="2.5654" width="0" layer="51"/>
 <wire x1="1.397" y1="2.5654" x2="1.0922" y2="2.5654" width="0" layer="51"/>
@@ -21728,7 +21728,7 @@ at 30/07/2012 17:45:58</description>
 <wire x1="2.5654" y1="-2.5654" x2="2.5654" y2="2.5654" width="0" layer="51"/>
 <wire x1="2.5654" y1="2.5654" x2="-2.5654" y2="2.5654" width="0" layer="51"/>
 <wire x1="-2.5654" y1="2.5654" x2="-2.5654" y2="-2.5654" width="0" layer="51"/>
-<text x="-4.0894" y="1.7526" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<text x="-3.3894" y="1.3526" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <text x="-3.4544" y="5.08" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="-6.985" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>

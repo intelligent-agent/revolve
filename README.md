@@ -30,16 +30,12 @@ _/    _/    _/_/_/      _/        _/_/    _/      _/        _/_/_/
 - Inductive sensor input
 - Two Grove connectors, I2C and UART
 
-![Revolve_A0.png](https://bytebucket.org/intelligentagent/revolve/raw/97b1a0cad75ce536b2f8b18876a0b33b466d837e/Docs/images/Revolve_A0.png?token=e280c8951e9c163e0fad308786b3b8ad8ad6f3af)
+
+![Revolve_A0.png](attachment:Revolve_A0.png)
 
 ## Power management
 Here is an overview of the power distribution
-![Revolve%20power%20diagram.svg](https://bytebucket.org/intelligentagent/revolve/raw/97b1a0cad75ce536b2f8b18876a0b33b466d837e/Docs/images/Revolve_power_diagram.svg?token=ce2d3e246ebac86e53b8beaab79c23dab550cdee)
-
-## Contact
- - Licence: CC BY-SA, you can copy and use this, but you must keep the licence and give credit to the original author. 
- - Design by: Elias Bakken, elias at iagent dot no
- - Board review: 
+![Revolve%20power%20diagram.svg](attachment:Revolve%20power%20diagram.svg)
 
 ## 5V step down TPS54202 calculations
 
@@ -321,4 +317,84 @@ Two Boot modes: MMC1 or USB device
  
  To boot from USB: 
  - SYSBOOT[4:0] = 11000b = SPI0, MMCO0, USB0, UART0
+
+
+
+```python
+Imax = 1.5 # Maximum output current on all 4 USB ports
+Rmeas = 0.01 # Current measurement resistor on low side. 
+RDSon = 0.065 #P-mos RDSon
+Vin = 5.1
+Vdrop = Vin - (Rmeas + RDSon)*Imax
+print "Voltage drop across R: {}".format(Rmeas*Imax)
+print "Resulting voltage to USB: {}".format(Vdrop)
+```
+
+    Voltage drop across R: 0.015
+    Resulting voltage to USB: 4.9875
+
+
+
+```python
+Imax = 1.5 # Maximum output current on all 4 USB ports
+Rmeas = 0.01 # Current measurement resistor on low side. 
+RDSon = 0.065 #P-mos RDSon
+Vin = 5.1
+Vdrop = Vin - (Rmeas + RDSon)*Imax
+print "Voltage drop across R: {}".format(Rmeas*Imax)
+print "Resulting voltage to USB: {}".format(Vdrop)
+```
+
+    Voltage drop across R: 0.015
+    Resulting voltage to USB: 4.9875
+
+
+### Review 
+ - Changed vias to tented
+ - Moved pin 1 indicator on U2 
+ - Moved all test points to top side
+ - 
+ 
+
+
+```python
+from IPython.display import display, Markdown, Latex
+```
+
+## Calculation of power dissipation of P-MOS
+* $R_{ds(on)max} = 45 m\Omega$ @ $-10 V$
+* Thermal Resistance, Junction to Ambient @ $TA=+25 ^{\circ}C$ is $R_{\theta JA}=26 ^{\circ}C/W$
+
+
+```python
+Von=6
+Ta=25
+Imax=30
+#Imax=2
+Rdson=0.0045
+TR=26
+
+# P=I^2*R
+P=Imax*Imax*Rdson
+
+Trise=TR*P
+T=Ta+Trise
+
+display(Markdown("""
+$P={P:0.3f} W$\n
+$T_{{rise}} = {Trise} ^{{\circ}}C$\n
+$T = T_A + T_{{rise}} = {T:0.3f} ^{{\circ}}C$ when $I={I:.0f} A$
+
+""".format(P=P, Trise=Trise, T=T, I=Imax)))
+```
+
+
+
+$P=4.050 W$
+
+$T_{rise} = 105.3 ^{\circ}C$
+
+$T = T_A + T_{rise} = 130.300 ^{\circ}C$ when $I=30 A$
+
+
 

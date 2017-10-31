@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="11" fill="1" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="28" fill="9" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="11" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="28" fill="9" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -26251,6 +26251,87 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="zetex">
+<description>&lt;b&gt;Zetex Power MOS FETs, Bridges, Diodes&lt;/b&gt;&lt;p&gt;
+http://www.zetex.com&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SOT-23">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="-1.4224" y1="0.381" x2="1.4732" y2="0.381" width="0.1524" layer="21"/>
+<wire x1="1.4732" y1="0.381" x2="1.4732" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="1.4732" y1="-0.381" x2="-1.4224" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="-1.4224" y1="-0.381" x2="-1.4224" y2="0.381" width="0.1524" layer="21"/>
+<smd name="3" x="0.9906" y="1.016" dx="0.7874" dy="0.889" layer="1"/>
+<smd name="2" x="-0.9398" y="1.016" dx="0.7874" dy="0.889" layer="1"/>
+<smd name="1" x="0.0254" y="-1.016" dx="0.7874" dy="0.889" layer="1"/>
+<text x="-1.397" y="1.778" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.397" y="3.302" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<rectangle x1="0.7874" y1="0.4318" x2="1.1684" y2="0.9398" layer="51"/>
+<rectangle x1="-1.143" y1="0.4318" x2="-0.762" y2="0.9398" layer="51"/>
+<rectangle x1="-0.1778" y1="-0.9398" x2="0.2032" y2="-0.4318" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="N_MOSFET">
+<wire x1="-0.508" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-2.159" x2="0" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="-0.254" x2="1.397" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="-3.048" x2="0" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="2.159" x2="0" y2="2.159" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.159" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="3.048" x2="1.397" y2="3.048" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="3.048" x2="1.397" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.159" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<text x="2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<rectangle x1="-2.032" y1="1.397" x2="-1.524" y2="2.921" layer="94"/>
+<rectangle x1="-2.032" y1="-0.762" x2="-1.524" y2="0.762" layer="94"/>
+<rectangle x1="-2.032" y1="-2.921" x2="-1.524" y2="-1.397" layer="94"/>
+<rectangle x1="0.762" y1="0.762" x2="2.032" y2="0.889" layer="94"/>
+<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
+<polygon width="0.1016" layer="94">
+<vertex x="-1.524" y="0"/>
+<vertex x="-0.508" y="0.635"/>
+<vertex x="-0.508" y="-0.635"/>
+</polygon>
+<polygon width="0.1016" layer="94">
+<vertex x="1.397" y="0.762"/>
+<vertex x="2.032" y="-0.254"/>
+<vertex x="0.762" y="-0.254"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NMOSSOT23" prefix="T" uservalue="yes">
+<description>&lt;b&gt;MOS FET&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="N_MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23">
+<connects>
+<connect gate="A" pin="D" pad="1"/>
+<connect gate="A" pin="G" pad="3"/>
+<connect gate="A" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -26424,6 +26505,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="C61" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND59" library="supply1" deviceset="GND" device=""/>
 <part name="IC6" library="74xx-little-de" deviceset="74*1G126" device="DCK" technology="AHC">
@@ -26475,6 +26557,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="X15" library="con-molex" deviceset="22-?-04" device="05-7048">
@@ -26485,12 +26568,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </part>
 <part name="C23" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND49" library="supply1" deviceset="GND" device=""/>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
 <part name="C28" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND55" library="supply1" deviceset="GND" device=""/>
 <part name="GND90" library="supply1" deviceset="GND" device=""/>
@@ -26499,6 +26584,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </part>
 <part name="C35" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="FRAME6" library="frames" deviceset="A3L-LOC" device="" value="Stepper Motor Drivers"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C0402" value="22nF">
@@ -26513,6 +26599,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="X16" library="con-molex" deviceset="22-?-04" device="05-7048">
@@ -26527,12 +26614,15 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="C30" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="C32" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
+<attribute name="VID" value="490-6351-2-ND"/>
 </part>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
 <part name="C37" library="rcl" deviceset="C-EU" device="C0402" value="4.7uF">
@@ -26541,6 +26631,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND54" library="supply1" deviceset="GND" device=""/>
 <part name="C38" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="C39" library="rcl" deviceset="C-EU" device="C0402" value="22nF">
 <attribute name="MPN" value="C1005X7R1E223K050BB"/>
@@ -26554,6 +26645,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND60" library="supply1" deviceset="GND" device=""/>
 <part name="C40" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND77" library="supply1" deviceset="GND" device=""/>
 <part name="X17" library="con-molex" deviceset="22-?-04" device="05-7048">
@@ -26568,12 +26660,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="+3V17" library="supply1" deviceset="+3V3" device=""/>
 <part name="C63" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND84" library="supply1" deviceset="GND" device=""/>
 <part name="GND85" library="supply1" deviceset="GND" device=""/>
 <part name="GND86" library="supply1" deviceset="GND" device=""/>
 <part name="C64" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND92" library="supply1" deviceset="GND" device=""/>
 <part name="GND93" library="supply1" deviceset="GND" device=""/>
@@ -26583,6 +26677,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND94" library="supply1" deviceset="GND" device=""/>
 <part name="C66" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="FRAME5" library="frames" deviceset="A3L-LOC" device="" value="Stepper Motor Drivers"/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0402" value="22nF">
@@ -26597,6 +26692,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="X18" library="con-molex" deviceset="22-?-04" device="05-7048">
@@ -26611,12 +26707,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
 <part name="C44" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND51" library="supply1" deviceset="GND" device=""/>
 <part name="GND89" library="supply1" deviceset="GND" device=""/>
 <part name="GND95" library="supply1" deviceset="GND" device=""/>
 <part name="C67" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND96" library="supply1" deviceset="GND" device=""/>
 <part name="GND97" library="supply1" deviceset="GND" device=""/>
@@ -26626,9 +26724,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND98" library="supply1" deviceset="GND" device=""/>
 <part name="C69" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="C70" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND101" library="supply1" deviceset="GND" device=""/>
 <part name="R52" library="rcl" deviceset="R-EU_" device="R0402" value="2.2R">
@@ -26641,6 +26741,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </part>
 <part name="C72" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND112" library="supply1" deviceset="GND" device=""/>
 <part name="R70" library="rcl" deviceset="R-EU_" device="R0402" value="2.2R">
@@ -26648,11 +26749,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </part>
 <part name="C73" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND118" library="supply1" deviceset="GND" device=""/>
 <part name="+3V24" library="supply1" deviceset="+3V3" device=""/>
 <part name="C74" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="R71" library="rcl" deviceset="R-EU_" device="R0402" value="2.2R">
 <attribute name="MPN" value="RC0402FR-072R2L"/>
@@ -26729,25 +26832,31 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND114" library="supply1" deviceset="GND" device=""/>
 <part name="C82" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND129" library="supply1" deviceset="GND" device=""/>
 <part name="C83" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND130" library="supply1" deviceset="GND" device=""/>
 <part name="U$4" library="Replicape_B3" deviceset="CC-BY-SA" device=""/>
 <part name="+3V25" library="supply1" deviceset="+3V3" device=""/>
 <part name="C89" library="rcl" deviceset="C-EU" device="C0805" value="10uF">
 <attribute name="MPN" value="GMK325BJ106MN-T"/>
+<attribute name="PARTNO" value="C0805C106K8PACTU"/>
 </part>
 <part name="C91" library="rcl" deviceset="C-EU" device="C0805" value="10uF">
 <attribute name="MPN" value="GMK325BJ106MN-T"/>
+<attribute name="PARTNO" value="C0805C106K8PACTU"/>
 </part>
 <part name="C92" library="rcl" deviceset="C-EU" device="C0805" value="10uF">
 <attribute name="MPN" value="GMK325BJ106MN-T"/>
+<attribute name="PARTNO" value="C0805C106K8PACTU"/>
 </part>
 <part name="C93" library="rcl" deviceset="C-EU" device="C0805" value="10uF">
 <attribute name="MPN" value="GMK325BJ106MN-T"/>
+<attribute name="PARTNO" value="C0805C106K8PACTU"/>
 </part>
 <part name="C94" library="Panasonic-EEEFK_EEEFP" deviceset="C" device="" value="100uF,35V,0.025R">
 <attribute name="MPN" value="RHS1V101MCN1GS"/>
@@ -26776,6 +26885,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="HDMI" library="frames" deviceset="A3L-LOC" device="" value="Connectors"/>
 <part name="X24" library="hdmi" deviceset="HDMI" device="4">
 <attribute name="MPN" value="609-4614-2-ND"/>
+<attribute name="PARTNO" value="10029449-111RLF"/>
 </part>
 <part name="LED9" library="led" deviceset="LED" device="CHIP-LED0603" value="blue">
 <attribute name="MPN" value="19-217/BHC-ZL1M2RY/3T"/>
@@ -26830,6 +26940,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND53" library="supply1" deviceset="GND" device=""/>
 <part name="X25" library="con-molex" deviceset="22-?-04" device="05-7048">
@@ -26844,12 +26955,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="+3V26" library="supply1" deviceset="+3V3" device=""/>
 <part name="C53" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND62" library="supply1" deviceset="GND" device=""/>
 <part name="GND63" library="supply1" deviceset="GND" device=""/>
 <part name="GND65" library="supply1" deviceset="GND" device=""/>
 <part name="C54" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND66" library="supply1" deviceset="GND" device=""/>
 <part name="GND67" library="supply1" deviceset="GND" device=""/>
@@ -26858,9 +26971,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </part>
 <part name="C56" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="C60" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND72" library="supply1" deviceset="GND" device=""/>
 <part name="R72" library="rcl" deviceset="R-EU_" device="R0402" value="2.2R">
@@ -26873,6 +26988,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </part>
 <part name="C100" library="rcl" deviceset="C-EU" device="C0805" value="10uF">
 <attribute name="MPN" value="GMK325BJ106MN-T"/>
+<attribute name="PARTNO" value="C0805C106K8PACTU"/>
 </part>
 <part name="C101" library="Panasonic-EEEFK_EEEFP" deviceset="C" device="" value="100uF,35V,0.025R">
 <attribute name="MPN" value="RHS1V101MCN1GS"/>
@@ -26967,12 +27083,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND186" library="supply1" deviceset="GND" device=""/>
 <part name="C108" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="C109" library="rcl" deviceset="C-EU" device="C0402" value="2.2uF">
 <attribute name="MPN" value="GRM155R61A225KE95D"/>
 </part>
 <part name="C110" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="C111" library="rcl" deviceset="C-EU" device="C0402" value="2.2uF">
 <attribute name="MPN" value="GRM155R61A225KE95D"/>
@@ -26985,9 +27103,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </part>
 <part name="C114" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="C115" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND187" library="supply1" deviceset="GND" device=""/>
 <part name="S3" library="Manga_custom" deviceset="KRM_TACT_SWITCH" device="">
@@ -27090,9 +27210,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </part>
 <part name="C133" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="C134" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="C135" library="rcl" deviceset="C-EU" device="C0805" value="10uF,3.3V">
 <attribute name="MPN" value="C0805C106K8PACTU"/>
@@ -27104,7 +27226,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="MPN" value="CL05B471KB5NNNC"/>
 </part>
 <part name="C137" library="rcl" deviceset="C-EU" device="C0402" value="1uF">
-<attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="MPN" value="CL05A105MP5NNNC"/>
 </part>
 <part name="GND198" library="supply1" deviceset="GND" device=""/>
 <part name="GND199" library="supply1" deviceset="GND" device=""/>
@@ -27144,16 +27266,20 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </part>
 <part name="C138" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND201" library="supply1" deviceset="GND" device=""/>
 <part name="C140" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="C141" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="C142" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="C143" library="rcl" deviceset="C-EU" device="C0805" value="10uF,3.3V">
 <attribute name="MPN" value="C0805C106K8PACTU"/>
@@ -27182,6 +27308,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </part>
 <part name="C150" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND159" library="supply1" deviceset="GND" device=""/>
 <part name="+3V28" library="supply1" deviceset="+3V3" device=""/>
@@ -27198,15 +27325,18 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="+3V29" library="supply1" deviceset="+3V3" device=""/>
 <part name="C107" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="C151" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="R150" library="rcl" deviceset="R-EU_" device="R0402" value="1M">
 <attribute name="MPN" value="RC0402JR-071ML"/>
 </part>
 <part name="C155" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND163" library="supply1" deviceset="GND" device=""/>
 <part name="C156" library="rcl" deviceset="C-EU" device="C0402" value="18pF">
@@ -27268,21 +27398,25 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </part>
 <part name="C15" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="C41" library="rcl" deviceset="C-EU" device="C0805" value="10uF">
 <attribute name="MPN" value="GMK325BJ106MN-T"/>
+<attribute name="PARTNO" value="C0805C106K8PACTU"/>
 </part>
 <part name="C42" library="Panasonic-EEEFK_EEEFP" deviceset="C" device="" value="100uF,35V,0.025R">
 <attribute name="MPN" value="RHS1V101MCN1GS"/>
 </part>
 <part name="C84" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="C85" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="C86" library="rcl" deviceset="C-EU" device="C0402" value="4.7uF">
@@ -27294,6 +27428,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </part>
 <part name="C87" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="C88" library="rcl" deviceset="C-EU" device="C0402" value="22nF">
@@ -27301,6 +27436,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </part>
 <part name="C99" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="R138" library="rcl" deviceset="R-EU_" device="R0805" value="0.1R">
 <attribute name="MPN" value="RL1220S-R10-F"/>
@@ -27362,22 +27498,27 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="U2" library="Texas Instruments_By_element14_Batch_1" deviceset="TUSB2046BIRHBT" device=""/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0402" value="0R,DNI">
 <attribute name="MPN" value="RC0402JR-070RL"/>
+<attribute name="PARTNO" value="*"/>
 <attribute name="SPN" value="311-0.0JRCT-ND"/>
 </part>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="SV2" library="con-lstb" deviceset="MA04-2" device="" value="DNI"/>
 <part name="SV3" library="con-lstb" deviceset="MA04-2" device="" value="DNI"/>
 <part name="C12" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
@@ -27417,17 +27558,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="D5" library="diode" deviceset="MBRA340T3" device="">
 <attribute name="MPN" value="MBRA340T3G"/>
 </part>
-<part name="Q12" library="semicon-smd-ipc" deviceset="NPN-TRANSISTOR_" device="SOT23">
-<attribute name="MPN" value="AO7400"/>
-<attribute name="SPN" value="785-1084-1-ND"/>
-</part>
 <part name="R84" library="rcl" deviceset="R-EU_" device="R0402" value="100K,1%">
 <attribute name="MPN" value="RC0402FR-07100KL"/>
-<attribute name="SPN" value="311-100KLRCT-ND"/>
 </part>
-<part name="R86" library="rcl" deviceset="R-EU_" device="R0402" value="100K,1%">
-<attribute name="MPN" value="RC0402FR-07100KL"/>
-<attribute name="SPN" value="311-100KLRCT-ND"/>
+<part name="R86" library="rcl" deviceset="R-EU_" device="R0402" value="40.2K,1%">
+<attribute name="MPN" value="RC0402FR-0740K2L"/>
 </part>
 <part name="GND61" library="supply1" deviceset="GND" device=""/>
 <part name="U5" library="Texas Instruments_By_element14_Batch_1" deviceset="UA78L05ACD" device="">
@@ -27436,9 +27571,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND64" library="supply1" deviceset="GND" device=""/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="C6" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND68" library="supply1" deviceset="GND" device=""/>
 <part name="GND70" library="supply1" deviceset="GND" device=""/>
@@ -27452,7 +27589,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </part>
 <part name="SUPPLY6" library="OSD3358-SM-RED Platform" deviceset="CGND" device=""/>
 <part name="U$18" library="Revolve" deviceset="TPD12S016-RKT" device="">
-<attribute name="MPN" value="TPD12S016RKTR"/>
+<attribute name="MPN" value="TPD12S016PWR"/>
 <attribute name="SPN" value="296-39340-2-ND"/>
 </part>
 <part name="GND83" library="supply1" deviceset="GND" device=""/>
@@ -27470,6 +27607,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND102" library="supply1" deviceset="GND" device=""/>
 <part name="C18" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND103" library="supply1" deviceset="GND" device=""/>
 <part name="U3" library="Texas Instruments_By_element14_Batch_1" deviceset="TPS2061D" device=""/>
@@ -27546,6 +27684,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="GND138" library="supply1" deviceset="GND" device=""/>
 <part name="C19" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND139" library="supply1" deviceset="GND" device=""/>
 <part name="GND140" library="supply1" deviceset="GND" device=""/>
@@ -27588,6 +27727,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="U13" library="Texas Instruments_By_element14_Batch_1" deviceset="INA199A1DCKR" device=""/>
 <part name="C20" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND162" library="supply1" deviceset="GND" device=""/>
 <part name="R145" library="rcl" deviceset="R-EU_" device="R0402" value="4.7K,1%">
@@ -27628,10 +27768,12 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </part>
 <part name="C21" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND171" library="supply1" deviceset="GND" device=""/>
 <part name="C24" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND172" library="supply1" deviceset="GND" device=""/>
 <part name="SV1" library="con-lstb" deviceset="MA04-1" device=""/>
@@ -27641,8 +27783,46 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </part>
 <part name="C27" library="rcl" deviceset="C-EU" device="C0402" value="0.1uF">
 <attribute name="MPN" value="CL10B104KB8NNND"/>
+<attribute name="PARTNO" value="GRM155R71H103KA88J"/>
 </part>
 <part name="GND174" library="supply1" deviceset="GND" device=""/>
+<part name="T1" library="zetex" deviceset="NMOSSOT23" device="">
+<attribute name="MPN" value="AO7400"/>
+</part>
+<part name="U$11" library="Revolve" deviceset="SISS27DN" device="">
+<attribute name="MPN" value="SISS27DN-T1-GE3"/>
+<attribute name="SPN" value="SISS27DN-T1-GE3CT-ND"/>
+</part>
+<part name="R24" library="rcl" deviceset="R-EU_" device="R0402" value="4.7K,1%">
+<attribute name="MPN" value="RC0402FR-074K7L"/>
+</part>
+<part name="R53" library="rcl" deviceset="R-EU_" device="R0402" value="1K,1%">
+<attribute name="MPN" value="RC0402FR-071KL"/>
+<attribute name="SPN" value="311-100KLRCT-ND"/>
+</part>
+<part name="GND178" library="supply1" deviceset="GND" device=""/>
+<part name="R153" library="rcl" deviceset="R-EU_" device="R0402" value="1K,1%">
+<attribute name="MPN" value="RC0402FR-071KL"/>
+</part>
+<part name="R154" library="rcl" deviceset="R-EU_" device="R0402" value="1K,1%">
+<attribute name="MPN" value="RC0402FR-071KL"/>
+</part>
+<part name="R155" library="rcl" deviceset="R-EU_" device="R0402" value="1K,1%">
+<attribute name="MPN" value="RC0402FR-071KL"/>
+</part>
+<part name="R106" library="rcl" deviceset="R-EU_" device="R0402" value="1K,1%">
+<attribute name="MPN" value="RC0402FR-071KL"/>
+</part>
+<part name="R109" library="rcl" deviceset="R-EU_" device="R0402" value="1K,1%">
+<attribute name="MPN" value="RC0402FR-071KL"/>
+</part>
+<part name="R110" library="rcl" deviceset="R-EU_" device="R0402" value="1K,1%">
+<attribute name="MPN" value="RC0402FR-071KL"/>
+</part>
+<part name="R111" library="rcl" deviceset="R-EU_" device="R0402" value="1K,1%">
+<attribute name="MPN" value="RC0402FR-071KL"/>
+</part>
+<part name="GND179" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -27675,6 +27855,15 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <text x="967.74" y="81.28" size="1.9304" layer="94">Ext driver C</text>
 <text x="797.56" y="904.24" size="1.778" layer="97">To test with 25MHz clock from SIP, populate this with 0R</text>
 <text x="408.94" y="777.24" size="7.62" layer="94">Analog etc</text>
+<text x="1061.72" y="883.92" size="1.778" layer="150">PHY_ADDR0</text>
+<text x="1061.72" y="878.84" size="1.778" layer="150">PHY_ADDR1</text>
+<text x="1061.72" y="868.68" size="1.778" layer="150">MODE[0]</text>
+<text x="1061.72" y="863.6" size="1.778" layer="150">MODE[1]</text>
+<text x="1061.72" y="848.36" size="1.778" layer="150">IO_VOLT_SEL</text>
+<text x="1061.72" y="853.44" size="1.778" layer="150">MODE[3]</text>
+<text x="1061.72" y="858.52" size="1.778" layer="150">MODE[2]</text>
+<text x="1061.72" y="873.76" size="1.778" layer="150">PHY_ADDR2</text>
+<text x="1043.94" y="894.08" size="5.08" layer="150">Configuration</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="393.7" y="0"/>
@@ -27690,7 +27879,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="MPN" x="1069.34" y="335.28" size="1.778" layer="96" display="off"/>
 <attribute name="SPN" x="1069.34" y="335.28" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND31" gate="1" x="439.42" y="177.8"/>
+<instance part="GND31" gate="1" x="439.42" y="175.26"/>
 <instance part="R19" gate="G$1" x="934.72" y="345.44" rot="R90">
 <attribute name="MPN" x="934.72" y="345.44" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -27880,6 +28069,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="GND46" gate="1" x="1094.74" y="157.48"/>
 <instance part="C61" gate="G$1" x="1087.12" y="213.36">
 <attribute name="MPN" x="1087.12" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="1087.12" y="213.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND59" gate="1" x="1087.12" y="205.74"/>
 <instance part="IC6" gate="A" x="1054.1" y="746.76" rot="MR0">
@@ -27936,6 +28126,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="GND1" gate="1" x="215.9" y="596.9"/>
 <instance part="C4" gate="G$1" x="231.14" y="632.46" rot="MR270">
 <attribute name="MPN" x="231.14" y="632.46" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="231.14" y="632.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND6" gate="1" x="236.22" y="609.6" rot="MR0"/>
 <instance part="X15" gate="-1" x="190.5" y="624.84" smashed="yes">
@@ -27950,12 +28141,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </instance>
 <instance part="C23" gate="G$1" x="73.66" y="640.08" rot="MR0">
 <attribute name="MPN" x="73.66" y="640.08" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="73.66" y="640.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND14" gate="1" x="121.92" y="627.38"/>
 <instance part="GND49" gate="1" x="73.66" y="629.92"/>
 <instance part="GND50" gate="1" x="182.88" y="576.58"/>
 <instance part="C28" gate="G$1" x="119.38" y="652.78" rot="MR270">
 <attribute name="MPN" x="119.38" y="652.78" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="119.38" y="652.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND55" gate="1" x="109.22" y="652.78" rot="R270"/>
 <instance part="GND90" gate="1" x="129.54" y="609.6"/>
@@ -27964,6 +28157,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </instance>
 <instance part="C35" gate="G$1" x="208.28" y="642.62" rot="MR270">
 <attribute name="MPN" x="208.28" y="642.62" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="208.28" y="642.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FRAME6" gate="G$1" x="0" y="269.24"/>
 <instance part="C7" gate="G$1" x="193.04" y="477.52" rot="R90">
@@ -27978,6 +28172,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="GND9" gate="1" x="208.28" y="434.34"/>
 <instance part="C8" gate="G$1" x="223.52" y="469.9" rot="MR270">
 <attribute name="MPN" x="223.52" y="469.9" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="223.52" y="469.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND13" gate="1" x="228.6" y="454.66" rot="MR0"/>
 <instance part="X16" gate="-1" x="198.12" y="464.82" smashed="yes">
@@ -27996,12 +28191,15 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="+3V8" gate="G$1" x="109.22" y="459.74"/>
 <instance part="C30" gate="G$1" x="73.66" y="482.6" rot="MR0">
 <attribute name="MPN" x="73.66" y="482.6" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="73.66" y="482.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND17" gate="1" x="119.38" y="467.36"/>
 <instance part="GND18" gate="1" x="73.66" y="469.9"/>
 <instance part="GND19" gate="1" x="185.42" y="416.56"/>
 <instance part="C32" gate="G$1" x="116.84" y="492.76" rot="MR270">
 <attribute name="MPN" x="116.84" y="492.76" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="116.84" y="492.76" size="1.778" layer="96" display="off"/>
+<attribute name="VID" x="116.84" y="492.76" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="GND39" gate="1" x="106.68" y="492.76" rot="R270"/>
 <instance part="C37" gate="G$1" x="119.38" y="472.44" rot="MR180">
@@ -28010,6 +28208,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="GND54" gate="1" x="129.54" y="454.66" rot="R270"/>
 <instance part="C38" gate="G$1" x="200.66" y="482.6" rot="MR270">
 <attribute name="MPN" x="200.66" y="482.6" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="200.66" y="482.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C39" gate="G$1" x="208.28" y="365.76" rot="R90">
 <attribute name="MPN" x="208.28" y="365.76" size="1.778" layer="96" rot="R90" display="off"/>
@@ -28023,6 +28222,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="GND60" gate="1" x="223.52" y="322.58"/>
 <instance part="C40" gate="G$1" x="238.76" y="358.14" rot="MR270">
 <attribute name="MPN" x="238.76" y="358.14" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="238.76" y="358.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND77" gate="1" x="243.84" y="337.82" rot="MR0"/>
 <instance part="X17" gate="-1" x="213.36" y="353.06" smashed="yes">
@@ -28041,12 +28241,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="+3V17" gate="G$1" x="111.76" y="350.52"/>
 <instance part="C63" gate="G$1" x="73.66" y="370.84" rot="MR0">
 <attribute name="MPN" x="73.66" y="370.84" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="73.66" y="370.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND84" gate="1" x="119.38" y="358.14" rot="R270"/>
 <instance part="GND85" gate="1" x="73.66" y="363.22"/>
 <instance part="GND86" gate="1" x="185.42" y="304.8"/>
 <instance part="C64" gate="G$1" x="119.38" y="381" rot="MR270">
 <attribute name="MPN" x="119.38" y="381" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="119.38" y="381" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND92" gate="1" x="109.22" y="381" rot="R270"/>
 <instance part="GND93" gate="1" x="129.54" y="342.9" rot="R270"/>
@@ -28056,6 +28258,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="GND94" gate="1" x="132.08" y="307.34"/>
 <instance part="C66" gate="G$1" x="215.9" y="370.84" rot="MR270">
 <attribute name="MPN" x="215.9" y="370.84" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="215.9" y="370.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
 <instance part="C9" gate="G$1" x="205.74" y="205.74" rot="R90">
@@ -28070,6 +28273,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="GND20" gate="1" x="213.36" y="162.56"/>
 <instance part="C10" gate="G$1" x="236.22" y="198.12" rot="MR270">
 <attribute name="MPN" x="236.22" y="198.12" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="236.22" y="198.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND22" gate="1" x="241.3" y="177.8" rot="MR0"/>
 <instance part="X18" gate="-1" x="210.82" y="193.04" smashed="yes">
@@ -28088,12 +28292,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="+3V14" gate="G$1" x="119.38" y="187.96"/>
 <instance part="C44" gate="G$1" x="76.2" y="210.82" rot="MR0">
 <attribute name="MPN" x="76.2" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="76.2" y="210.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND51" gate="1" x="116.84" y="198.12" rot="R270"/>
 <instance part="GND89" gate="1" x="76.2" y="203.2"/>
 <instance part="GND95" gate="1" x="190.5" y="144.78"/>
 <instance part="C67" gate="G$1" x="116.84" y="220.98" rot="MR270">
 <attribute name="MPN" x="116.84" y="220.98" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="116.84" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND96" gate="1" x="106.68" y="220.98" rot="R270"/>
 <instance part="GND97" gate="1" x="132.08" y="182.88" rot="R270"/>
@@ -28103,9 +28309,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="GND98" gate="1" x="134.62" y="144.78"/>
 <instance part="C69" gate="G$1" x="215.9" y="210.82" rot="MR270">
 <attribute name="MPN" x="215.9" y="210.82" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="215.9" y="210.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C70" gate="G$1" x="86.36" y="205.74" rot="MR0">
 <attribute name="MPN" x="86.36" y="205.74" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="86.36" y="205.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND101" gate="1" x="86.36" y="198.12"/>
 <instance part="R52" gate="G$1" x="106.68" y="205.74" rot="R180">
@@ -28118,6 +28326,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </instance>
 <instance part="C72" gate="G$1" x="88.9" y="637.54" rot="MR0">
 <attribute name="MPN" x="88.9" y="637.54" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="88.9" y="637.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND112" gate="1" x="88.9" y="629.92"/>
 <instance part="R70" gate="G$1" x="93.98" y="477.52" rot="R180">
@@ -28125,11 +28334,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </instance>
 <instance part="C73" gate="G$1" x="81.28" y="480.06" rot="MR0">
 <attribute name="MPN" x="81.28" y="480.06" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="81.28" y="480.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND118" gate="1" x="81.28" y="469.9"/>
 <instance part="+3V24" gate="G$1" x="73.66" y="490.22"/>
 <instance part="C74" gate="G$1" x="83.82" y="365.76" rot="MR0">
 <attribute name="MPN" x="83.82" y="365.76" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="83.82" y="365.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R71" gate="G$1" x="101.6" y="365.76" rot="R180">
 <attribute name="MPN" x="101.6" y="365.76" size="1.778" layer="96" rot="R180" display="off"/>
@@ -28206,25 +28417,31 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="GND114" gate="1" x="551.18" y="116.84"/>
 <instance part="C82" gate="G$1" x="1010.92" y="751.84" rot="MR0">
 <attribute name="MPN" x="1010.92" y="751.84" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="1010.92" y="751.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND129" gate="1" x="1010.92" y="739.14"/>
 <instance part="C83" gate="G$1" x="1137.92" y="751.84" rot="MR0">
 <attribute name="MPN" x="1137.92" y="751.84" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="1137.92" y="751.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND130" gate="1" x="1137.92" y="741.68"/>
 <instance part="U$4" gate="A" x="1130.3" y="45.72"/>
 <instance part="+3V25" gate="G$1" x="73.66" y="378.46"/>
 <instance part="C89" gate="G$1" x="231.14" y="642.62" rot="MR270">
 <attribute name="MPN" x="231.14" y="642.62" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="231.14" y="642.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C91" gate="G$1" x="223.52" y="480.06" rot="MR270">
 <attribute name="MPN" x="223.52" y="480.06" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="223.52" y="480.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C92" gate="G$1" x="238.76" y="368.3" rot="MR270">
 <attribute name="MPN" x="238.76" y="368.3" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="238.76" y="368.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C93" gate="G$1" x="236.22" y="208.28" rot="MR270">
 <attribute name="MPN" x="236.22" y="208.28" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="236.22" y="208.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C94" gate="G$1" x="228.6" y="490.22">
 <attribute name="MPN" x="228.6" y="490.22" size="1.778" layer="96" display="off"/>
@@ -28281,6 +28498,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="HDMI" gate="G$1" x="789.94" y="538.48"/>
 <instance part="X24" gate="G$1" x="340.36" y="993.14" rot="R180">
 <attribute name="MPN" x="340.36" y="993.14" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="PARTNO" x="340.36" y="993.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LED9" gate="G$1" x="746.76" y="703.58" smashed="yes" rot="MR270">
 <attribute name="MPN" x="746.76" y="703.58" size="1.778" layer="96" rot="MR270" display="off"/>
@@ -28351,6 +28569,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="GND25" gate="1" x="218.44" y="48.26"/>
 <instance part="C16" gate="G$1" x="233.68" y="83.82" rot="MR270">
 <attribute name="MPN" x="233.68" y="83.82" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="233.68" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND53" gate="1" x="238.76" y="63.5" rot="MR0"/>
 <instance part="X25" gate="-1" x="208.28" y="78.74" smashed="yes">
@@ -28369,12 +28588,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="+3V26" gate="G$1" x="109.22" y="76.2"/>
 <instance part="C53" gate="G$1" x="81.28" y="96.52" rot="MR0">
 <attribute name="MPN" x="81.28" y="96.52" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="81.28" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND62" gate="1" x="127" y="78.74"/>
 <instance part="GND63" gate="1" x="81.28" y="88.9"/>
 <instance part="GND65" gate="1" x="190.5" y="30.48"/>
 <instance part="C54" gate="G$1" x="121.92" y="106.68" rot="MR270">
 <attribute name="MPN" x="121.92" y="106.68" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="121.92" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND66" gate="1" x="111.76" y="106.68" rot="R270"/>
 <instance part="GND67" gate="1" x="137.16" y="68.58" rot="R270"/>
@@ -28383,9 +28604,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </instance>
 <instance part="C56" gate="G$1" x="213.36" y="96.52" rot="MR270">
 <attribute name="MPN" x="213.36" y="96.52" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="213.36" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C60" gate="G$1" x="91.44" y="91.44" rot="MR0">
 <attribute name="MPN" x="91.44" y="91.44" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="91.44" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND72" gate="1" x="91.44" y="83.82"/>
 <instance part="R72" gate="G$1" x="111.76" y="91.44" rot="R180">
@@ -28398,6 +28621,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </instance>
 <instance part="C100" gate="G$1" x="233.68" y="93.98" rot="MR270">
 <attribute name="MPN" x="233.68" y="93.98" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="233.68" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C101" gate="G$1" x="238.76" y="104.14">
 <attribute name="MPN" x="238.76" y="104.14" size="1.778" layer="96" display="off"/>
@@ -28500,12 +28724,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="GND186" gate="1" x="162.56" y="962.66" rot="R90"/>
 <instance part="C108" gate="G$1" x="149.86" y="916.94" rot="MR0">
 <attribute name="MPN" x="149.86" y="916.94" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="149.86" y="916.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C109" gate="G$1" x="154.94" y="916.94" rot="MR0">
 <attribute name="MPN" x="154.94" y="916.94" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="C110" gate="G$1" x="162.56" y="916.94" rot="MR0">
 <attribute name="MPN" x="162.56" y="916.94" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="162.56" y="916.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C111" gate="G$1" x="167.64" y="916.94" rot="MR0">
 <attribute name="MPN" x="167.64" y="916.94" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -28518,9 +28744,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </instance>
 <instance part="C114" gate="G$1" x="175.26" y="916.94" rot="MR0">
 <attribute name="MPN" x="175.26" y="916.94" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="175.26" y="916.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C115" gate="G$1" x="190.5" y="916.94" rot="MR0">
 <attribute name="MPN" x="190.5" y="916.94" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="190.5" y="916.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND187" gate="1" x="195.58" y="906.78"/>
 <instance part="S3" gate="G$1" x="736.6" y="71.12" rot="MR0">
@@ -28530,55 +28758,55 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="MPN" x="579.12" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="USB1" gate="G$1" x="0" y="807.72"/>
-<instance part="R95" gate="G$1" x="899.16" y="960.12" smashed="yes" rot="R180">
-<attribute name="MPN" x="899.16" y="960.12" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="NAME" x="895.35" y="961.1614" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="908.05" y="960.882" size="1.778" layer="96" rot="R180"/>
+<instance part="R95" gate="G$1" x="866.14" y="960.12" smashed="yes" rot="R180">
+<attribute name="MPN" x="866.14" y="960.12" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="862.33" y="961.1614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="875.03" y="960.882" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R96" gate="G$1" x="899.16" y="957.58" smashed="yes" rot="R180">
-<attribute name="MPN" x="899.16" y="957.58" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="NAME" x="895.35" y="958.6214" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="908.05" y="958.342" size="1.778" layer="96" rot="R180"/>
+<instance part="R96" gate="G$1" x="866.14" y="957.58" smashed="yes" rot="R180">
+<attribute name="MPN" x="866.14" y="957.58" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="862.33" y="958.6214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="875.03" y="958.342" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R97" gate="G$1" x="899.16" y="955.04" smashed="yes" rot="R180">
-<attribute name="MPN" x="899.16" y="955.04" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="NAME" x="895.35" y="956.0814" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="908.05" y="955.802" size="1.778" layer="96" rot="R180"/>
+<instance part="R97" gate="G$1" x="866.14" y="955.04" smashed="yes" rot="R180">
+<attribute name="MPN" x="866.14" y="955.04" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="862.33" y="956.0814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="875.03" y="955.802" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R98" gate="G$1" x="899.16" y="949.96" smashed="yes" rot="R180">
-<attribute name="MPN" x="899.16" y="949.96" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="NAME" x="895.35" y="951.0014" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="908.05" y="950.722" size="1.778" layer="96" rot="R180"/>
+<instance part="R98" gate="G$1" x="866.14" y="949.96" smashed="yes" rot="R180">
+<attribute name="MPN" x="866.14" y="949.96" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="862.33" y="951.0014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="875.03" y="950.722" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R99" gate="G$1" x="899.16" y="952.5" smashed="yes" rot="R180">
-<attribute name="MPN" x="899.16" y="952.5" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="NAME" x="895.35" y="953.5414" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="908.05" y="953.262" size="1.778" layer="96" rot="R180"/>
+<instance part="R99" gate="G$1" x="866.14" y="952.5" smashed="yes" rot="R180">
+<attribute name="MPN" x="866.14" y="952.5" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="862.33" y="953.5414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="875.03" y="953.262" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R100" gate="G$1" x="899.16" y="947.42" smashed="yes" rot="R180">
-<attribute name="MPN" x="899.16" y="947.42" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="NAME" x="895.35" y="948.4614" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="908.05" y="948.182" size="1.778" layer="96" rot="R180"/>
+<instance part="R100" gate="G$1" x="866.14" y="947.42" smashed="yes" rot="R180">
+<attribute name="MPN" x="866.14" y="947.42" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="862.33" y="948.4614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="875.03" y="948.182" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R101" gate="G$1" x="899.16" y="944.88" smashed="yes" rot="R180">
-<attribute name="MPN" x="899.16" y="944.88" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="NAME" x="895.35" y="945.9214" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="908.05" y="945.642" size="1.778" layer="96" rot="R180"/>
+<instance part="R101" gate="G$1" x="866.14" y="944.88" smashed="yes" rot="R180">
+<attribute name="MPN" x="866.14" y="944.88" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="862.33" y="945.9214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="875.03" y="945.642" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R102" gate="G$1" x="899.16" y="939.8" smashed="yes" rot="R180">
-<attribute name="MPN" x="899.16" y="939.8" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="NAME" x="895.35" y="940.8414" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="908.05" y="940.562" size="1.778" layer="96" rot="R180"/>
+<instance part="R102" gate="G$1" x="866.14" y="939.8" smashed="yes" rot="R180">
+<attribute name="MPN" x="866.14" y="939.8" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="862.33" y="940.8414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="875.03" y="940.562" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R103" gate="G$1" x="899.16" y="924.56" smashed="yes" rot="R180">
-<attribute name="MPN" x="899.16" y="924.56" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="NAME" x="895.35" y="925.6014" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="908.05" y="925.322" size="1.778" layer="96" rot="R180"/>
+<instance part="R103" gate="G$1" x="866.14" y="924.56" smashed="yes" rot="R180">
+<attribute name="MPN" x="866.14" y="924.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="862.33" y="925.6014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="875.03" y="925.322" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R104" gate="G$1" x="899.16" y="922.02" smashed="yes" rot="R180">
-<attribute name="MPN" x="899.16" y="922.02" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="NAME" x="895.35" y="923.0614" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="908.05" y="922.782" size="1.778" layer="96" rot="R180"/>
+<instance part="R104" gate="G$1" x="866.14" y="922.02" smashed="yes" rot="R180">
+<attribute name="MPN" x="866.14" y="922.02" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="862.33" y="923.0614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="875.03" y="922.782" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R105" gate="G$1" x="454.66" y="373.38" smashed="yes" rot="R270">
 <attribute name="MPN" x="454.66" y="373.38" size="1.778" layer="96" rot="R270" display="off"/>
@@ -28663,9 +28891,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </instance>
 <instance part="C133" gate="G$1" x="960.12" y="1008.38" rot="MR0">
 <attribute name="MPN" x="960.12" y="1008.38" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="960.12" y="1008.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C134" gate="G$1" x="970.28" y="1008.38" rot="MR0">
 <attribute name="MPN" x="970.28" y="1008.38" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="970.28" y="1008.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C135" gate="G$1" x="985.52" y="1008.38" rot="MR0">
 <attribute name="MPN" x="985.52" y="1008.38" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -28739,16 +28969,20 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </instance>
 <instance part="C138" gate="G$1" x="764.54" y="477.52" rot="MR0">
 <attribute name="MPN" x="764.54" y="477.52" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="764.54" y="477.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND201" gate="1" x="764.54" y="467.36" rot="MR0"/>
 <instance part="C140" gate="G$1" x="716.28" y="508" rot="MR0">
 <attribute name="MPN" x="716.28" y="508" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="716.28" y="508" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C141" gate="G$1" x="723.9" y="508" rot="MR0">
 <attribute name="MPN" x="723.9" y="508" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="723.9" y="508" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C142" gate="G$1" x="731.52" y="508" rot="MR0">
 <attribute name="MPN" x="731.52" y="508" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="731.52" y="508" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C143" gate="G$1" x="746.76" y="508" rot="MR0">
 <attribute name="MPN" x="746.76" y="508" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -28781,6 +29015,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </instance>
 <instance part="C150" gate="G$1" x="927.1" y="988.06" rot="MR0">
 <attribute name="MPN" x="927.1" y="988.06" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="927.1" y="988.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND159" gate="1" x="927.1" y="980.44"/>
 <instance part="+3V28" gate="G$1" x="1094.74" y="223.52"/>
@@ -28799,11 +29034,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="539.496" y="687.959" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="532.384" y="681.101" size="1.778" layer="96"/>
 <attribute name="MPN" x="541.02" y="685.8" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="541.02" y="685.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C151" gate="G$1" x="551.18" y="685.8" smashed="yes">
 <attribute name="NAME" x="549.656" y="687.959" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="542.544" y="681.101" size="1.778" layer="96"/>
 <attribute name="MPN" x="551.18" y="685.8" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="551.18" y="685.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R150" gate="G$1" x="421.64" y="698.5" smashed="yes">
 <attribute name="MPN" x="421.64" y="698.5" size="1.778" layer="96" display="off"/>
@@ -28814,6 +29051,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="466.344" y="969.899" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="473.456" y="963.041" size="1.778" layer="96" rot="MR0"/>
 <attribute name="MPN" x="464.82" y="967.74" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="464.82" y="967.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND163" gate="1" x="464.82" y="960.12"/>
 <instance part="C156" gate="G$1" x="513.08" y="1005.84" rot="MR0">
@@ -28892,21 +29130,25 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </instance>
 <instance part="C15" gate="G$1" x="215.9" y="741.68" rot="MR270">
 <attribute name="MPN" x="215.9" y="741.68" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="215.9" y="741.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND10" gate="1" x="220.98" y="721.36" rot="MR0"/>
 <instance part="C41" gate="G$1" x="215.9" y="751.84" rot="MR270">
 <attribute name="MPN" x="215.9" y="751.84" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="215.9" y="751.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C42" gate="G$1" x="220.98" y="759.46">
 <attribute name="MPN" x="220.98" y="759.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C84" gate="G$1" x="63.5" y="751.84" rot="MR0">
 <attribute name="MPN" x="63.5" y="751.84" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="63.5" y="751.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND12" gate="1" x="109.22" y="736.6"/>
 <instance part="GND15" gate="1" x="63.5" y="739.14"/>
 <instance part="C85" gate="G$1" x="106.68" y="762" rot="MR270">
 <attribute name="MPN" x="106.68" y="762" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="106.68" y="762" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND21" gate="1" x="96.52" y="762" rot="R270"/>
 <instance part="C86" gate="G$1" x="109.22" y="741.68" rot="MR180">
@@ -28918,6 +29160,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </instance>
 <instance part="C87" gate="G$1" x="73.66" y="749.3" rot="MR0">
 <attribute name="MPN" x="73.66" y="749.3" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="73.66" y="749.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND23" gate="1" x="73.66" y="739.14"/>
 <instance part="C88" gate="G$1" x="187.96" y="746.76" rot="R90">
@@ -28925,6 +29168,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </instance>
 <instance part="C99" gate="G$1" x="195.58" y="751.84" rot="MR270">
 <attribute name="MPN" x="195.58" y="751.84" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="PARTNO" x="195.58" y="751.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R138" gate="G$1" x="193.04" y="706.12" rot="R180">
 <attribute name="MPN" x="193.04" y="706.12" size="1.778" layer="96" rot="R180" display="off"/>
@@ -28989,23 +29233,28 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="844.55" y="913.3586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="844.55" y="908.558" size="1.778" layer="96"/>
 <attribute name="SPN" x="845.82" y="911.86" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="845.82" y="911.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C1" gate="G$1" x="441.96" y="137.16" rot="MR180">
 <attribute name="MPN" x="441.96" y="137.16" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="PARTNO" x="441.96" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND34" gate="1" x="441.96" y="129.54"/>
 <instance part="C2" gate="G$1" x="490.22" y="147.32" rot="MR90">
 <attribute name="MPN" x="490.22" y="147.32" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="PARTNO" x="490.22" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SV2" gate="G$1" x="975.36" y="99.06"/>
 <instance part="SV3" gate="G$1" x="975.36" y="71.12"/>
 <instance part="C12" gate="G$1" x="139.7" y="916.94" rot="MR0">
 <attribute name="MPN" x="139.7" y="916.94" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="139.7" y="916.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C13" gate="G$1" x="459.74" y="967.74" smashed="yes" rot="MR0">
 <attribute name="NAME" x="461.264" y="969.899" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="468.376" y="963.041" size="1.778" layer="96" rot="MR0"/>
 <attribute name="MPN" x="459.74" y="967.74" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="459.74" y="967.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND36" gate="1" x="459.74" y="960.12"/>
 <instance part="GND38" gate="1" x="474.98" y="906.78"/>
@@ -29038,51 +29287,47 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="SPN" x="518.16" y="223.52" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MPN" x="518.16" y="223.52" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="R45" gate="G$1" x="462.28" y="215.9" rot="R270">
-<attribute name="MPN" x="462.28" y="215.9" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="SPN" x="462.28" y="215.9" size="1.778" layer="96" rot="R270" display="off"/>
+<instance part="R45" gate="G$1" x="457.2" y="215.9" rot="R270">
+<attribute name="MPN" x="457.2" y="215.9" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="SPN" x="457.2" y="215.9" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="R54" gate="G$1" x="462.28" y="200.66" rot="R270">
-<attribute name="MPN" x="462.28" y="200.66" size="1.778" layer="96" rot="R270" display="off"/>
+<instance part="R54" gate="G$1" x="457.2" y="200.66" rot="R270">
+<attribute name="MPN" x="457.2" y="200.66" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="GND52" gate="1" x="462.28" y="177.8"/>
+<instance part="GND52" gate="1" x="457.2" y="175.26"/>
 <instance part="D5" gate="G$1" x="416.56" y="147.32">
 <attribute name="MPN" x="416.56" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="Q12" gate="G$1" x="490.22" y="190.5" rot="MR0">
-<attribute name="MPN" x="490.22" y="190.5" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="SPN" x="490.22" y="190.5" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
 <instance part="R84" gate="G$1" x="487.68" y="215.9" rot="R270">
-<attribute name="SPN" x="487.68" y="215.9" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="487.68" y="215.9" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R86" gate="G$1" x="487.68" y="200.66" rot="R270">
 <attribute name="MPN" x="487.68" y="200.66" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="SPN" x="487.68" y="200.66" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="GND61" gate="1" x="487.68" y="177.8"/>
+<instance part="GND61" gate="1" x="487.68" y="175.26"/>
 <instance part="U5" gate="A" x="467.36" y="71.12">
 <attribute name="SPN" x="467.36" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND64" gate="1" x="447.04" y="53.34"/>
 <instance part="C5" gate="G$1" x="495.3" y="60.96" rot="MR180">
 <attribute name="MPN" x="495.3" y="60.96" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="PARTNO" x="495.3" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C6" gate="G$1" x="436.88" y="63.5" rot="MR180">
 <attribute name="MPN" x="436.88" y="63.5" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="PARTNO" x="436.88" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND68" gate="1" x="436.88" y="53.34"/>
 <instance part="GND70" gate="1" x="495.3" y="53.34"/>
-<instance part="R91" gate="G$1" x="497.84" y="185.42" rot="R270">
-<attribute name="MPN" x="497.84" y="185.42" size="1.778" layer="96" rot="R270" display="off"/>
+<instance part="R91" gate="G$1" x="497.84" y="182.88" rot="R270">
+<attribute name="MPN" x="497.84" y="182.88" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="GND71" gate="1" x="497.84" y="177.8"/>
-<instance part="U$17" gate="G$1" x="497.84" y="218.44" rot="MR90">
-<attribute name="SPN" x="497.84" y="218.44" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MPN" x="497.84" y="218.44" size="1.778" layer="96" rot="MR90" display="off"/>
+<instance part="GND71" gate="1" x="497.84" y="175.26"/>
+<instance part="U$17" gate="G$1" x="467.36" y="218.44" rot="MR90">
+<attribute name="SPN" x="467.36" y="218.44" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MPN" x="467.36" y="218.44" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
-<instance part="SUPPLY6" gate="G$1" x="449.58" y="177.8"/>
+<instance part="SUPPLY6" gate="G$1" x="449.58" y="175.26"/>
 <instance part="U$18" gate="G$1" x="284.48" y="990.6" rot="R180">
 <attribute name="SPN" x="284.48" y="990.6" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MPN" x="284.48" y="990.6" size="1.778" layer="96" rot="R180" display="off"/>
@@ -29100,12 +29345,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="GND99" gate="1" x="617.22" y="886.46"/>
 <instance part="GND100" gate="1" x="525.78" y="607.06" rot="MR270"/>
 <instance part="GND102" gate="1" x="576.58" y="1028.7"/>
-<instance part="C18" gate="G$1" x="533.4" y="1038.86" smashed="yes" rot="MR180">
-<attribute name="NAME" x="531.876" y="1036.701" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="524.764" y="1043.559" size="1.778" layer="96" rot="MR180"/>
-<attribute name="MPN" x="533.4" y="1038.86" size="1.778" layer="96" rot="MR180" display="off"/>
+<instance part="C18" gate="G$1" x="566.42" y="1031.24" smashed="yes" rot="MR180">
+<attribute name="NAME" x="564.896" y="1029.081" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="557.784" y="1035.939" size="1.778" layer="96" rot="MR180"/>
+<attribute name="MPN" x="566.42" y="1031.24" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="PARTNO" x="566.42" y="1031.24" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND103" gate="1" x="533.4" y="1028.7"/>
+<instance part="GND103" gate="1" x="566.42" y="1023.62"/>
 <instance part="U3" gate="A" x="594.36" y="1041.4"/>
 <instance part="U4" gate="A" x="487.68" y="835.66">
 <attribute name="MPN" x="487.68" y="835.66" size="1.778" layer="96" display="off"/>
@@ -29180,6 +29426,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="GND138" gate="1" x="861.06" y="734.06"/>
 <instance part="C19" gate="G$1" x="876.3" y="774.7" rot="MR0">
 <attribute name="MPN" x="876.3" y="774.7" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="876.3" y="774.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND139" gate="1" x="876.3" y="764.54"/>
 <instance part="GND140" gate="1" x="444.5" y="835.66"/>
@@ -29222,6 +29469,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="U13" gate="A" x="568.96" y="198.12"/>
 <instance part="C20" gate="G$1" x="541.02" y="205.74" rot="MR180">
 <attribute name="MPN" x="541.02" y="205.74" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="PARTNO" x="541.02" y="205.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND162" gate="1" x="541.02" y="200.66"/>
 <instance part="R145" gate="G$1" x="1132.84" y="619.76" rot="MR270">
@@ -29262,10 +29510,12 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </instance>
 <instance part="C21" gate="G$1" x="302.26" y="1021.08" rot="MR0">
 <attribute name="MPN" x="302.26" y="1021.08" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="302.26" y="1021.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND171" gate="1" x="302.26" y="1013.46"/>
 <instance part="C24" gate="G$1" x="246.38" y="1021.08" rot="MR0">
 <attribute name="MPN" x="246.38" y="1021.08" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="246.38" y="1021.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND172" gate="1" x="246.38" y="1013.46"/>
 <instance part="SV1" gate="1" x="848.36" y="127"/>
@@ -29275,8 +29525,58 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </instance>
 <instance part="C27" gate="G$1" x="276.86" y="944.88" rot="MR0">
 <attribute name="MPN" x="276.86" y="944.88" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="PARTNO" x="276.86" y="944.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND174" gate="1" x="276.86" y="937.26"/>
+<instance part="T1" gate="A" x="487.68" y="190.5" rot="MR0"/>
+<instance part="U$11" gate="G$1" x="500.38" y="218.44" rot="R90">
+<attribute name="SPN" x="500.38" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="500.38" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R24" gate="G$1" x="480.06" y="215.9" rot="R270">
+<attribute name="MPN" x="480.06" y="215.9" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="R53" gate="G$1" x="472.44" y="190.5" rot="R270">
+<attribute name="MPN" x="472.44" y="190.5" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="SPN" x="472.44" y="190.5" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="GND178" gate="1" x="472.44" y="175.26"/>
+<instance part="R153" gate="G$1" x="1102.36" y="906.78" smashed="yes" rot="R180">
+<attribute name="MPN" x="1102.36" y="906.78" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="1098.55" y="907.8214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="1111.25" y="907.542" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R154" gate="G$1" x="1102.36" y="901.7" smashed="yes" rot="R180">
+<attribute name="MPN" x="1102.36" y="901.7" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="1098.55" y="902.7414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="1111.25" y="902.462" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R155" gate="G$1" x="1102.36" y="896.62" smashed="yes" rot="R180">
+<attribute name="MPN" x="1102.36" y="896.62" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="1098.55" y="897.6614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="1111.25" y="897.382" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R106" gate="G$1" x="1102.36" y="876.3" smashed="yes" rot="R180">
+<attribute name="MPN" x="1102.36" y="876.3" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="1098.55" y="877.3414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="1111.25" y="877.062" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R109" gate="G$1" x="1102.36" y="868.68" smashed="yes" rot="R180">
+<attribute name="MPN" x="1102.36" y="868.68" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="1098.55" y="869.7214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="1111.25" y="869.442" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R110" gate="G$1" x="1102.36" y="861.06" smashed="yes" rot="R180">
+<attribute name="MPN" x="1102.36" y="861.06" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="1098.55" y="862.1014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="1111.25" y="861.822" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R111" gate="G$1" x="1102.36" y="853.44" smashed="yes" rot="R180">
+<attribute name="MPN" x="1102.36" y="853.44" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="1098.55" y="854.4814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="1111.25" y="854.202" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND179" gate="1" x="1115.06" y="845.82"/>
 </instances>
 <busses>
 <bus name="LCD_D[0..15],LCD_VSYNC,LCD_HSYNC,LCD_DE,LCD_PCLK">
@@ -29315,7 +29615,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="439.42" y1="213.36" x2="439.42" y2="208.28" width="0.6096" layer="91"/>
 <pinref part="GND31" gate="1" pin="GND"/>
 <pinref part="X2" gate="-2" pin="1"/>
-<wire x1="439.42" y1="208.28" x2="439.42" y2="180.34" width="0.6096" layer="91"/>
+<wire x1="439.42" y1="208.28" x2="439.42" y2="177.8" width="0.6096" layer="91"/>
 <wire x1="439.42" y1="213.36" x2="431.8" y2="213.36" width="0.6096" layer="91"/>
 <pinref part="X2" gate="-1" pin="1"/>
 <wire x1="431.8" y1="208.28" x2="439.42" y2="208.28" width="0.6096" layer="91"/>
@@ -30453,12 +30753,12 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <segment>
 <pinref part="R54" gate="G$1" pin="2"/>
 <pinref part="GND52" gate="1" pin="GND"/>
-<wire x1="462.28" y1="180.34" x2="462.28" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="457.2" y1="177.8" x2="457.2" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="Q12" gate="G$1" pin="E"/>
 <pinref part="GND61" gate="1" pin="GND"/>
-<wire x1="487.68" y1="180.34" x2="487.68" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="487.68" y1="177.8" x2="487.68" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="T1" gate="A" pin="S"/>
 </segment>
 <segment>
 <pinref part="U5" gate="A" pin="COM"/>
@@ -30533,7 +30833,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <segment>
 <pinref part="C18" gate="G$1" pin="1"/>
 <pinref part="GND103" gate="1" pin="GND"/>
-<wire x1="533.4" y1="1031.24" x2="533.4" y2="1036.32" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="1026.16" x2="566.42" y2="1028.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND102" gate="1" pin="GND"/>
@@ -30817,6 +31117,31 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="C27" gate="G$1" pin="2"/>
 <pinref part="GND174" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="R53" gate="G$1" pin="2"/>
+<pinref part="GND178" gate="1" pin="GND"/>
+<wire x1="472.44" y1="177.8" x2="472.44" y2="185.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R106" gate="G$1" pin="1"/>
+<wire x1="1107.44" y1="876.3" x2="1115.06" y2="876.3" width="0.1524" layer="91"/>
+<wire x1="1115.06" y1="876.3" x2="1115.06" y2="868.68" width="0.1524" layer="91"/>
+<pinref part="R109" gate="G$1" pin="1"/>
+<wire x1="1115.06" y1="868.68" x2="1107.44" y2="868.68" width="0.1524" layer="91"/>
+<wire x1="1115.06" y1="868.68" x2="1115.06" y2="861.06" width="0.1524" layer="91"/>
+<junction x="1115.06" y="868.68"/>
+<pinref part="R110" gate="G$1" pin="1"/>
+<wire x1="1115.06" y1="861.06" x2="1107.44" y2="861.06" width="0.1524" layer="91"/>
+<wire x1="1115.06" y1="861.06" x2="1115.06" y2="853.44" width="0.1524" layer="91"/>
+<junction x="1115.06" y="861.06"/>
+<pinref part="R111" gate="G$1" pin="1"/>
+<wire x1="1115.06" y1="853.44" x2="1107.44" y2="853.44" width="0.1524" layer="91"/>
+<wire x1="1115.06" y1="853.44" x2="1115.06" y2="848.36" width="0.1524" layer="91"/>
+<junction x="1115.06" y="853.44"/>
+<pinref part="GND179" gate="1" pin="GND"/>
+<wire x1="1115.06" y1="848.36" x2="1115.06" y2="845.82" width="0.1524" layer="91"/>
+<junction x="1115.06" y="848.36"/>
+</segment>
 </net>
 <net name="N$114" class="0">
 <segment>
@@ -30878,18 +31203,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="X2" gate="-3" pin="1"/>
 <wire x1="439.42" y1="223.52" x2="431.8" y2="223.52" width="0.6096" layer="91"/>
 <wire x1="431.8" y1="218.44" x2="439.42" y2="218.44" width="0.6096" layer="91"/>
-<wire x1="439.42" y1="223.52" x2="462.28" y2="223.52" width="0.6096" layer="91"/>
-<wire x1="462.28" y1="223.52" x2="487.68" y2="223.52" width="0.6096" layer="91"/>
-<wire x1="487.68" y1="223.52" x2="490.22" y2="223.52" width="0.6096" layer="91"/>
+<wire x1="439.42" y1="223.52" x2="457.2" y2="223.52" width="0.6096" layer="91"/>
 <wire x1="439.42" y1="218.44" x2="439.42" y2="223.52" width="0.6096" layer="91"/>
 <pinref part="R45" gate="G$1" pin="1"/>
-<wire x1="462.28" y1="220.98" x2="462.28" y2="223.52" width="0.1524" layer="91"/>
-<junction x="462.28" y="223.52"/>
-<pinref part="R84" gate="G$1" pin="1"/>
-<wire x1="487.68" y1="220.98" x2="487.68" y2="223.52" width="0.1524" layer="91"/>
-<junction x="487.68" y="223.52"/>
+<wire x1="457.2" y1="220.98" x2="457.2" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="U$17" gate="G$1" pin="D"/>
-<wire x1="490.22" y1="223.52" x2="492.76" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="457.2" y1="223.52" x2="462.28" y2="223.52" width="0.1524" layer="91"/>
+<junction x="457.2" y="223.52"/>
 </segment>
 <segment>
 <pinref part="D5" gate="G$1" pin="A"/>
@@ -32084,12 +32404,18 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="251.46" y="1026.16"/>
 </segment>
 <segment>
-<wire x1="576.58" y1="1043.94" x2="533.4" y2="1043.94" width="0.1524" layer="91"/>
-<label x="528.32" y="1043.94" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="576.58" y1="1038.86" x2="574.04" y2="1038.86" width="0.1524" layer="91"/>
+<pinref part="U3" gate="A" pin="IN_2"/>
+<wire x1="574.04" y1="1038.86" x2="574.04" y2="1036.32" width="0.1524" layer="91"/>
+<junction x="574.04" y="1038.86"/>
+<pinref part="U3" gate="A" pin="IN"/>
+<wire x1="574.04" y1="1036.32" x2="576.58" y2="1036.32" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="1036.32" x2="566.42" y2="1038.86" width="0.1524" layer="91"/>
+<wire x1="566.42" y1="1038.86" x2="574.04" y2="1038.86" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="2"/>
-<wire x1="533.4" y1="1043.94" x2="528.32" y2="1043.94" width="0.1524" layer="91"/>
-<junction x="533.4" y="1043.94"/>
-<pinref part="U3" gate="A" pin="~EN+"/>
+<wire x1="566.42" y1="1038.86" x2="561.34" y2="1038.86" width="0.1524" layer="91"/>
+<junction x="566.42" y="1038.86"/>
+<label x="561.34" y="1038.86" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$122" class="0">
@@ -32629,8 +32955,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </segment>
 <segment>
 <pinref part="IC29" gate="G$1" pin="NRST"/>
-<wire x1="916.94" y1="916.94" x2="873.76" y2="916.94" width="0.1524" layer="91"/>
-<label x="873.76" y="916.94" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="916.94" y1="916.94" x2="835.66" y2="916.94" width="0.1524" layer="91"/>
+<label x="835.66" y="916.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="WARMRSTN"/>
@@ -33177,8 +33503,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="MII1_TXD0" class="0">
 <segment>
 <pinref part="IC29" gate="G$1" pin="TXD0"/>
-<wire x1="916.94" y1="934.72" x2="873.76" y2="934.72" width="0.1524" layer="91"/>
-<label x="873.76" y="934.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="916.94" y1="934.72" x2="835.66" y2="934.72" width="0.1524" layer="91"/>
+<label x="835.66" y="934.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="D" pin="MII1_TXD0"/>
@@ -33189,8 +33515,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="MII1_TXD1" class="0">
 <segment>
 <pinref part="IC29" gate="G$1" pin="TXD1"/>
-<wire x1="916.94" y1="932.18" x2="873.76" y2="932.18" width="0.1524" layer="91"/>
-<label x="873.76" y="932.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="916.94" y1="932.18" x2="835.66" y2="932.18" width="0.1524" layer="91"/>
+<label x="835.66" y="932.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="D" pin="MII1_TXD1"/>
@@ -33201,8 +33527,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="MII1_TXD2" class="0">
 <segment>
 <pinref part="IC29" gate="G$1" pin="TXD2"/>
-<wire x1="916.94" y1="929.64" x2="873.76" y2="929.64" width="0.1524" layer="91"/>
-<label x="873.76" y="929.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="916.94" y1="929.64" x2="835.66" y2="929.64" width="0.1524" layer="91"/>
+<label x="835.66" y="929.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="D" pin="MII1_TXD2"/>
@@ -33214,9 +33540,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <segment>
 <pinref part="IC29" gate="G$1" pin="MDIO"/>
 <wire x1="916.94" y1="965.2" x2="904.24" y2="965.2" width="0.1524" layer="91"/>
-<label x="873.76" y="965.2" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="835.66" y="965.2" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="R85" gate="G$1" pin="2"/>
-<wire x1="904.24" y1="965.2" x2="873.76" y2="965.2" width="0.1524" layer="91"/>
+<wire x1="904.24" y1="965.2" x2="835.66" y2="965.2" width="0.1524" layer="91"/>
 <wire x1="904.24" y1="972.82" x2="904.24" y2="965.2" width="0.1524" layer="91"/>
 <junction x="904.24" y="965.2"/>
 </segment>
@@ -33229,8 +33555,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="MDIO_CLK" class="0">
 <segment>
 <pinref part="IC29" gate="G$1" pin="MDC"/>
-<wire x1="916.94" y1="962.66" x2="873.76" y2="962.66" width="0.1524" layer="91"/>
-<label x="873.76" y="962.66" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="916.94" y1="962.66" x2="835.66" y2="962.66" width="0.1524" layer="91"/>
+<label x="835.66" y="962.66" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="D" pin="MDC"/>
@@ -33238,67 +33564,25 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="434.34" y="449.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$212" class="0">
-<segment>
-<pinref part="IC29" gate="G$1" pin="RXD3/PHYAD2"/>
-<wire x1="916.94" y1="960.12" x2="904.24" y2="960.12" width="0.1524" layer="91"/>
-<pinref part="R95" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$225" class="0">
-<segment>
-<pinref part="IC29" gate="G$1" pin="RXD2/RMIISEL"/>
-<wire x1="916.94" y1="957.58" x2="904.24" y2="957.58" width="0.1524" layer="91"/>
-<pinref part="R96" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$226" class="0">
-<segment>
-<pinref part="IC29" gate="G$1" pin="RXD1/MODE1"/>
-<wire x1="916.94" y1="955.04" x2="904.24" y2="955.04" width="0.1524" layer="91"/>
-<pinref part="R97" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$227" class="0">
-<segment>
-<pinref part="IC29" gate="G$1" pin="RXD0/MODE0"/>
-<wire x1="916.94" y1="952.5" x2="904.24" y2="952.5" width="0.1524" layer="91"/>
-<pinref part="R99" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="N$228" class="0">
 <segment>
 <pinref part="IC29" gate="G$1" pin="RXDV"/>
-<wire x1="916.94" y1="949.96" x2="904.24" y2="949.96" width="0.1524" layer="91"/>
+<wire x1="916.94" y1="949.96" x2="871.22" y2="949.96" width="0.1524" layer="91"/>
 <pinref part="R98" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$229" class="0">
-<segment>
-<pinref part="IC29" gate="G$1" pin="RXCLK/PHYAD1"/>
-<wire x1="916.94" y1="947.42" x2="904.24" y2="947.42" width="0.1524" layer="91"/>
-<pinref part="R100" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$230" class="0">
-<segment>
-<pinref part="IC29" gate="G$1" pin="RXER/RXD4/PHYAD0"/>
-<wire x1="916.94" y1="944.88" x2="904.24" y2="944.88" width="0.1524" layer="91"/>
-<pinref part="R101" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$231" class="0">
 <segment>
 <pinref part="IC29" gate="G$1" pin="TXCLK"/>
-<wire x1="916.94" y1="939.8" x2="904.24" y2="939.8" width="0.1524" layer="91"/>
+<wire x1="916.94" y1="939.8" x2="871.22" y2="939.8" width="0.1524" layer="91"/>
 <pinref part="R102" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="MII1_TXEN" class="0">
 <segment>
 <pinref part="IC29" gate="G$1" pin="TXEN"/>
-<wire x1="916.94" y1="937.26" x2="873.76" y2="937.26" width="0.1524" layer="91"/>
-<label x="873.76" y="937.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="916.94" y1="937.26" x2="835.66" y2="937.26" width="0.1524" layer="91"/>
+<label x="835.66" y="937.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="D" pin="MII1_TX_EN"/>
@@ -33309,8 +33593,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="MII1_TXD3" class="0">
 <segment>
 <pinref part="IC29" gate="G$1" pin="TXD3"/>
-<wire x1="916.94" y1="927.1" x2="873.76" y2="927.1" width="0.1524" layer="91"/>
-<label x="873.76" y="927.1" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="916.94" y1="927.1" x2="835.66" y2="927.1" width="0.1524" layer="91"/>
+<label x="835.66" y="927.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="D" pin="MII1_TXD3"/>
@@ -33318,18 +33602,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="434.34" y="485.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$239" class="0">
-<segment>
-<pinref part="IC29" gate="G$1" pin="COL/CRS_DV/MODE2"/>
-<wire x1="916.94" y1="924.56" x2="904.24" y2="924.56" width="0.1524" layer="91"/>
-<pinref part="R103" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="MII1_RXD3" class="0">
 <segment>
 <pinref part="R95" gate="G$1" pin="2"/>
-<wire x1="894.08" y1="960.12" x2="873.76" y2="960.12" width="0.1524" layer="91"/>
-<label x="873.76" y="960.12" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="861.06" y1="960.12" x2="835.66" y2="960.12" width="0.1524" layer="91"/>
+<label x="835.66" y="960.12" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="D" pin="MII1_RXD3"/>
@@ -33340,8 +33617,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="MII1_RXD2" class="0">
 <segment>
 <pinref part="R96" gate="G$1" pin="2"/>
-<wire x1="894.08" y1="957.58" x2="873.76" y2="957.58" width="0.1524" layer="91"/>
-<label x="873.76" y="957.58" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="861.06" y1="957.58" x2="835.66" y2="957.58" width="0.1524" layer="91"/>
+<label x="835.66" y="957.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="D" pin="MII1_RXD2"/>
@@ -33352,8 +33629,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="MII1_RXD1" class="0">
 <segment>
 <pinref part="R97" gate="G$1" pin="2"/>
-<wire x1="894.08" y1="955.04" x2="873.76" y2="955.04" width="0.1524" layer="91"/>
-<label x="873.76" y="955.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="861.06" y1="955.04" x2="835.66" y2="955.04" width="0.1524" layer="91"/>
+<label x="835.66" y="955.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="D" pin="MII1_RXD1"/>
@@ -33364,8 +33641,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="MII1_RXD0" class="0">
 <segment>
 <pinref part="R99" gate="G$1" pin="2"/>
-<wire x1="894.08" y1="952.5" x2="873.76" y2="952.5" width="0.1524" layer="91"/>
-<label x="873.76" y="952.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="861.06" y1="952.5" x2="835.66" y2="952.5" width="0.1524" layer="91"/>
+<label x="835.66" y="952.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="D" pin="MII1_RXD0"/>
@@ -33376,8 +33653,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="MII1_RXDV" class="0">
 <segment>
 <pinref part="R98" gate="G$1" pin="2"/>
-<wire x1="894.08" y1="949.96" x2="873.76" y2="949.96" width="0.1524" layer="91"/>
-<label x="873.76" y="949.96" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="861.06" y1="949.96" x2="835.66" y2="949.96" width="0.1524" layer="91"/>
+<label x="835.66" y="949.96" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="D" pin="MII1_RX_DV"/>
@@ -33388,8 +33665,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="MII1_RXCLK" class="0">
 <segment>
 <pinref part="R100" gate="G$1" pin="2"/>
-<wire x1="894.08" y1="947.42" x2="873.76" y2="947.42" width="0.1524" layer="91"/>
-<label x="873.76" y="947.42" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="861.06" y1="947.42" x2="835.66" y2="947.42" width="0.1524" layer="91"/>
+<label x="835.66" y="947.42" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="D" pin="MII1_RX_CLK"/>
@@ -33400,8 +33677,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="MII1_RXERR" class="0">
 <segment>
 <pinref part="R101" gate="G$1" pin="2"/>
-<wire x1="894.08" y1="944.88" x2="873.76" y2="944.88" width="0.1524" layer="91"/>
-<label x="873.76" y="944.88" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="861.06" y1="944.88" x2="835.66" y2="944.88" width="0.1524" layer="91"/>
+<label x="835.66" y="944.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="D" pin="MII1_RX_ER"/>
@@ -33412,8 +33689,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="MII1_TXCLK" class="0">
 <segment>
 <pinref part="R102" gate="G$1" pin="2"/>
-<wire x1="894.08" y1="939.8" x2="873.76" y2="939.8" width="0.1524" layer="91"/>
-<label x="873.76" y="939.8" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="861.06" y1="939.8" x2="835.66" y2="939.8" width="0.1524" layer="91"/>
+<label x="835.66" y="939.8" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="D" pin="MII1_TX_CLK"/>
@@ -33425,14 +33702,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <segment>
 <pinref part="IC29" gate="G$1" pin="CRS"/>
 <pinref part="R104" gate="G$1" pin="1"/>
-<wire x1="916.94" y1="922.02" x2="904.24" y2="922.02" width="0.1524" layer="91"/>
+<wire x1="916.94" y1="922.02" x2="871.22" y2="922.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MII1_COL" class="0">
 <segment>
 <pinref part="R103" gate="G$1" pin="2"/>
-<wire x1="894.08" y1="924.56" x2="873.76" y2="924.56" width="0.1524" layer="91"/>
-<label x="873.76" y="924.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="861.06" y1="924.56" x2="835.66" y2="924.56" width="0.1524" layer="91"/>
+<label x="835.66" y="924.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="D" pin="MII1_COL"/>
@@ -33443,8 +33720,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="MII1_CRS_DV" class="0">
 <segment>
 <pinref part="R104" gate="G$1" pin="2"/>
-<wire x1="894.08" y1="922.02" x2="873.76" y2="922.02" width="0.1524" layer="91"/>
-<label x="873.76" y="922.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="861.06" y1="922.02" x2="835.66" y2="922.02" width="0.1524" layer="91"/>
+<label x="835.66" y="922.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="D" pin="MII1_CRS"/>
@@ -33687,9 +33964,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <segment>
 <pinref part="U2" gate="A" pin="DM0"/>
 <wire x1="528.32" y1="927.1" x2="558.8" y2="927.1" width="0.1524" layer="91"/>
-<wire x1="558.8" y1="927.1" x2="558.8" y2="957.58" width="0.1524" layer="91"/>
-<wire x1="558.8" y1="957.58" x2="561.34" y2="957.58" width="0.1524" layer="91"/>
-<label x="561.34" y="957.58" size="1.778" layer="95" xref="yes"/>
+<wire x1="558.8" y1="927.1" x2="558.8" y2="960.12" width="0.1524" layer="91"/>
+<wire x1="558.8" y1="960.12" x2="561.34" y2="960.12" width="0.1524" layer="91"/>
+<label x="561.34" y="960.12" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="EMMV_VCCI" class="0">
@@ -34277,7 +34554,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <net name="CGND" class="0">
 <segment>
 <pinref part="R149" gate="G$1" pin="2"/>
-<wire x1="449.58" y1="190.5" x2="449.58" y2="180.34" width="0.6096" layer="91"/>
+<wire x1="449.58" y1="190.5" x2="449.58" y2="177.8" width="0.6096" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="CGND"/>
 </segment>
 <segment>
@@ -35320,6 +35597,20 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="746.76" y1="93.98" x2="746.76" y2="99.06" width="0.1524" layer="91"/>
 <label x="746.76" y="99.06" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R155" gate="G$1" pin="1"/>
+<wire x1="1107.44" y1="896.62" x2="1115.06" y2="896.62" width="0.1524" layer="91"/>
+<wire x1="1115.06" y1="896.62" x2="1115.06" y2="901.7" width="0.1524" layer="91"/>
+<pinref part="R154" gate="G$1" pin="1"/>
+<wire x1="1115.06" y1="901.7" x2="1107.44" y2="901.7" width="0.1524" layer="91"/>
+<wire x1="1115.06" y1="901.7" x2="1115.06" y2="906.78" width="0.1524" layer="91"/>
+<junction x="1115.06" y="901.7"/>
+<pinref part="R153" gate="G$1" pin="1"/>
+<wire x1="1115.06" y1="906.78" x2="1107.44" y2="906.78" width="0.1524" layer="91"/>
+<wire x1="1115.06" y1="906.78" x2="1115.06" y2="916.94" width="0.1524" layer="91"/>
+<junction x="1115.06" y="906.78"/>
+<label x="1115.06" y="916.94" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="UNUSED_1" class="0">
 <segment>
@@ -35730,11 +36021,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <segment>
 <pinref part="R54" gate="G$1" pin="1"/>
 <pinref part="R45" gate="G$1" pin="2"/>
-<wire x1="462.28" y1="205.74" x2="462.28" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="462.28" y1="208.28" x2="462.28" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="462.28" y1="208.28" x2="464.82" y2="208.28" width="0.1524" layer="91"/>
-<junction x="462.28" y="208.28"/>
-<label x="464.82" y="208.28" size="1.778" layer="95" xref="yes"/>
+<wire x1="457.2" y1="205.74" x2="457.2" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="457.2" y1="208.28" x2="457.2" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="457.2" y1="208.28" x2="462.28" y2="208.28" width="0.1524" layer="91"/>
+<junction x="457.2" y="208.28"/>
+<label x="462.28" y="208.28" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="B" pin="AIN7"/>
@@ -35757,32 +36048,26 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="D5" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="Q12" gate="G$1" pin="C"/>
-<pinref part="R86" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="R84" gate="G$1" pin="2"/>
 <pinref part="R86" gate="G$1" pin="1"/>
 <wire x1="487.68" y1="205.74" x2="487.68" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="487.68" y1="208.28" x2="487.68" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="487.68" y1="208.28" x2="502.92" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="487.68" y1="208.28" x2="495.3" y2="208.28" width="0.1524" layer="91"/>
 <junction x="487.68" y="208.28"/>
-<wire x1="502.92" y1="208.28" x2="502.92" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="U$17" gate="G$1" pin="G"/>
+<pinref part="U$11" gate="G$1" pin="G"/>
+<wire x1="495.3" y1="218.44" x2="495.3" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ENABLE_STUFF" class="0">
 <segment>
-<pinref part="Q12" gate="G$1" pin="B"/>
-<wire x1="492.76" y1="190.5" x2="497.84" y2="190.5" width="0.1524" layer="91"/>
-<label x="500.38" y="190.5" size="1.778" layer="95" xref="yes"/>
+<label x="500.38" y="187.96" size="1.778" layer="95" xref="yes"/>
 <pinref part="R91" gate="G$1" pin="1"/>
-<wire x1="497.84" y1="190.5" x2="500.38" y2="190.5" width="0.1524" layer="91"/>
-<junction x="497.84" y="190.5"/>
+<wire x1="497.84" y1="187.96" x2="500.38" y2="187.96" width="0.1524" layer="91"/>
+<junction x="497.84" y="187.96"/>
+<pinref part="T1" gate="A" pin="G"/>
+<wire x1="492.76" y1="187.96" x2="497.84" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="B" pin="USB0_DRVVBUS"/>
@@ -35943,20 +36228,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="642.62" y1="850.9" x2="647.7" y2="850.9" width="0.1524" layer="91"/>
 <wire x1="647.7" y1="850.9" x2="647.7" y2="855.98" width="0.1524" layer="91"/>
 <label x="647.7" y="855.98" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="USB_PWR" class="0">
-<segment>
-<wire x1="576.58" y1="1038.86" x2="574.04" y2="1038.86" width="0.1524" layer="91"/>
-<pinref part="U3" gate="A" pin="IN_2"/>
-<wire x1="574.04" y1="1038.86" x2="574.04" y2="1036.32" width="0.1524" layer="91"/>
-<junction x="574.04" y="1038.86"/>
-<pinref part="U3" gate="A" pin="IN"/>
-<wire x1="574.04" y1="1036.32" x2="576.58" y2="1036.32" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="~PWRON1"/>
-<wire x1="528.32" y1="955.04" x2="548.64" y2="955.04" width="0.1524" layer="91"/>
-<wire x1="548.64" y1="955.04" x2="548.64" y2="1038.86" width="0.1524" layer="91"/>
-<wire x1="548.64" y1="1038.86" x2="574.04" y2="1038.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPI0_CS0" class="0">
@@ -36281,14 +36552,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="P-SHUNT" class="0">
 <segment>
-<pinref part="U$17" gate="G$1" pin="S"/>
 <pinref part="R26" gate="G$1" pin="2"/>
-<wire x1="505.46" y1="223.52" x2="510.54" y2="223.52" width="0.6096" layer="91"/>
 <wire x1="510.54" y1="223.52" x2="513.08" y2="223.52" width="0.6096" layer="91"/>
 <wire x1="510.54" y1="223.52" x2="510.54" y2="198.12" width="0.1524" layer="91"/>
-<junction x="510.54" y="223.52"/>
 <wire x1="510.54" y1="198.12" x2="551.18" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="U13" gate="A" pin="IN+"/>
+<pinref part="U$11" gate="G$1" pin="D"/>
+<wire x1="505.46" y1="223.52" x2="510.54" y2="223.52" width="0.1524" layer="91"/>
+<junction x="510.54" y="223.52"/>
 </segment>
 </net>
 <net name="THERM_BOARD" class="0">
@@ -36305,6 +36576,139 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="U1" gate="B" pin="AIN4"/>
 <wire x1="523.24" y1="642.62" x2="535.94" y2="642.62" width="0.1524" layer="91"/>
 <label x="535.94" y="642.62" size="1.9304" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="R86" gate="G$1" pin="2"/>
+<pinref part="T1" gate="A" pin="D"/>
+</segment>
+</net>
+<net name="VMID" class="1">
+<segment>
+<pinref part="R84" gate="G$1" pin="1"/>
+<wire x1="487.68" y1="220.98" x2="487.68" y2="223.52" width="0.1524" layer="91"/>
+<pinref part="U$17" gate="G$1" pin="S"/>
+<wire x1="487.68" y1="223.52" x2="480.06" y2="223.52" width="0.1524" layer="91"/>
+<pinref part="U$11" gate="G$1" pin="S"/>
+<wire x1="480.06" y1="223.52" x2="474.98" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="487.68" y1="223.52" x2="492.76" y2="223.52" width="0.1524" layer="91"/>
+<junction x="487.68" y="223.52"/>
+<pinref part="R24" gate="G$1" pin="1"/>
+<wire x1="480.06" y1="220.98" x2="480.06" y2="223.52" width="0.1524" layer="91"/>
+<junction x="480.06" y="223.52"/>
+</segment>
+</net>
+<net name="N$17" class="1">
+<segment>
+<pinref part="R53" gate="G$1" pin="1"/>
+<wire x1="472.44" y1="203.2" x2="480.06" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="472.44" y1="203.2" x2="472.44" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="R24" gate="G$1" pin="2"/>
+<wire x1="480.06" y1="210.82" x2="480.06" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="U$17" gate="G$1" pin="G"/>
+<wire x1="472.44" y1="203.2" x2="472.44" y2="218.44" width="0.1524" layer="91"/>
+<junction x="472.44" y="203.2"/>
+</segment>
+</net>
+<net name="USB_PWR" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="~PWRON1"/>
+<wire x1="528.32" y1="955.04" x2="548.64" y2="955.04" width="0.1524" layer="91"/>
+<wire x1="548.64" y1="955.04" x2="548.64" y2="1043.94" width="0.1524" layer="91"/>
+<pinref part="U3" gate="A" pin="~EN+"/>
+<wire x1="576.58" y1="1043.94" x2="548.64" y2="1043.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="RXD1" class="0">
+<segment>
+<pinref part="IC29" gate="G$1" pin="RXD1/MODE1"/>
+<wire x1="916.94" y1="955.04" x2="871.22" y2="955.04" width="0.1524" layer="91"/>
+<pinref part="R97" gate="G$1" pin="1"/>
+<label x="896.62" y="955.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="1084.58" y1="901.7" x2="1097.28" y2="901.7" width="0.1524" layer="91"/>
+<pinref part="R154" gate="G$1" pin="2"/>
+<label x="1084.58" y="901.7" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="RXD0" class="0">
+<segment>
+<pinref part="IC29" gate="G$1" pin="RXD0/MODE0"/>
+<wire x1="916.94" y1="952.5" x2="871.22" y2="952.5" width="0.1524" layer="91"/>
+<pinref part="R99" gate="G$1" pin="1"/>
+<label x="896.62" y="952.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="1084.58" y1="906.78" x2="1097.28" y2="906.78" width="0.1524" layer="91"/>
+<pinref part="R153" gate="G$1" pin="2"/>
+<label x="1084.58" y="906.78" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MODE2" class="0">
+<segment>
+<wire x1="1084.58" y1="896.62" x2="1097.28" y2="896.62" width="0.1524" layer="91"/>
+<pinref part="R155" gate="G$1" pin="2"/>
+<label x="1084.58" y="896.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC29" gate="G$1" pin="COL/CRS_DV/MODE2"/>
+<wire x1="916.94" y1="924.56" x2="871.22" y2="924.56" width="0.1524" layer="91"/>
+<pinref part="R103" gate="G$1" pin="1"/>
+<label x="896.62" y="924.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="REFCLK0" class="0">
+<segment>
+<pinref part="R106" gate="G$1" pin="2"/>
+<wire x1="1097.28" y1="876.3" x2="1087.12" y2="876.3" width="0.1524" layer="91"/>
+<label x="1087.12" y="876.3" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC29" gate="G$1" pin="RXCLK/PHYAD1"/>
+<wire x1="916.94" y1="947.42" x2="871.22" y2="947.42" width="0.1524" layer="91"/>
+<pinref part="R100" gate="G$1" pin="1"/>
+<label x="896.62" y="947.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RXD2" class="0">
+<segment>
+<pinref part="R109" gate="G$1" pin="2"/>
+<wire x1="1097.28" y1="868.68" x2="1087.12" y2="868.68" width="0.1524" layer="91"/>
+<label x="1087.12" y="868.68" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC29" gate="G$1" pin="RXD2/RMIISEL"/>
+<wire x1="916.94" y1="957.58" x2="871.22" y2="957.58" width="0.1524" layer="91"/>
+<pinref part="R96" gate="G$1" pin="1"/>
+<label x="896.62" y="957.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RXD3" class="0">
+<segment>
+<pinref part="R110" gate="G$1" pin="2"/>
+<wire x1="1097.28" y1="861.06" x2="1087.12" y2="861.06" width="0.1524" layer="91"/>
+<label x="1087.12" y="861.06" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC29" gate="G$1" pin="RXD3/PHYAD2"/>
+<wire x1="916.94" y1="960.12" x2="871.22" y2="960.12" width="0.1524" layer="91"/>
+<pinref part="R95" gate="G$1" pin="1"/>
+<label x="896.62" y="960.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RXER" class="0">
+<segment>
+<pinref part="R111" gate="G$1" pin="2"/>
+<wire x1="1097.28" y1="853.44" x2="1087.12" y2="853.44" width="0.1524" layer="91"/>
+<label x="1087.12" y="853.44" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC29" gate="G$1" pin="RXER/RXD4/PHYAD0"/>
+<wire x1="916.94" y1="944.88" x2="871.22" y2="944.88" width="0.1524" layer="91"/>
+<pinref part="R101" gate="G$1" pin="1"/>
+<label x="896.62" y="944.88" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

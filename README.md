@@ -31,11 +31,11 @@ _/    _/    _/_/_/      _/        _/_/    _/      _/        _/_/_/
 - Two Grove connectors, I2C and UART
 
 
-![Revolve_A0.png](attachment:Revolve_A0.png)
+![Revolve_A0.png](attachment:Docs/images/Revolve_A0.png)
 
 ## Power management
 Here is an overview of the power distribution
-![Revolve%20power%20diagram.svg](attachment:Revolve%20power%20diagram.svg)
+![Revolve_power_diagram.svg](attachment:Docs/images/Revolve_power_diagram.svg)
 
 ## 5V step down TPS54202 calculations
 

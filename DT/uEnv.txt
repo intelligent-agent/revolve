@@ -1,0 +1,5 @@
+uname_r=4.14.0-bone5
+dtb=am335x-revolve.dtb
+mmcdev=1
+
+cmdline=coherent_pool=1M net.ifnames=0 consoleblank=0 fbcon=rotate:1 omap_wdt.nowayout=0 root=/dev/mmcblk0p1 rw rootfstype=ext4

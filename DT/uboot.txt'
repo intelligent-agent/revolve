@@ -1,0 +1,32 @@
+
+
+
+
+## Load from USB ethernet
+setenv autoload no; dhcp;
+setenv bootargs console=ttyS0,115200n8 rootdelay=5 root=/dev/sda1 rw 
+tftp 0x82000000 zImage; tftp 0x88000000 dtb/am335x-boneblack-wireless.dtb;  bootz 0x82000000 - 0x88000000
+
+
+
+# Load from USB (Only from old u-boot)
+setenv bootargs console=ttyS0,115200n8 rootdelay=5 root=/dev/sda1 rw 
+#setenv bootargs console=ttyS0,115200n8 rootdelay=5 root=/dev/ram0 rw 
+usb start
+load usb 0:1 0x82000000 /boot/vmlinuz-4.4.69-bone17
+load usb 0:1 0x88000000 /boot/dtbs/4.4.69-bone17/am335x-boneblack.dtb
+load usb 0:1 0x88080000 /boot/initrd.img-4.4.69-bone17
+bootz 0x82000000 0x88080000:0x5CA85C 0x88000000
+
+
+# Boot from MMC
+setenv bootargs console=ttyS0,115200n8 root=/dev/mmcblk0p1 rw 
+load mmc 1:1 0x82000000 /boot/vmlinuz-4.4.69-bone17
+load mmc 1:1 0x88000000 /boot/dtbs/4.4.69-bone17/am335x-boneblack.dtb
+load mmc 1:1 0x88080000 /boot/initrd.img-4.4.69-bone17
+bootz 0x82000000 0x88080000:0x5CA85C 0x88000000
+
+
+# Copy image from USB to eMMC
+xzcat /Kamikaze-2.1.0b.img.xz | pv | dd of=/dev/mmcblk1 bs=512
+

@@ -12,7 +12,7 @@
 
 / {
 
-	model = "AM335x Revolve";
+	model = "Revolve:00A0";
 	compatible = "ti,am335x-bone-black", "ti,am335x-bone", "ti,am33xx";
 
 	cpus {
@@ -23,7 +23,7 @@
 
 	memory@80000000 {
 		device_type = "memory";
-		reg = <0x80000000 0x10000000>; /* 256 MB */
+		reg = <0x80000000 0x10000000>; /* 512 MB */
 	};
 
 	chosen {

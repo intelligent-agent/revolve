@@ -1,0 +1,118 @@
+TODO: 
+-----
+ - 
+ + Change 10.000 pF to 0.1uF (This was right in the schematic, but seems to have been changed during ordering)
+ + Change footprint on Y4
+ + Consider dropping 2.2uF (Dropped 1uF, cutting one bom-line)
+ + 0201 package on the 18pF caps in the BoM
+ + Change 10V 0805 10uF caps to 35V (Where is this? The MPN in schematic is right) 
+    + Wrong voltage on 10uF for steppers (PartNo in schemtic is wrong). Use MPN
+ + Smaller footprint on C25 (Changed to 6.3mm diameter)
+ + Change SOT23 footprints
+ + TPD12S01 wrong package in the BoM: (Changed SPN in the schematic)
+ + U5 is 5V, should be 12V (changed MPN and SPN)
+ + HDMI footprint slightly to the side. 
+ + Use the large test points, gather them and place on one side. 
+ + Connect USB HUB pin 27 to gnd. (TSTPLL)
+ + Ethernet connector wrong footprint 
+ + missing pull-up on OC pin 5V usb. 
+ + Missing pull-up on USB0_DP ( Not adding pull-up, reference design does not have it. )
+ + Missing solder paste on eMMC
+ + Mising reset pin on eMMC
+ + EP (GND pad) on USB hub not connected to GND. 
+ + C20 seems to have blown up.... (It has 3.3V across it, so it seems random)
+ + GANGED pin must be pulled high on the USB hub. 
+ + Add 22R + 15K pull-downs + caps on transmission lines for the USB. (Dropped Caps, bit otherwise OK)
+ + Move Fan LEDs to 3.3V line instead of 24V line. Too bright. 
+ + Consider adding an LED to indicate 12/24V is enabled. (Added LED on enable wire)
+ + More room around the PMOS chips on the input. (Added tPlace)
+ + Move LEDs to make room for connectors. (switched USB device and LEDS)
+ + Consider C6-75pF for loop stability on TPS54202 (Added a C6 of 18pF. Can be increased if needed)
+ + Change PMIC_PGOOD to be Push/pull compatible.
+    ( Using a buffer with an enable input ) 
+ + USB1_VBUS connected to SYS_5V. (Conected USB1_VBUS to USB_VBUS)
+ + No low voltage tracks under the inductor. Makes noise. (Rerouted out of the way)
+ + Missing 1.8V on VDDDC1 and 2 on HDMI 
+ + Consider ferrite beads on analog domain.  (Contained in the SiP?)
+ + Consider removing diag 1
+    (No need to remove it, the design works now)
+ + Pin 9 on TMC2130 floating. 
+ + Resistors on gates. (Added 100R resistors on high power mosfets to aid in ringing (LC) and current draw.)
+ + Move USB and HDMI further apart (Added an indicator for 20mm)
+ + Thermistor markings wrong
+ + Much noise on the thermistors. Fix layout to reduce noise level. Currently it's 30 mV PP
+    (Moved filter closer to SiP input and connected VREFN to AGND_ADC)
+ + Remove clkout_25MHz
+ + SISS27DN add outline 
+
+ From Octavo:
+ + Silk screen errors: (Component names will not be on final board. )
+ + Rename +3V3 to sys_vdd1_3v3
+ + Make R49 499ohm
+ + Fix JTAG header connections
+    + TVDD is not pulled high.
+    + TCLKRTN is not connected to TCK.
+    + EMU0 and EMU1 are not pulled high.
+    + JTAG_TRSTN is not pulled low.
+    + TDIS is not grounded.
+ + Change eMMC pull-ups to 10K. 
+ + PMIC_MUX connected to PMIC_MUX_OUT on the SiP
+ + Complete top and bottom side ESD ring
+ + Remove thermal pour on L1
+ + Widen VIN_AC pour
+ + Check traces (24V and 12V) for U5: (Max 150mA, so should be OK)
+ + Remove VIN_BAT pour. 
+ + Increased the traces for the clamping circuit to 0.3 mm (12mil) 
+ + Update the PWRONRSTN / WARMRSTN schematic
+ + Consider 1.5K resistor on LEDs: (The LEDs are bright enough with 4.7K) 
+ + 5.1) Pull Don't care bits to GND. 
+ + 5.2) Not adding a 100R resistor due to board space. 
+ + 5.4) Make eMMC compatible with V5.0 (Not possible since DAT6 is surrounded on all sides. )
+ + 8.1) Connect VREFN to AGND_ADC
+ + 8.2) Fixed PMIC_MUX signal is not correct. 
+ + 8.3) You might want to change R68, R67 R23 and R69 to 1.5K resistors to improve the brightness of the LEDs. (They are bright enough)
+ + Check signals for 90 degree turns
+ + Check copper pours for small areas. 
+ + Using 4 vias on USB_DC copper pour
+
+
+
+From Seeed: 
+ + New USB host connectors (Same footprint)
+ + New tactile sitches (New foorprint)
+ + New capacitors (Same footprint)
+ + New edge headers (Same footprint)
+
+Stuff that is working:
+ - All PWMs/timers are working so we have 4 heaters + 4 fans. 
+ - As far as I can tell, the current, voltage and temperature sense on the input is OK, 
+but perhaps not enough time to store position if power is lost. It depends on well we can integrate power managent into the Cortex M3 core on the board. 
+ - The HDMI output is OK. 
+ - USB hub works with some workarounds. 
+ - Ethernet works
+ - USB device works
+ - Thermistor inputs.
+ - Endstops, all but Y1 seems to be working
+ - Thermocouple inputs
+ - Steppers!
+
+Not working yet:
+ - Grove connectors (One I2C, one UART)
+ - Servos not yet tested. 
+ - Rotary encoder.  
+ - External stepper drivers
+
+Board bring-up: 
+ - Measured all voltage domains, no shorts. 
+ - Applied USB power, no message in kernel. 
+ - 3.315V on VDD2
+ - 3.339 on VDD3
+ - 1.113 on VDD_FPU
+ - 1.808 on VDD_RTC
+ - 4.95 on SYS_5V
+ - 1.807 on VDD_PLL 
+ - 1.04 on VDD_CORE
+ - 1.40 on VDDS_DDR
+ 
+
+

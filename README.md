@@ -9,13 +9,13 @@ _/    _/    _/_/_/      _/        _/_/    _/      _/        _/_/_/
 ```                                                                      
 
 ## Main features
-- 1GHz Single board solution using Octavo OSB3358 SIP
-- 6 TMC2130 stepper drivers, stall detection, over current/temp
+- 1GHz Single board solution using [Octavo OSB3358 SIP](https://octavosystems.com/2016/05/09/osd3358-new-era-integration/)
+- 6 [TMC2130](https://www.trinamic.com/products/integrated-circuits/details/tmc2130/) stepper drivers, stall detection, overcurrent/temp
 - 4 Thermistor or Thermocouple inputs (runtime configurable)
-- 4 high power heater outputs 
+- 4 high power heater outputs
 - 4 GB fast eMMC
 - Optionally 2 external drivers
-- Direct coupled PRU lines to all drivers
+- [Direct coupled PRU lines](http://beagleboard.org/pru) to all drivers
 - Flexible PWM on all 8 MOSFET outputs for flexible EMC passing
 - 4 USB host ports, 1 USB device port
 - 10/100Mbit Ethernet
@@ -23,7 +23,7 @@ _/    _/    _/_/_/      _/        _/_/    _/      _/        _/_/_/
 - Smart power controls
  - Input voltage and current measurement
  - Power removed detection
- - Software defined over current protecion 
+ - Software defined overcurrent protecion
 - Quad encoder input for filament sensor
 - Buffered end stop inputs, ESD protected connectors
 - 2 Servo outputs
@@ -31,11 +31,11 @@ _/    _/    _/_/_/      _/        _/_/    _/      _/        _/_/_/
 - Two Grove connectors, I2C and UART
 
 
-![Revolve_A0.png](attachment:https://raw.githubusercontent.com/intelligent-agent/revolve/master/Docs/images/Revolve_A0.png)
+![A0.png](Docs/images/Revolve_A0.png)
 
 ## Power management
 Here is an overview of the power distribution
-![Revolve_power_diagram.svg](attachment:https://raw.githubusercontent.com/intelligent-agent/revolve/master/Docs/images/Revolve_power_diagram.svg)
+![power_diagram.png](Docs/images/Revolve_power_diagram.png)
 
 ## 5V step down TPS54202 calculations
 
@@ -45,10 +45,10 @@ Here is an overview of the power distribution
 import math
 Vout = 5.1 # Output voltage
 Vin = 24 # Input voltage
-Iout = 2 # Output current 
-Kind = 0.3 # ? 
+Iout = 2 # Output current
+Kind = 0.3 # ?
 Fsw = 500000 # Switching frequency
-Cbulk = 10 *10**-6 
+Cbulk = 10 *10**-6
 u = 10**6 # micro
 
 ```
@@ -83,7 +83,7 @@ Vr = 0.03 # Ripple Voltage
 Ir = Iout*0.3
 CO1 = (2*dIout)/(Fsw*dVout)
 CO2 = (1.0/(8.0*Fsw))*(1.0/(Vr/Ir))
-#CO3 = 
+#CO3 =
 print "Input Capacitor Selection:"
 print "CO1: "+str(CO1*u) + " uF"
 print "CO2: "+str(CO2*u) + " uF"
@@ -104,17 +104,17 @@ R2 = 100.0*10**3
 R3 = 13.3*10**3
 Vref = 0.596
 Vout = Vref*((R2/R3)+1)
-print "Calculation of output resitance: "
+print "Calculation of output resistance: "
 print "Vout = "+str(Vout)
 ```
 
-    Calculation of output resitance: 
+    Calculation of output resistance:
     Vout = 5.07720300752
 
 
 ## Stepper drivers
 
-Current sense resistor: 
+Current sense resistor:
 
 
 ```python
@@ -128,30 +128,33 @@ print "Power dissipation: "+str(P)
     Power dissipation: 0.1
 
 
-**Diagnostics:**  
-$2*8 = 16$  
-Connect together to form a single interrupt? 
-No, it's good to have individual pins for stallguard. 
+**Diagnostics:**
+```python
+$2*8 = 16$
+```
+
+* Connect together to form a single interrupt?
+No, it's good to have individual pins for stallguard.
 
 ## Capacitor selection
-100uF electrolytic capacitor is recommended. No mention of ESR or ripple current in the TMC2130 data sheet. 
-What is the frequency at which the largest current draw is expected? 
-There are 10uF capacitors in line to handle high frequency current draws, so it is expected that teh electrolytic capacitors will handle lower frequecy draws. It depends on Cable length, ESR in PSU as well. 
+- 100uF electrolytic capacitor is recommended. No mention of ESR or ripple current in the TMC2130 data sheet.
+- What is the frequency at which the largest current draw is expected?
+- There are 10uF capacitors in line to handle high frequency current draws, so it is expected that the electrolytic capacitors will handle lower frequecy draws. It depends on cable length, ESR in PSU as well.
 
 
 **SPI and enable**  
 * Enable pins, can it be done using SPI?
-* SPI CS pins, need 8 pins at least. 
-    * Use Mux? 
+* SPI CS pins, need 8 pins at least.
+    * Use Mux?
         * Increased cost. How much?
-        * 
-    * Daisy chain? 
-        * What is the required time? 
-        * Not good for Stepper A/B. Use CN1? 
+        *
+    * Daisy chain?
+        * What is the required time?
+        * Not good for Stepper A/B. Use CN1?
         * Each transaction takes 60 us
-    * Individual pins. 
-        * Requiers 8 pins. 
-* 
+    * Individual pins.
+        * Requires 8 pins.
+*
 
 
 ```python
@@ -160,7 +163,7 @@ a = 6.0*40/(4*10**6)
 print "it takes "+str(a*u)+" us for each transaction"
 ```
 
-    Stepper readout time: 
+    Stepper readout time:
     it takes 60.0 us for each transaction
 
 
@@ -171,7 +174,7 @@ print "it takes "+str(a*u)+" us for each transaction"
     * Costly > $1
     * board space
 * Use internal reference
-    * 5 bit precicion
+    * 5 bit precision
 
 
 ```python
@@ -183,11 +186,12 @@ print "Number of current steps on TMC2130: "+str(2**5)
 
 # Smart input current monitor circuit.
 Fuses have slow responses, so they do not protect against short circuits
-and only asymptotically approach their rating with time. They are temperature dependent, difficult to 
-repalace and physically large. They also increase manfacting tie and cost due to almost universally being 
-through hole components. 
+and only asymptotically approach their rating with time. They are temperature dependent, difficult to
+replace, and physically large. They also increase manufacturing time and cost due to almost universally being
+through-hole components.
+
  - Measure input voltage
- - Measure input current. 
+ - Measure input current.
  - Choosing PMOS to also implement power lost detection.
  - Reverse polarity protection
 
@@ -229,7 +233,7 @@ print "Voltage divider max output: "+str(v_max*R2/(R1+R2))
 print "Input voltage resolution: ??"
 ```
 
-    Input voltage calculations: 
+    Input voltage calculations:
     Voltage divider max output: 1.07736389685
     Input voltage resolution: ??
 
@@ -250,32 +254,32 @@ print "Power expenditure: "+str(Ploss)+ " W"
 ## ESD considerations
  - EN 55024/EN 61000-4-2: ±4kV Contact, ±8kV Air
 ### Board
- - Ground shield, having 0.1R to ground. 
-### USB 
- - Using TPD4S012 having Contact: ±10kV, Air: ±10kV
+ - Ground shield, having 0.1R to ground.
+### USB
+ - Using [TPD4S012](http://www.ti.com/product/TPD4S012) having Contact: ±10kV, Air: ±10kV
 ### HDMI
- - Using TPD12S016
-### Ethernet 
- - Isolated using magnetics. 
+ - Using [TPD12S016](http://www.ti.com/product/TPD12S016)
+### Ethernet
+ - Isolated using magnetics.
 ### Endstops
- - Input buffer CD4050BD with HBD: ±1500, CDM: ±1000
-### Analog 
+ - Input buffer [CD4050BD](http://www.ti.com/product/CD4050BD) with HBD: ±1500, CDM: ±1000
+### Analog
  - Series resistance
 ### Steppers
  - TMC2130 HBM: ±4 kV
 ### Heater MOSFETs
- - 4.7nF protection 
+ - 4.7nF protection
 ### Fan MOSFETS
  - No protection
 
 ## Layout considerations
-Using en562748 as reference for PHY layout. 
- - Using 100R resistors in series to reduce EMI. 
- - Placing PHY chip close to SIP since differential lines radiate less than 3.3V single ended lines. 
- - Removing ground plane under magnetics. 
+Using en562748 as reference for PHY layout.
+ - Using 100R resistors in series to reduce EMI.
+ - Placing PHY chip close to SIP since differential lines radiate less than 3.3V single ended lines.
+ - Removing ground plane under magnetics.
  - 100 Ohm differential impedance
- - Plce 49.9ohm pullups close to PHY chip. 
- - OSH park uses FR408 lainate  
+ - Place 49.9ohm pullups close to PHY chip.
+ - OSH park uses FR408 laminate
 
 
 ```python
@@ -300,29 +304,29 @@ print "LED power calculations: "
 print "Resistor for {}, {}mA: {}".format(Vin, If*1000,R)
 ```
 
-    LED power calculations: 
+    LED power calculations:
     Resistor for 3.3, 0.1mA: 5000.0
 
 
 # Sysboot config
-Two Boot modes: MMC1 or USB device  
- - SYSBOOT[15-14] = 10b = 25MHz  
- - SYSBOOT[13:12] = 00b = reserved  
+Two Boot modes: MMC1 or USB device
+ - SYSBOOT[15-14] = 10b = 25MHz
+ - SYSBOOT[13:12] = 00b = reserved
  - SYSBOOT[11:10] = xx
  - SYSBOOT[9] = xx
  - SYSBOOT[8] = xx
  - SYSBOOT[7-6] = xx
  - SYSBOOT[5] = 0b = Disable CLKOUT1
  - SYSBOOT[4:0] = 11100b = MMC1, MMC0, UART0, USB0
- 
- To boot from USB: 
+
+ To boot from USB:
  - SYSBOOT[4:0] = 11000b = SPI0, MMCO0, USB0, UART0
 
 
 
 ```python
 Imax = 1.5 # Maximum output current on all 4 USB ports
-Rmeas = 0.01 # Current measurement resistor on low side. 
+Rmeas = 0.01 # Current measurement resistor on low side.
 RDSon = 0.065 #P-mos RDSon
 Vin = 5.1
 Vdrop = Vin - (Rmeas + RDSon)*Imax
@@ -337,7 +341,7 @@ print "Resulting voltage to USB: {}".format(Vdrop)
 
 ```python
 Imax = 1.5 # Maximum output current on all 4 USB ports
-Rmeas = 0.01 # Current measurement resistor on low side. 
+Rmeas = 0.01 # Current measurement resistor on low side.
 RDSon = 0.065 #P-mos RDSon
 Vin = 5.1
 Vdrop = Vin - (Rmeas + RDSon)*Imax
@@ -349,12 +353,12 @@ print "Resulting voltage to USB: {}".format(Vdrop)
     Resulting voltage to USB: 4.9875
 
 
-### Review 
+### Review
  - Changed vias to tented
- - Moved pin 1 indicator on U2 
+ - Moved pin 1 indicator on U2
  - Moved all test points to top side
- - 
- 
+ -
+
 
 
 ```python
@@ -362,8 +366,8 @@ from IPython.display import display, Markdown, Latex
 ```
 
 ## Calculation of power dissipation of P-MOS
-* $R_{ds(on)max} = 45 m\Omega$ @ $-10 V$
-* Thermal Resistance, Junction to Ambient @ $TA=+25 ^{\circ}C$ is $R_{\theta JA}=26 ^{\circ}C/W$
+* `$R_{ds(on)max} = 45 m\Omega$ @ $-10 V$`
+* Thermal Resistance, Junction to Ambient @ `$TA=+25 ^{\circ}C$ is $R_{\theta JA}=26 ^{\circ}C/W$`
 
 
 ```python
@@ -389,12 +393,10 @@ $T = T_A + T_{{rise}} = {T:0.3f} ^{{\circ}}C$ when $I={I:.0f} A$
 ```
 
 
+    $P=4.050 W$
 
-$P=4.050 W$
+    $T_{rise} = 105.3 ^{\circ}C$
 
-$T_{rise} = 105.3 ^{\circ}C$
-
-$T = T_A + T_{rise} = 130.300 ^{\circ}C$ when $I=30 A$
-
+    $T = T_A + T_{rise} = 130.300 ^{\circ}C$ when $I=30 A$
 
 

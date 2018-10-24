@@ -105,14 +105,6 @@ Notes:
 
 
 
-U-boot: 
- - Hardcode to PocketBone
- - Use No env 
- - Use  make ARCH=arm CROSS_COMPILE=${CC} am335x_evm_usbspl_defconfig
- - set SPL name to "AM335x U-Boot SPL"
- - Change board/ti/am335x/board.c to hardcode clock to 1
- - Move Boot-button to LCD_D4. 
-
 
 
 

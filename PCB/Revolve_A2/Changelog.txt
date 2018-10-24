@@ -1,0 +1,34 @@
+TODO: 
+-----
+ + missing 5V on USB_VBUS might prevent USB from working in U-boot/Kernel (Switched USB_VBUS to SYS_5V)
+ + Missing 1.5K pull-up on USB1_DP (Not needed for new USB hub)
+ + USB hub is Full-speed. Change to High speed. 
+ + mmc1: switch to bus width 8 failed (No longer routed through A6)
+ - Heater E not working. (Probably a software problem.)
+ + Consider output voltage on external drivers. (added 3.3 and 24V)
+
+
+
+
+Stuff that is working:
+ - All PWMs/timers are working so we have 4 heaters + 4 fans. (Not Heater E, might be a software problem)
+ - As far as I can tell, the current, voltage and temperature sense on the input is OK, 
+but perhaps not enough time to store position if power is lost. It depends on well we can integrate power managent into the Cortex M3 core on the board. 
+ - The HDMI output is OK. 
+ - USB hub works but is only 12 Mbps
+ - Ethernet works
+ - USB device works
+ - Thermistor inputs.
+ - Endstops
+ - Thermocouple inputs
+ - Steppers!
+ - Rotary encoder. 
+ - Wifi 
+
+Not working yet:
+ - 8 bit eMMC
+ - Grove connectors (One I2C, one UART
+ - Servos not yet tested. 
+ - External stepper drivers
+
+

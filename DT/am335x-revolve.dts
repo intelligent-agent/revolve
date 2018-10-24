@@ -23,7 +23,7 @@
 
 	memory@80000000 {
 		device_type = "memory";
-		reg = <0x80000000 0x10000000>; /* 512 MB */
+		reg = <0x80000000 0x10000000>; /* 256 MB */
 	};
 
 	chosen {
@@ -46,7 +46,8 @@
 	    led1 {
 		    label = "beaglebone:green:usr1";
 		    gpios = <&gpio1 22 GPIO_ACTIVE_HIGH>;
-		    linux,default-trigger = "mmc0";
+            trigger-sources = <&usb1>;
+		    /*linux,default-trigger = "mmc0";*/
 		    default-state = "off";
 	    };
 
@@ -168,7 +169,7 @@
     };
 
 
-    pwm4: dmtimer-pwm@4 {
+    pwm4: pwm-heater-e {
         compatible = "ti,omap-dmtimer-pwm";
         ti,timers = <&timer4>;
         #pwm-cells = <3>;
@@ -177,7 +178,7 @@
 
     };
 
-    pwm5: dmtimer-pwm@5 {
+    pwm5: pwm-heater-h {
         compatible = "ti,omap-dmtimer-pwm";
         ti,timers = <&timer5>;
         #pwm-cells = <3>;
@@ -186,7 +187,7 @@
 
     };
 
-    pwm6: dmtimer-pwm@6 {
+    pwm6: pwm-heater-hbp {
         compatible = "ti,omap-dmtimer-pwm";
         ti,timers = <&timer6>;
         #pwm-cells = <3>;
@@ -195,7 +196,7 @@
 
     };
 
-    pwm7: dmtimer-pwm@7 {
+    pwm7: pwm-heater-a {
         compatible = "ti,omap-dmtimer-pwm";
         ti,timers = <&timer7>;
         #pwm-cells = <3>;
@@ -258,13 +259,23 @@
 	    >;
     };
 
-    spi0_pins: spi0_pins {
+    spi0_pins_default: spi0_pins_deafult {
 	    pinctrl-single,pins = <
 		    0x150 ( PIN_INPUT | MUX_MODE0 ) /* (A17) spi0_sclk.spi0_sclk */
 		    0x154 ( PIN_INPUT | MUX_MODE0 ) /* (B17) spi0_d0.spi0_d0 */
 		    0x158 ( PIN_INPUT | MUX_MODE0 ) /* (B16) spi0_d1.spi0_d1 */
 		    0x15c ( PIN_OUTPUT | MUX_MODE0 ) /* (A16) spi0_cs0.spi0_cs0 */
 		    0x160 ( PIN_OUTPUT | MUX_MODE0 ) /* (C15) spi0_cs1.spi0_cs1 */
+	    >;
+    };
+
+    spi0_pins_reset: spi0_pins_reset {
+	    pinctrl-single,pins = <
+		    0x150 ( PIN_INPUT | MUX_MODE7 ) /* (A17) spi0_sclk.spi0_sclk */
+		    0x154 ( PIN_INPUT | MUX_MODE7 ) /* (B17) spi0_d0.spi0_d0 */
+		    0x158 ( PIN_INPUT | MUX_MODE7 ) /* (B16) spi0_d1.spi0_d1 */
+		    0x15c ( PIN_INPUT | MUX_MODE7 ) /* (A16) spi0_cs0.spi0_cs0 */
+		    0x160 ( PIN_INPUT | MUX_MODE7 ) /* (C15) spi0_cs1.spi0_cs1 */
 	    >;
     };
 
@@ -302,7 +313,7 @@
 	    >;
     };
 
-    pru_stepper_pins_gpio: pru_pruss11_pins {
+    pru_stepper_pins_gpio: pru_pruss11_pins_gpio {
 	    pinctrl-single,pins = <
 		    0x190 ( PIN_OUTPUT | MUX_MODE7 ) /* (A13) mcasp0_aclkx.pr1_pru0_pru_r30[0] */
 		    0x194 ( PIN_OUTPUT | MUX_MODE7 ) /* (B13) mcasp0_fsx.pr1_pru0_pru_r30[1] */
@@ -347,10 +358,10 @@
 
     user_leds_s0: user_leds_s0 {
 		pinctrl-single,pins = <
-			AM33XX_IOPAD(0x854, PIN_OUTPUT_PULLDOWN | MUX_MODE7)	/* gpmc_a5.gpio1_21 */
-			AM33XX_IOPAD(0x858, PIN_OUTPUT_PULLUP | MUX_MODE7)	/* gpmc_a6.gpio1_22 */
-			AM33XX_IOPAD(0x85c, PIN_OUTPUT_PULLDOWN | MUX_MODE7)	/* gpmc_a7.gpio1_23 */
-			AM33XX_IOPAD(0x860, PIN_OUTPUT_PULLUP | MUX_MODE7)	/* gpmc_a8.gpio1_24 */
+            0x64 ( PIN_OUTPUT | MUX_MODE7 ) /* (U16) gpmc_a9.gpio1[25] */
+			AM33XX_IOPAD(0x858, PIN_OUTPUT | MUX_MODE7)	/* gpmc_a6.gpio1_22 */
+			AM33XX_IOPAD(0x85c, PIN_OUTPUT | MUX_MODE7)	/* gpmc_a7.gpio1_23 */
+			AM33XX_IOPAD(0x860, PIN_OUTPUT | MUX_MODE7)	/* gpmc_a8.gpio1_24 */
 		>;
 	};
 
@@ -472,20 +483,10 @@
             0x78 ( PIN_INPUT | MUX_MODE7 ) // End stop X1  = GPIO3_21
             0x44 ( PIN_INPUT | MUX_MODE7 ) // End stop X2  = GPIO0_30
             0x6c ( PIN_INPUT | MUX_MODE7 ) // End stop Y1  = GPIO1_27
-            0x7c ( PIN_INPUT | MUX_MODE7 ) // End stop Z1  = GPIO0_31
-            0x38 ( PIN_INPUT | MUX_MODE7 ) // End stop Z2  = GPIO0_4
+            0x7c ( PIN_INPUT | MUX_MODE7 ) // End stop Z1  = GPIO1_14
+            0x38 ( PIN_INPUT | MUX_MODE7 ) // End stop Z2  = GPIO1_15
             0x3c ( PIN_INPUT | MUX_MODE7 ) // End stop Y2  = GPIO3_17
         >;
-    };
-
-
-    gpio0_pins: mygpio0_pins_default {
-	    pinctrl-single,pins = <
-		    0x21c ( PIN_INPUT | MUX_MODE7 ) /* (F16) USB0_DRVVBUS.gpio0[18] */
-		    0x28 ( PIN_INPUT | MUX_MODE7 ) /* (T11) gpmc_ad10.gpio0[26] */
-		    0x2c ( PIN_INPUT | MUX_MODE7 ) /* (U12) gpmc_ad11.gpio0[27] */
-		    0x144 ( PIN_INPUT | MUX_MODE7 ) /* (H18) rmii1_refclk.gpio0[29] */
-	    >;
     };
 
     enable_stuff_pins: enable_stuff_pins{
@@ -494,6 +495,12 @@
         >;
     };
 
+    eqep1_pins_default: myeqep1_pins_default {
+	    pinctrl-single,pins = <
+		    0x50 ( PIN_INPUT | MUX_MODE6 ) /* (R14) gpmc_a4.eQEP1A_in */
+		    0x54 ( PIN_INPUT | MUX_MODE6 ) /* (V15) gpmc_a5.eQEP1B_in */
+	    >;
+    };
 };
 
 &uart0 {
@@ -602,6 +609,17 @@
 	pinctrl-0 = <&ehrpwm1_pins>;	
 };
 
+&eqep1{
+    status = "okay";
+    pinctrl-names = "default";
+    pinctrl-0 = <&eqep1_pins_default>;
+
+    count_mode = <0>;  /* 0 - Quadrature mode, normal 90 phase offset cha & chb.  1 - Direction mode.  cha input = clock, chb input = direction */    
+    swap_inputs = <0>; /* Are channel A and channel B swapped? (0 - no, 1 - yes) */
+    invert_qa = <1>;   /* Should we invert the channel A input?  */
+    invert_qb = <1>;   /* Should we invert the channel B input? I invert these because my encoder outputs drive transistors that pull down the pins */
+};
+
 &epwmss2{
     status = "okay";
 };
@@ -632,15 +650,14 @@
 
 &spi0{	
     status = "okay";
-    pinctrl-names = "default";
-	pinctrl-0 = <&spi0_pins>;
+    pinctrl-names = "default"; 
 
     stepper_control{
         #address-cells 	  = <1>;
         #size-cells 	  = <0>;
         compatible 	  = "spidev";
         reg 		  = <0>;
-        spi-max-frequency = <4000000>;
+        spi-max-frequency = <2000000>;
     };
     aux_control{
         #address-cells 	  = <1>;
@@ -675,40 +692,6 @@
 
 &pruss{
     status = "okay";
-    pinctrl-names = "default";
-	pinctrl-0 = <&pru_stepper_pins_gpio>;	
-
-    stepper_x{
-        pin-names 	= "Replic:pru-step_x", "Replic:pru-dir_x";		
-        gpios 		= <&gpio3 14 0
-                 	   &gpio3 15 0>; 
-    };			
-    stepper_y{
-        pin-names 	= "Replic:pru-step_y", "Replic:pru-dir_y";		
-        gpios 		=<&gpio3 16 0
-                 	  &gpio3 17 0>; 
-    };
-    stepper_z{
-        pin-names 	= "Replic:pru-step_z", "Replic:pru-dir_z";		
-        gpios 		= <&gpio3 18 0
-                 	   &gpio3 19 0>; 
-    };
-    stepper_e{
-        pin-names 	= "Replic:pru-step_e", "Replic:pru-dir_ext_1";		
-        gpios 		= <&gpio3 20 0
-                 	   &gpio3 21 0>; 
-    };
-    stepper_h{
-        pin-names 	= "Replic:pru-step_h", "Replic:pru-dir_ext_2";		
-        gpios 		= <&gpio2 26 0
-                 	   &gpio2 27 0>; 
-    };
-    stepper_a{
-        pin-names 	= "Replic:pru-step_a", "Replic:pru-dir_ext_3";		
-        gpios 		= <&gpio2 28 0
-                 	   &gpio2 29 0>; 
-    };
-
 };
 
 &tscadc{			
@@ -717,10 +700,6 @@
         ti,adc-channels = <0 1 2 3 4 5 6 7>;	
 	};
 };
-
-
-
-
 
 /include/ "tps65217.dtsi"
 
@@ -861,12 +840,40 @@
 	clock-names = "ext-clk", "int-clk";
 };
 
+
+/* the cape manager */
+/ {
+	bone_capemgr {
+		compatible = "ti,bone-capemgr";
+		status = "okay";
+
+		nvmem-cells = <&baseboard_data>;
+		nvmem-cell-names = "baseboard";
+		#slots = <0>;
+
+		/* map board revisions to compatible definitions */
+		baseboardmaps {
+			baseboard_revolve: board@0 {
+				board-name = "A335RVLV";
+				compatible-name = "ti,beaglebone";
+			};
+		};
+	};
+};
+
+
 &ocp {
 	enable_stuff_pinmux {
-		compatible = "bone-pinmux-helper";
+		compatible = "gpio-of-helper";
 		status = "okay";
 		pinctrl-names = "default";
 		pinctrl-0 = <&enable_stuff_pins>;
+
+        enable_stuff{
+            gpio-name   = "enable_stuff";
+            gpio 		= <&gpio0 18 0>;
+			output;
+        };		
 	};
 
     sgx@0x56000000 {
@@ -874,5 +881,103 @@
             ti,hwmods = "gfx";
             reg = <0x56000000 0x1000000>;
             interrupts = <0x25>;
+            status = "okay";
     };
+
+    pruss_pins {
+        compatible = "gpio-of-helper";
+		status = "okay";
+		pinctrl-names = "default";
+		pinctrl-0 = <&pru_stepper_pins_gpio>;
+
+        stepper_x_step{
+            gpio-name   = "step_x";
+            gpio 		= <&gpio3 14 0>;
+			output;
+        };			
+        stepper_x_dir{
+            gpio-name   = "dir_x";
+            gpio 		= <&gpio3 15 0>;
+			output;
+        };
+        stepper_y_step{
+            gpio-name   = "step_y";
+            gpio 		= <&gpio3 16 0>;
+			output;
+        };			
+        stepper_y_dir{
+            gpio-name   = "dir_y";
+            gpio 		= <&gpio3 17 0>;
+			output;
+        };
+        stepper_z_step{
+            gpio-name   = "step_z";
+            gpio 		= <&gpio3 18 0>;
+			output;
+        };			
+        stepper_z_dir{
+            gpio-name   = "dir_z";
+            gpio 		= <&gpio3 19 0>;
+			output;
+        };
+        stepper_e_step{
+            gpio-name   = "step_e";
+            gpio 		= <&gpio3 20 0>;
+			output;
+        };			
+        stepper_e_dir{
+            gpio-name   = "dir_e";
+            gpio 		= <&gpio3 21 0>;
+			output;
+        };
+        stepper_h_step{
+            gpio-name   = "step_h";
+            gpio 		= <&gpio2 26 0>;
+			output;
+        };			
+        stepper_h_dir{
+            gpio-name   = "dir_h";
+            gpio 		= <&gpio2 27 0>;
+			output;
+        };
+        stepper_a_step{
+            gpio-name   = "step_a";
+            gpio 		= <&gpio2 28 0>;
+			output;
+        };			
+        stepper_a_dir{
+            gpio-name   = "dir_a";
+            gpio 		= <&gpio2 29 0>;
+			output;
+        };
+        stepper_b_step{
+            gpio-name   = "step_b";
+            gpio 		= <&gpio2 30 0>;
+			output;
+        };			
+        stepper_b_dir{
+            gpio-name   = "dir_b";
+            gpio 		= <&gpio2 31 0>;
+			output;
+        };
+        stepper_c_step{
+            gpio-name   = "step_c";
+            gpio 		= <&gpio1 12 0>;
+			output;
+        };			
+        stepper_c_dir{
+            gpio-name   = "dir_c";
+            gpio 		= <&gpio1 13 0>;
+			output;
+        };
+    };
+
+    spi0_pins {
+        compatible = "bone-pinmux-helper";
+		status = "okay";
+		pinctrl-names = "default", "reset";
+		pinctrl-0 = <&spi0_pins_default>;
+        pinctrl-1 = <&spi0_pins_reset>;
+    };
+
 };

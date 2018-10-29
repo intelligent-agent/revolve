@@ -1,0 +1,22 @@
+Production notes: 
+- Solder mask: Black matte
+- Silk screen: White
+- Final height: 1.6 mm
+- Final finish: ENIG
+- Base material: FR4
+- Final outer layer copper thickness: 35 um
+- Material Tg: Min 130 deg C
+
+Conductive layer stackup: 
+- CMP
+- LY2
+- L15
+- SOL
+
+Impedance: 
+The impedance of the coupled microstrip line is based on: 
+Er of 3.6 and a hight from top to first inner layer of 0.19 mm 
+to achieve a 90 ohm diffrential impedance. 
+Any deviations from this might require re-routing or re-calculation. 
+
+

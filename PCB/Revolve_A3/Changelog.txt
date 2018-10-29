@@ -1,0 +1,8 @@
+Changelog from rev A2 to A3
+
+TODO: 
+-----
+ + Change AP811 from 46 to 31. (Wrong monitoring voltage)
+ + Clean up silk screen
+
+

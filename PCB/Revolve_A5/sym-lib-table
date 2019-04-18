@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Revolve_A3-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Revolve_A3-eagle-import.lib)(options "")(descr ""))
+  (lib (name Revolve_A4-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Revolve_A4-eagle-import.lib)(options "")(descr ""))
+)

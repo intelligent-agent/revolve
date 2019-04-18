@@ -1,0 +1,586 @@
+*version 9.1 33580608
+@index
+symloc PowerStage_L3 0 2789 b
+symloc PowerStage_L1 2789 2189 b
+symloc BSC0921NDI:PowerStage_L3 4978 575
+symloc BSC0911ND_L1:PowerStage_L1 5553 504
+symloc BSC0921NDI_L1:PowerStage_L1 6057 507
+symloc PowerStage_L0 6564 1984 b
+symloc BSC0921NDI_L0:PowerStage_L0 8548 276
+symloc BSC0923NDI:PowerStage_L3 8824 575
+symloc BSC0924NDI:PowerStage_L3 9399 575
+symloc BSC0925ND:PowerStage_L3 9974 572
+symloc BSC0923NDI_L1:PowerStage_L1 10546 507
+symloc BSC0924NDI_L1:PowerStage_L1 11053 507
+symloc BSC0925ND_L1:PowerStage_L1 11560 504
+symloc BSC0923NDI_L0:PowerStage_L0 12064 276
+symloc BSC0924NDI_L0:PowerStage_L0 12340 276
+symloc BSC0925ND_L0:PowerStage_L0 12616 273
+*symbol PowerStage_L3 b
+d 
+@type p 9.1
+@attributes
+a 0 sp 0:13 0 0 10 hlb 100 TEMPLATE=X^@refdes %VIN %VSWH %GND %GATEH %GATEL %TJH %TJL %TCASEH %TCASEL @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth| 
+a 0 sp 11 0 42 0 hlb 100 PART=PowerStage_L3
+a 0 sp 0:13 0 0 30 hlb 100 MODEL=BSZ0907ND
+a 0 u 0:13 0 0 40 hlb 100 dVth=
+a 0 u 0:13 0 0 50 hlb 100 dRdson=
+a 0 u 0:13 0 0 60 hlb 100 dgfs=
+a 0 u 0:13 0 0 70 hlb 100 dC=
+a 0 u 0:13 0 0 80 hlb 100 dZth=
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+@pins
+p 2 0 24 hln 50 GATEH n 0 20 h
+a 0 s 0:1 0 9 18 hrn 100 PIN=4
+a 0 s 0:13 0 0 20 hln 100 ERC=x
+a 0 s 0:13 0 0 0 hln 100 FLOAT=r
+p 2 38 2 uln 50 VIN n 30 0 d
+a 0 s 0:1 0 28 9 vrn 100 PIN=1
+a 0 s 0:13 0 30 0 hln 100 ERC=x
+a 0 s 0:13 0 0 0 hln 100 FLOAT=r
+p 2 70 38 hrn 50 VSWH n 70 40 u
+a 0 s 0:1 0 61 46 hln 100 PIN=2
+a 0 s 0:13 0 70 40 hln 100 ERC=x
+a 0 s 0:13 0 0 0 hln 100 FLOAT=r
+p 2 42 76 uln 50 GND n 30 80 v
+a 0 s 0:1 0 28 71 vrn 100 PIN=3
+a 0 s 0:13 0 30 80 hln 100 ERC=x
+a 0 s 0:13 0 0 0 hln 100 FLOAT=r
+p 2 0 64 hln 50 GATEL n 0 60 h
+a 0 s 0:1 0 9 58 hrn 100 PIN=5
+a 0 s 0:13 0 0 60 hln 100 ERC=x
+a 0 s 0:13 0 0 0 hln 100 FLOAT=r
+p 2 70 8 hrn 50 TJH n 70 10 u
+a 0 s 0:1 0 61 8 hln 100 PIN=6
+a 0 s 0:13 0 70 10 hln 100 ERC=x
+a 0 s 0:13 0 0 0 hln 100 FLOAT=r
+p 2 70 58 hrn 50 TJL n 70 60 u
+a 0 s 0:1 0 61 58 hln 100 PIN=7
+a 0 s 0:13 0 70 60 hln 100 ERC=x
+a 0 s 0:13 0 0 10 hln 100 FLOAT=r
+p 2 70 18 hrn 50 TCASEH n 70 20 u
+a 0 s 0:1 0 61 18 hln 100 PIN=8
+a 0 s 0:13 0 70 20 hln 100 ERC=x
+a 0 s 0:13 0 0 0 hln 100 FLOAT=r
+p 2 70 68 hrn 50 TCASEL n 70 70 u
+a 0 s 0:1 0 61 68 hln 100 PIN=9
+a 0 s 0:13 0 70 70 hln 100 ERC=x
+a 0 s 0:13 0 0 0 hln 100 FLOAT=r
+@graphics 70 80 0 0 10
+r 0 0 0 70 80
+v 0 38 10
+38 30
+28 30
+;
+v 0 38 50
+38 70
+28 70
+;
+v 0 38 58 d_info:,,,,4/1/6/6,ON,0/0/255,,,,,,,, 
+35 62
+41 62
+38 58
+;
+v 0 38 18 d_info:,,,,4/1/6/6,ON,0/0/255,,,,,,,, 
+35 22
+41 22
+38 18
+;
+v 0 20 20
+25 24
+;
+v 0 25 16
+20 20
+;
+v 0 20 60
+25 64
+;
+v 0 25 56
+20 60
+;
+r 0 35 57 41 58 d_info:,,,,,ON,0/0/255,,,,,,,, 
+r 0 35 17 41 18 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 50 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 10 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 40 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 30 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 70 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+v 0 30 20
+30 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 23
+20 17
+;
+v 0 20 13
+20 7
+;
+v 0 15 10
+15 30
+;
+v 0 20 33
+20 27
+;
+v 0 10 20
+15 20
+;
+v 0 38 10
+30 10
+;
+v 0 30 60
+20 60
+;
+v 0 20 10
+30 10
+;
+v 0 38 50
+30 50
+;
+v 0 15 50
+15 70
+;
+v 0 0 60
+15 60
+;
+v 0 20 50
+30 50
+;
+v 0 20 70
+30 70
+;
+v 0 20 63
+20 57
+;
+v 0 20 73
+20 67
+;
+v 0 20 53
+20 47
+;
+a 0 30 50 30 30 30 30 
+a 0 0 20 10 20 10 20 
+a 0 30 0 30 10 30 10 
+a 0 30 80 30 70 30 70 
+a 0 30 40 60 40 60 40 
+v 0 30 20
+20 20
+;
+v 0 30 60
+30 70
+;
+*symbol PowerStage_L1 b
+d 
+@type p 9.1
+@attributes
+a 0 sp 0:13 0 0 10 hlb 100 TEMPLATE=X^@refdes %VIN %VSWH %GND %GATEH %GATEL @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| 
+a 0 sp 11 0 42 0 hlb 100 PART=PowerStage_L1
+a 0 sp 0:13 0 0 30 hlb 100 MODEL=BSZ0907ND
+a 0 u 0:13 0 0 40 hlb 100 dVth=
+a 0 u 0:13 0 0 50 hlb 100 dRdson=
+a 0 u 0:13 0 0 60 hlb 100 dgfs=
+a 0 u 0:13 0 0 70 hlb 100 dC=
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+@pins
+p 2 0 24 hln 50 GATEH n 0 20 h
+a 0 s 0:1 0 9 18 hrn 100 PIN=4
+a 0 s 0:13 0 0 20 hln 100 ERC=x
+a 0 s 0:13 0 0 0 hln 100 FLOAT=r
+p 2 38 2 uln 50 VIN n 30 0 d
+a 0 s 0:1 0 28 9 vrn 100 PIN=1
+a 0 s 0:13 0 30 0 hln 100 ERC=x
+a 0 s 0:13 0 0 0 hln 100 FLOAT=r
+p 2 70 38 hrn 50 VSWH n 70 40 u
+a 0 s 0:1 0 61 46 hln 100 PIN=2
+a 0 s 0:13 0 70 40 hln 100 ERC=x
+a 0 s 0:13 0 0 0 hln 100 FLOAT=r
+p 2 42 76 uln 50 GND n 30 80 v
+a 0 s 0:1 0 28 71 vrn 100 PIN=3
+a 0 s 0:13 0 30 80 hln 100 ERC=x
+a 0 s 0:13 0 0 0 hln 100 FLOAT=r
+p 2 0 64 hln 50 GATEL n 0 60 h
+a 0 s 0:1 0 9 58 hrn 100 PIN=5
+a 0 s 0:13 0 0 60 hln 100 ERC=x
+a 0 s 0:13 0 0 0 hln 100 FLOAT=r
+@graphics 70 80 0 0 10
+r 0 0 0 70 80
+v 0 38 10
+38 30
+28 30
+;
+v 0 38 50
+38 70
+28 70
+;
+v 0 38 58 d_info:,,,,4/1/6/6,ON,0/0/255,,,,,,,, 
+35 62
+41 62
+38 58
+;
+v 0 38 18 d_info:,,,,4/1/6/6,ON,0/0/255,,,,,,,, 
+35 22
+41 22
+38 18
+;
+v 0 20 20
+25 24
+;
+v 0 25 16
+20 20
+;
+v 0 20 60
+25 64
+;
+v 0 25 56
+20 60
+;
+r 0 35 57 41 58 d_info:,,,,,ON,0/0/255,,,,,,,, 
+r 0 35 17 41 18 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 50 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 10 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 40 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 30 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 70 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+v 0 30 20
+30 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 23
+20 17
+;
+v 0 20 13
+20 7
+;
+v 0 15 10
+15 30
+;
+v 0 20 33
+20 27
+;
+v 0 10 20
+15 20
+;
+v 0 38 10
+30 10
+;
+v 0 30 60
+20 60
+;
+v 0 20 10
+30 10
+;
+v 0 38 50
+30 50
+;
+v 0 15 50
+15 70
+;
+v 0 0 60
+15 60
+;
+v 0 20 50
+30 50
+;
+v 0 20 70
+30 70
+;
+v 0 20 63
+20 57
+;
+v 0 20 73
+20 67
+;
+v 0 20 53
+20 47
+;
+a 0 30 50 30 30 30 30 
+a 0 0 20 10 20 10 20 
+a 0 30 0 30 10 30 10 
+a 0 30 80 30 70 30 70 
+a 0 30 40 60 40 60 40 
+v 0 30 20
+20 20
+;
+v 0 30 60
+30 70
+;
+*symbol BSC0921NDI ako PowerStage_L3
+d Infineon PowerStage5x6
+@type p 9.1
+@attributes
+a 0 sp 0:13 0 0 10 hlb 100 TEMPLATE=X^@refdes %VIN %VSWH %GND %GATEH %GATEL %TJH %TJL %TCASEH %TCASEL @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth| 
+a 0 sp 11 0 38 0 hlb 100 PART=BSC0921NDI
+a 0 sp 0:13 0 0 30 hlb 100 MODEL=BSC0921NDI
+a 0 u 0:13 0 0 40 hlb 100 dVth=
+a 0 u 0:13 0 0 50 hlb 100 dRdson=
+a 0 u 0:13 0 0 60 hlb 100 dgfs=
+a 0 u 0:13 0 0 70 hlb 100 dC=
+a 0 u 0:13 0 0 80 hlb 100 dZth=
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+*symbol BSC0911ND_L1 ako PowerStage_L1
+d Infineon PowerStage 5x6
+@type p 9.1
+@attributes
+a 0 sp 0:13 0 0 10 hlb 100 TEMPLATE=X^@refdes %VIN %VSWH %GND %GATEH %GATEL @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| 
+a 0 sp 11 0 34 -2 hlb 100 PART=BSC0911ND_L1
+a 0 sp 0:13 0 0 30 hlb 100 MODEL=BSC0911ND_L1
+a 0 u 0:13 0 0 40 hlb 100 dVth=
+a 0 u 0:13 0 0 50 hlb 100 dRdson=
+a 0 u 0:13 0 0 60 hlb 100 dgfs=
+a 0 u 0:13 0 0 70 hlb 100 dC=
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+*symbol BSC0921NDI_L1 ako PowerStage_L1
+d Infineon PowerStage 5x6
+@type p 9.1
+@attributes
+a 0 sp 0:13 0 0 10 hlb 100 TEMPLATE=X^@refdes %VIN %VSWH %GND %GATEH %GATEL @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| 
+a 0 sp 11 0 36 -2 hlb 100 PART=BSC0921NDI_L1
+a 0 sp 0:13 0 0 30 hlb 100 MODEL=BSC0921NDI_L1
+a 0 u 0:13 0 0 40 hlb 100 dVth=
+a 0 u 0:13 0 0 50 hlb 100 dRdson=
+a 0 u 0:13 0 0 60 hlb 100 dgfs=
+a 0 u 0:13 0 0 70 hlb 100 dC=
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+*symbol PowerStage_L0 b
+d 
+@type p 9.1
+@attributes
+a 0 sp 0:13 0 0 10 hlb 100 TEMPLATE=X^@refdes %VIN %VSWH %GND %GATEH %GATEL @MODEL 
+a 0 sp 11 0 36 0 hlb 100 PART=PowerStage_L0
+a 0 sp 0:13 0 0 30 hlb 100 MODEL=BSZ0907ND_L0
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+@pins
+p 2 0 24 hln 50 GATEH n 0 20 h
+a 0 s 0:1 0 9 18 hrn 100 PIN=4
+a 0 s 0:13 0 0 20 hln 100 ERC=x
+a 0 s 0:13 0 0 0 hln 100 FLOAT=r
+p 2 38 2 uln 50 VIN n 30 0 d
+a 0 s 0:1 0 28 9 vrn 100 PIN=1
+a 0 s 0:13 0 30 0 hln 100 ERC=x
+a 0 s 0:13 0 0 0 hln 100 FLOAT=r
+p 2 70 38 hrn 50 VSWH n 70 40 u
+a 0 s 0:1 0 61 46 hln 100 PIN=2
+a 0 s 0:13 0 70 40 hln 100 ERC=x
+a 0 s 0:13 0 0 0 hln 100 FLOAT=r
+p 2 42 76 uln 50 GND n 30 80 v
+a 0 s 0:1 0 28 71 vrn 100 PIN=3
+a 0 s 0:13 0 30 80 hln 100 ERC=x
+a 0 s 0:13 0 0 0 hln 100 FLOAT=r
+p 2 0 64 hln 50 GATEL n 0 60 h
+a 0 s 0:1 0 9 58 hrn 100 PIN=5
+a 0 s 0:13 0 0 60 hln 100 ERC=x
+a 0 s 0:13 0 0 0 hln 100 FLOAT=r
+@graphics 70 80 0 0 10
+r 0 0 0 70 80
+v 0 38 10
+38 30
+28 30
+;
+v 0 38 50
+38 70
+28 70
+;
+v 0 38 58 d_info:,,,,4/1/6/6,ON,0/0/255,,,,,,,, 
+35 62
+41 62
+38 58
+;
+v 0 38 18 d_info:,,,,4/1/6/6,ON,0/0/255,,,,,,,, 
+35 22
+41 22
+38 18
+;
+v 0 20 20
+25 24
+;
+v 0 25 16
+20 20
+;
+v 0 20 60
+25 64
+;
+v 0 25 56
+20 60
+;
+r 0 35 57 41 58 d_info:,,,,,ON,0/0/255,,,,,,,, 
+r 0 35 17 41 18 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 50 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 10 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 40 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 30 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 70 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+v 0 30 20
+30 30
+;
+v 0 20 30
+30 30
+;
+v 0 20 23
+20 17
+;
+v 0 20 13
+20 7
+;
+v 0 15 10
+15 30
+;
+v 0 20 33
+20 27
+;
+v 0 10 20
+15 20
+;
+v 0 38 10
+30 10
+;
+v 0 30 60
+20 60
+;
+v 0 20 10
+30 10
+;
+v 0 38 50
+30 50
+;
+v 0 15 50
+15 70
+;
+v 0 0 60
+15 60
+;
+v 0 20 50
+30 50
+;
+v 0 20 70
+30 70
+;
+v 0 20 63
+20 57
+;
+v 0 20 73
+20 67
+;
+v 0 20 53
+20 47
+;
+a 0 30 50 30 30 30 30 
+a 0 0 20 10 20 10 20 
+a 0 30 0 30 10 30 10 
+a 0 30 80 30 70 30 70 
+a 0 30 40 60 40 60 40 
+v 0 30 20
+20 20
+;
+v 0 30 60
+30 70
+;
+*symbol BSC0921NDI_L0 ako PowerStage_L0
+d 
+@type p 9.1
+@attributes
+a 0 sp 0:13 0 0 10 hlb 100 TEMPLATE=X^@refdes %VIN %VSWH %GND %GATEH %GATEL @MODEL 
+a 0 sp 11 0 38 -2 hlb 100 PART=BSC0921NDI_L0
+a 0 sp 0:13 0 0 30 hlb 100 MODEL=BSC0921NDI_L0
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+*symbol BSC0923NDI ako PowerStage_L3
+d Infineon PowerStage5x6
+@type p 9.1
+@attributes
+a 0 sp 0:13 0 0 10 hlb 100 TEMPLATE=X^@refdes %VIN %VSWH %GND %GATEH %GATEL %TJH %TJL %TCASEH %TCASEL @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth| 
+a 0 sp 11 0 38 0 hlb 100 PART=BSC0923NDI
+a 0 sp 0:13 0 0 30 hlb 100 MODEL=BSC0923NDI
+a 0 u 0:13 0 0 40 hlb 100 dVth=
+a 0 u 0:13 0 0 50 hlb 100 dRdson=
+a 0 u 0:13 0 0 60 hlb 100 dgfs=
+a 0 u 0:13 0 0 70 hlb 100 dC=
+a 0 u 0:13 0 0 80 hlb 100 dZth=
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+*symbol BSC0924NDI ako PowerStage_L3
+d Infineon PowerStage5x6
+@type p 9.1
+@attributes
+a 0 sp 0:13 0 0 10 hlb 100 TEMPLATE=X^@refdes %VIN %VSWH %GND %GATEH %GATEL %TJH %TJL %TCASEH %TCASEL @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth| 
+a 0 sp 11 0 38 0 hlb 100 PART=BSC0924NDI
+a 0 sp 0:13 0 0 30 hlb 100 MODEL=BSC0924NDI
+a 0 u 0:13 0 0 40 hlb 100 dVth=
+a 0 u 0:13 0 0 50 hlb 100 dRdson=
+a 0 u 0:13 0 0 60 hlb 100 dgfs=
+a 0 u 0:13 0 0 70 hlb 100 dC=
+a 0 u 0:13 0 0 80 hlb 100 dZth=
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+*symbol BSC0925ND ako PowerStage_L3
+d Infineon PowerStage5x6
+@type p 9.1
+@attributes
+a 0 sp 0:13 0 0 10 hlb 100 TEMPLATE=X^@refdes %VIN %VSWH %GND %GATEH %GATEL %TJH %TJL %TCASEH %TCASEL @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth| 
+a 0 sp 11 0 38 0 hlb 100 PART=BSC0925ND
+a 0 sp 0:13 0 0 30 hlb 100 MODEL=BSC0925ND
+a 0 u 0:13 0 0 40 hlb 100 dVth=
+a 0 u 0:13 0 0 50 hlb 100 dRdson=
+a 0 u 0:13 0 0 60 hlb 100 dgfs=
+a 0 u 0:13 0 0 70 hlb 100 dC=
+a 0 u 0:13 0 0 80 hlb 100 dZth=
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+*symbol BSC0923NDI_L1 ako PowerStage_L1
+d Infineon PowerStage 5x6
+@type p 9.1
+@attributes
+a 0 sp 0:13 0 0 10 hlb 100 TEMPLATE=X^@refdes %VIN %VSWH %GND %GATEH %GATEL @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| 
+a 0 sp 11 0 36 -2 hlb 100 PART=BSC0923NDI_L1
+a 0 sp 0:13 0 0 30 hlb 100 MODEL=BSC0923NDI_L1
+a 0 u 0:13 0 0 40 hlb 100 dVth=
+a 0 u 0:13 0 0 50 hlb 100 dRdson=
+a 0 u 0:13 0 0 60 hlb 100 dgfs=
+a 0 u 0:13 0 0 70 hlb 100 dC=
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+*symbol BSC0924NDI_L1 ako PowerStage_L1
+d Infineon PowerStage 5x6
+@type p 9.1
+@attributes
+a 0 sp 0:13 0 0 10 hlb 100 TEMPLATE=X^@refdes %VIN %VSWH %GND %GATEH %GATEL @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| 
+a 0 sp 11 0 36 -2 hlb 100 PART=BSC0924NDI_L1
+a 0 sp 0:13 0 0 30 hlb 100 MODEL=BSC0924NDI_L1
+a 0 u 0:13 0 0 40 hlb 100 dVth=
+a 0 u 0:13 0 0 50 hlb 100 dRdson=
+a 0 u 0:13 0 0 60 hlb 100 dgfs=
+a 0 u 0:13 0 0 70 hlb 100 dC=
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+*symbol BSC0925ND_L1 ako PowerStage_L1
+d Infineon PowerStage 5x6
+@type p 9.1
+@attributes
+a 0 sp 0:13 0 0 10 hlb 100 TEMPLATE=X^@refdes %VIN %VSWH %GND %GATEH %GATEL @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| 
+a 0 sp 11 0 36 -2 hlb 100 PART=BSC0925ND_L1
+a 0 sp 0:13 0 0 30 hlb 100 MODEL=BSC0925ND_L1
+a 0 u 0:13 0 0 40 hlb 100 dVth=
+a 0 u 0:13 0 0 50 hlb 100 dRdson=
+a 0 u 0:13 0 0 60 hlb 100 dgfs=
+a 0 u 0:13 0 0 70 hlb 100 dC=
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+*symbol BSC0923NDI_L0 ako PowerStage_L0
+d 
+@type p 9.1
+@attributes
+a 0 sp 0:13 0 0 10 hlb 100 TEMPLATE=X^@refdes %VIN %VSWH %GND %GATEH %GATEL @MODEL 
+a 0 sp 11 0 38 -2 hlb 100 PART=BSC0923NDI_L0
+a 0 sp 0:13 0 0 30 hlb 100 MODEL=BSC0923NDI_L0
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+*symbol BSC0924NDI_L0 ako PowerStage_L0
+d 
+@type p 9.1
+@attributes
+a 0 sp 0:13 0 0 10 hlb 100 TEMPLATE=X^@refdes %VIN %VSWH %GND %GATEH %GATEL @MODEL 
+a 0 sp 11 0 38 -2 hlb 100 PART=BSC0924NDI_L0
+a 0 sp 0:13 0 0 30 hlb 100 MODEL=BSC0924NDI_L0
+a 0 sp 9 0 0 0 hln 100 REFDES=U?
+*symbol BSC0925ND_L0 ako PowerStage_L0
+d 
+@type p 9.1
+@attributes
+a 0 sp 0:13 0 0 10 hlb 100 TEMPLATE=X^@refdes %VIN %VSWH %GND %GATEH %GATEL @MODEL 
+a 0 sp 11 0 38 -2 hlb 100 PART=BSC0925ND_L0
+a 0 sp 0:13 0 0 30 hlb 100 MODEL=BSC0925ND_L0
+a 0 sp 9 0 0 0 hln 100 REFDES=U?

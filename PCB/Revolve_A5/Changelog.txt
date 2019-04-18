@@ -1,0 +1,11 @@
+Changelog from rev A3 to A5
+
+TODO: 
+-----
+ - Consider protection from reverse current from steppers. 
+
+DONE:
+-----
+ + Converted from Eagle 6 to KiCad 5.1
+ + Better thermal design on input
+

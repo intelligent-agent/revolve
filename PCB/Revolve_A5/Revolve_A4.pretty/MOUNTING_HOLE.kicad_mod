@@ -1,0 +1,10 @@
+(module MOUNTING_HOLE (layer F.Cu) (tedit 0)
+  (fp_text reference MGT4 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_text value MOUNTING_HOLE (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (pad P$1 thru_hole circle (at 0 0) (size 4.445 4.445) (drill 3.175) (layers *.Cu *.Mask)
+    (solder_mask_margin 0.0635))
+)

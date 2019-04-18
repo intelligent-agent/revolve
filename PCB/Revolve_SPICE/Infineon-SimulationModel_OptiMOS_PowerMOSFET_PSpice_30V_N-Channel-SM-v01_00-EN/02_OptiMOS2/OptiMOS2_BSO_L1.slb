@@ -1,0 +1,449 @@
+*version 8.0 2724359313
+@index
+symloc DMOS_S2_L1_n 0 1402 b
+symloc BSO052N03S_L1:DMOS_S2_L1_n 1402 530
+symloc BSO064N03S_L1:DMOS_S2_L1_n 1932 530
+symloc BSO072N03S_L1:DMOS_S2_L1_n 2462 530
+symloc BSO094N03S_L1:DMOS_S2_L1_n 2992 530
+symloc BSO104N03S_L1:DMOS_S2_L1_n 3522 530
+symloc BSO119N03S_L1:DMOS_S2_L1_n 4052 530
+symloc BSO200N03S_L1:DMOS_S2_L1_n 4582 530
+symloc BSO300N03S_L1:DMOS_S2_L1_n 5112 530
+symloc DMOS_N_L1 5642 3589 b
+symloc BSO150N03_L1:DMOS_N_L1 9231 916
+symloc BSO350N03_L1:DMOS_N_L1 10147 916
+symloc BSO200N03_L1:DMOS_N_L1 11063 916
+*symbol DMOS_S2_L1_n b
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=DMOS_S2_L1_n
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=DMOS_S2_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+a 0 u 0:13 0 0 10 hcn 100 Ls=1n
+a 0 u 0:13 0 0 20 hcn 100 Ld=0.5n
+a 0 u 0:13 0 0 30 hcn 100 Lg=2n
+@pins
+p 0 25 40 hcn 100 source n 30 40 v
+a 0 s 0:1 0 31 38 hln 100 PIN=3
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 10 20 hcn 100 gate n 0 20 h
+a 0 s 0:1 0 1 18 hln 100 PIN=2
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 25 10 hcn 100 drain n 30 0 d
+a 0 s 0:1 0 31 -2 hln 100 PIN=1
+a 0 s 0 0 0 0 hln 100 ERC=x
+@graphics 46 40 0 20 10
+c 0 25 20 20 d_info:,0/0/0,,,,,,,,,,,,, 
+v 0 38 10
+38 30
+28 30
+;
+v 0 38 18 d_info:,,,,4/1/6/6,ON,0/0/255,,,,,,,, 
+35 22
+41 22
+38 18
+;
+v 0 25 16
+20 20
+;
+v 0 20 20
+25 24
+;
+r 0 35 17 41 18 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 30 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 10 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+v 0 30 20
+30 30
+;
+v 0 30 20
+20 20
+;
+v 0 38 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 10 20
+15 20
+;
+v 0 20 10
+30 10
+;
+v 0 20 30
+30 30
+;
+v 0 20 23
+20 17
+;
+v 0 20 33
+20 27
+;
+v 0 20 13
+20 7
+;
+*symbol BSO052N03S_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=BSO052N03S_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSO052N03S_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+*symbol BSO064N03S_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=BSO064N03S_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSO064N03S_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+*symbol BSO072N03S_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=BSO072N03S_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSO072N03S_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+*symbol BSO094N03S_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=BSO094N03S_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSO094N03S_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+*symbol BSO104N03S_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=BSO104N03S_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSO104N03S_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+*symbol BSO119N03S_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=BSO119N03S_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSO119N03S_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+*symbol BSO200N03S_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=BSO200N03S_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSO200N03S_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+*symbol BSO300N03S_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=BSO300N03S_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSO300N03S_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+*symbol DMOS_N_L1 b
+d Infineon dual n-channel enhancement MOSFET
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain1 %gate1 %source1 %drain1a %drain2 %gate2 %source2 %drain2a @MODEL PARAMS: ?dVth1|dVth1=@dVth1| ?dVth2|dVth2=@dVth2| ?dRdson1|dRdson1=@dRdson1| ?dRdson2|dRdson2=@dRdson2| ?dgfs1|dgfs1=@dgfs1| ?dgfs2|dgfs2=@dgfs2| ?dC1|dC1=@dC1| ?dC2|dC2=@dC2| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg|
+a 0 s 9 0 77 6 hcn 100 REFDES=X?
+a 0 sp 11 0 34 96 hcn 100 PART=DMOS_N_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=
+a 0 u 0:13 0 0 10 hcn 100 dVth1=
+a 0 u 0:13 0 0 20 hcn 100 dVth2=
+a 0 u 0:13 0 0 30 hcn 100 dRdson1=
+a 0 u 0:13 0 0 40 hcn 100 dRdson2=
+a 0 u 0:13 0 0 50 hcn 100 dgfs1=
+a 0 u 0:13 0 0 60 hcn 100 dgfs2=
+a 0 u 0:13 0 0 70 hcn 100 dC1=
+a 0 u 0:13 0 0 80 hcn 100 dC2=
+a 0 u 0:13 0 0 10 hcn 100 Ls=1.5n
+a 0 u 0:13 0 0 20 hcn 100 Ld=1n
+a 0 u 0:13 0 0 30 hcn 100 Lg=2n
+@pins
+p 0 8 38 hcn 50 gate1 n 0 30 h
+a 0 s 0:1 0 1 28 hrn 30 PIN=2
+a 0 s 0 0 0 10 hln 100 ERC=x
+a 0 s 0:13 0 0 -2 hln 100 FLOAT=r
+p 0 70 21 hrn 50 drain1 n 70 10 u
+a 0 s 1 0 66 15 hln 30 PIN=8
+a 0 s 0 0 70 -20 hln 100 ERC=x
+a 0 s 0:13 0 10 -2 hln 100 FLOAT=r
+p 0 10 47 hcn 50 source2 n 0 50 h
+a 0 s 0:1 0 2 51 hrn 100 PIN=3
+a 0 s 0 0 40 20 hln 100 ERC=x
+a 0 s 0:13 0 0 -2 hln 100 FLOAT=r
+p 0 8 78 hcn 50 gate2 n 0 70 h
+a 0 s 0:1 0 1 74 hlb 30 PIN=4
+a 0 s 0 0 0 50 hln 100 ERC=x
+a 0 s 0:13 0 0 -2 hln 100 FLOAT=r
+p 0 70 63 hrn 50 drain2 n 70 50 u
+a 0 s 0:1 0 72 55 hln 100 PIN=6
+a 0 s 0 0 70 20 hln 100 ERC=x
+a 0 s 0:13 0 10 -2 hln 100 FLOAT=r
+p 0 70 29 hrn 50 drain1a n 70 30 u
+a 0 s 0:1 0 72 35 hln 100 PIN=7
+a 0 s 0 0 70 0 hln 100 ERC=x
+a 0 s 0:13 0 10 -2 hln 100 FLOAT=r
+p 0 70 69 hrn 50 drain2a n 70 70 u
+a 0 s 0:1 0 66 73 hln 30 PIN=5
+a 0 s 0 0 70 40 hln 100 ERC=x
+a 0 s 0:13 0 10 -2 hln 100 FLOAT=r
+p 0 10 8 hcn 50 source1 n 0 10 h
+a 0 s 0:1 0 3 14 hcn 30 PIN=1
+a 0 s 0:13 0 0 10 hln 100 ERC=x
+a 0 s 0:13 0 0 -2 hln 100 FLOAT=r
+@graphics 70 85 0 20 10
+r 0 4 0 64 83 d_info:,,,1,,,,,,,,,,, 
+c 0 35 22 19 d_info:,0/0/0,,,,,,,,,,,,, 
+c 0 35 60 19 d_info:,0/0/0,,,,,,,,,,,,, 
+v 0 15 10
+15 37
+40 37
+40 29
+;
+v 0 15 50
+15 76
+40 76
+40 70
+;
+v 0 40 50
+40 43
+55 43
+55 70
+;
+v 0 40 9
+40 4
+55 4
+55 30
+;
+v 0 48 10
+48 30
+38 30
+;
+v 0 48 50
+48 70
+38 70
+;
+v 0 25 60
+10 60
+10 70
+;
+v 0 25 20
+10 20
+10 30
+;
+v 0 48 21 d_info:,,,,4/1/6/6,ON,0/0/255,,,,,,,, 
+45 25
+51 25
+48 21
+;
+v 0 48 61 d_info:,,,,4/1/6/6,ON,0/0/255,,,,,,,, 
+45 65
+51 65
+48 61
+;
+v 0 34 56
+30 60
+;
+v 0 34 64
+30 60
+;
+v 0 34 16
+30 20
+;
+v 0 34 24
+30 20
+;
+r 0 45 60 51 61 d_info:,,,,,ON,0/0/255,,,,,,,, 
+r 0 45 20 51 21 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 40 30 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 40 70 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 55 50 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 55 10 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 40 50 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 40 10 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+v 0 30 53
+30 47
+;
+v 0 40 60
+40 70
+;
+v 0 30 63
+30 57
+;
+v 0 48 50
+40 50
+;
+v 0 40 60
+30 60
+;
+v 0 30 50
+40 50
+;
+v 0 30 23
+30 17
+;
+v 0 30 70
+40 70
+;
+v 0 30 33
+30 27
+;
+v 0 40 20
+40 30
+;
+v 0 25 10
+25 30
+;
+v 0 40 20
+30 20
+;
+v 0 48 10
+40 10
+;
+v 0 30 13
+30 7
+;
+v 0 30 30
+40 30
+;
+v 0 10 10
+15 10
+;
+v 0 10 50
+15 50
+;
+v 0 55 10
+60 10
+;
+v 0 55 30
+61 30
+;
+v 0 55 50
+61 50
+;
+v 0 55 70
+60 70
+;
+v 0 30 10
+40 10
+;
+v 0 30 73
+30 67
+;
+z 26 -2 6 hln 100 7 d_info:,,,,,,,,,,,,,6, 
+source1
+v 0 25 50
+25 70
+;
+z 26 -2 48 hln 100 7 d_info:,,,,,,,,,,,,,6, 
+source2
+z 26 -2 36 hln 100 5 d_info:,,,,,,,,,,,,,6, 
+gate1
+z 26 -2 76 hln 100 5 d_info:,,,,,,,,,,,,,6, 
+gate2
+z 26 56 22 hln 100 6 d_info:,,,,,,,,,,,,,6, 
+drain1
+z 26 54 62 hln 100 6 d_info:,,,,,,,,,,,,,6, 
+drain2
+*symbol BSO150N03_L1 ako DMOS_N_L1
+d Infineon dual n-channel enhancement MOSFET
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain1 %gate1 %source1 %drain1a %drain2 %gate2 %source2 %drain2a @MODEL PARAMS: ?dVth1|dVth1=@dVth1| ?dVth2|dVth2=@dVth2| ?dRdson1|dRdson1=@dRdson1| ?dRdson2|dRdson2=@dRdson2| ?dgfs1|dgfs1=@dgfs1| ?dgfs2|dgfs2=@dgfs2| ?dC1|dC1=@dC1| ?dC2|dC2=@dC2| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg|
+a 0 s 9 0 77 6 hcn 100 REFDES=X?
+a 0 sp 11 0 34 96 hcn 100 PART=BSO150N03_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSO150N03_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth1=
+a 0 u 0:13 0 0 20 hcn 100 dVth2=
+a 0 u 0:13 0 0 30 hcn 100 dRdson1=
+a 0 u 0:13 0 0 40 hcn 100 dRdson2=
+a 0 u 0:13 0 0 50 hcn 100 dgfs1=
+a 0 u 0:13 0 0 60 hcn 100 dgfs2=
+a 0 u 0:13 0 0 70 hcn 100 dC1=
+a 0 u 0:13 0 0 80 hcn 100 dC2=
+a 0 u 0:13 0 0 10 hcn 100 Ls=1.5n
+a 0 u 0:13 0 0 20 hcn 100 Ld=1n
+a 0 u 0:13 0 0 30 hcn 100 Lg=2n
+*symbol BSO350N03_L1 ako DMOS_N_L1
+d Infineon dual n-channel enhancement MOSFET
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain1 %gate1 %source1 %drain1a %drain2 %gate2 %source2 %drain2a @MODEL PARAMS: ?dVth1|dVth1=@dVth1| ?dVth2|dVth2=@dVth2| ?dRdson1|dRdson1=@dRdson1| ?dRdson2|dRdson2=@dRdson2| ?dgfs1|dgfs1=@dgfs1| ?dgfs2|dgfs2=@dgfs2| ?dC1|dC1=@dC1| ?dC2|dC2=@dC2| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg|
+a 0 s 9 0 77 6 hcn 100 REFDES=X?
+a 0 sp 11 0 34 96 hcn 100 PART=BSO350N03_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSO350N03_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth1=
+a 0 u 0:13 0 0 20 hcn 100 dVth2=
+a 0 u 0:13 0 0 30 hcn 100 dRdson1=
+a 0 u 0:13 0 0 40 hcn 100 dRdson2=
+a 0 u 0:13 0 0 50 hcn 100 dgfs1=
+a 0 u 0:13 0 0 60 hcn 100 dgfs2=
+a 0 u 0:13 0 0 70 hcn 100 dC1=
+a 0 u 0:13 0 0 80 hcn 100 dC2=
+a 0 u 0:13 0 0 10 hcn 100 Ls=1.5n
+a 0 u 0:13 0 0 20 hcn 100 Ld=1n
+a 0 u 0:13 0 0 30 hcn 100 Lg=2n
+*symbol BSO200N03_L1 ako DMOS_N_L1
+d Infineon dual n-channel enhancement MOSFET
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain1 %gate1 %source1 %drain1a %drain2 %gate2 %source2 %drain2a @MODEL PARAMS: ?dVth1|dVth1=@dVth1| ?dVth2|dVth2=@dVth2| ?dRdson1|dRdson1=@dRdson1| ?dRdson2|dRdson2=@dRdson2| ?dgfs1|dgfs1=@dgfs1| ?dgfs2|dgfs2=@dgfs2| ?dC1|dC1=@dC1| ?dC2|dC2=@dC2| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg|
+a 0 s 9 0 77 6 hcn 100 REFDES=X?
+a 0 sp 11 0 34 96 hcn 100 PART=BSO200N03_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSO200N03_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth1=
+a 0 u 0:13 0 0 20 hcn 100 dVth2=
+a 0 u 0:13 0 0 30 hcn 100 dRdson1=
+a 0 u 0:13 0 0 40 hcn 100 dRdson2=
+a 0 u 0:13 0 0 50 hcn 100 dgfs1=
+a 0 u 0:13 0 0 60 hcn 100 dgfs2=
+a 0 u 0:13 0 0 70 hcn 100 dC1=
+a 0 u 0:13 0 0 80 hcn 100 dC2=
+a 0 u 0:13 0 0 10 hcn 100 Ls=1.5n
+a 0 u 0:13 0 0 20 hcn 100 Ld=1n
+a 0 u 0:13 0 0 30 hcn 100 Lg=2n

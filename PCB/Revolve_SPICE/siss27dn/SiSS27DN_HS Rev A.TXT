@@ -1,0 +1,33 @@
+*Dec 23, 2013
+*ECN S13-2601, Rev. A
+*This document is intended as a SPICE modeling guideline and does not
+*constitute a commercial product datasheet. Designers should refer to the
+*appropriate datasheet of the same number for guaranteed specification
+*limits.
+.SUBCKT SiSS27DN D G S 
+M1 3 GX S S PMOS W= 8975000u L= 0.25u 
+M2 S GX S D NMOS W= 8975000u L= 0.28u
+R1 D 3 3.30e-03 4.576e-03 -1.862e-06 
+CGS GX S 3.23e-09 
+CGD GX D 2.272e-10 
+RG G GY 3 
+RTCV 100 S 1e6 3.533e-04 5.125e-06 
+ETCV GY GX 100 200 1 
+ITCV S 100 1u 
+VTCV 200 S 1 
+DBD D S DBD 8975000u 
+**************************************************************** 
+.MODEL PMOS PMOS ( LEVEL = 3 TOX = 5e-8 
++ RS = 0 KP = 2.918e-06 NSUB = 3.213e+16 
++ KAPPA = 3.071e-02 NFS = 2.474e+10 
++ LD = 0 IS = 0 TPG = -1 CAPOP = 12 ) 
+*************************************************************** 
+.MODEL NMOS NMOS ( LEVEL = 3 TOX = 5e-8 
++NSUB = 2.118e+16 IS = 0 TPG = -1 CAPOP = 12 ) 
+**************************************************************** 
+.MODEL DBD D ( 
++FC = 0.1 TT = 3.413e-08 TREF = 25 BV = 31 
++RS = 1.672e-02 N = 1.264e+00 IS = 5.827e-11 
++EG = 1.259e+00 XTI = 8.035e-01 TRS = 3.013e-03 
++CJO = 2.000e-11 VJ = 1.294e+00 M = 5.243e-01 ) 
+.ENDS 

@@ -1,0 +1,233 @@
+*version 8.0 355263187
+@index
+symloc DMOS 0 1038 b
+symloc BSC011N03LS_L0:DMOS 1038 292
+symloc BSC0901NS_L0:DMOS 1330 286
+symloc BSC0902NS_L0:DMOS 1616 286
+symloc BSC0906NS_L0:DMOS 1902 286
+symloc BSC052N03LS_L0:DMOS 2188 292
+symloc BSZ019N03LS_L0:DMOS 2480 292
+symloc BSZ0901NS_L0:DMOS 2772 286
+symloc BSZ0902NS_L0:DMOS 3058 286
+symloc BSZ065N03LS_L0:DMOS 3344 292
+symloc BSZ0905NS_L0:DMOS 3636 286
+symloc BSZ0920NS_L0:DMOS 3922 286
+symloc BSC011N03LSI_L0:DMOS 4208 295
+symloc BSC0901NSI_L0:DMOS 4503 289
+symloc BSC0902NSI_L0:DMOS 4792 289
+symloc BSC0904NSI_L0:DMOS 5081 289
+symloc BSZ0901NSI_L0:DMOS 5370 289
+symloc BSZ0902NSI_L0:DMOS 5659 289
+symloc BSZ0904NSI_L0:DMOS 5948 289
+*symbol DMOS b
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=DMOS
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=DMOS
+@pins
+p 0 25 40 hcn 100 source n 30 40 v
+a 0 s 0:1 0 31 38 hln 100 PIN=3
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 10 20 hcn 100 gate n 0 20 h
+a 0 s 0:1 0 1 18 hln 100 PIN=2
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 25 10 hcn 100 drain n 30 0 d
+a 0 s 0:1 0 31 -2 hln 100 PIN=1
+a 0 s 0 0 0 0 hln 100 ERC=x
+@graphics 46 40 0 20 10
+c 0 25 20 20 d_info:,0/0/0,,,,,,,,,,,,, 
+v 0 38 10
+38 30
+28 30
+;
+v 0 38 18 d_info:,,,,4/1/6/6,ON,0/0/255,,,,,,,, 
+35 22
+41 22
+38 18
+;
+v 0 25 16
+20 20
+;
+v 0 20 20
+25 24
+;
+r 0 35 17 41 18 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 30 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 10 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+v 0 30 20
+30 30
+;
+v 0 30 20
+20 20
+;
+v 0 38 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 10 20
+15 20
+;
+v 0 20 10
+30 10
+;
+v 0 20 30
+30 30
+;
+v 0 20 23
+20 17
+;
+v 0 20 33
+20 27
+;
+v 0 20 13
+20 7
+;
+*symbol BSC011N03LS_L0 ako DMOS
+d Infineon n-channel DMOS transistor
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 89 38 hcn 100 PART=BSC011N03LS_L0
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSC011N03LS_L0
+*symbol BSC0901NS_L0 ako DMOS
+d Infineon n-channel DMOS transistor
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 89 38 hcn 100 PART=BSC0901NS_L0
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSC0901NS_L0
+*symbol BSC0902NS_L0 ako DMOS
+d Infineon n-channel DMOS transistor
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 89 38 hcn 100 PART=BSC0902NS_L0
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSC0902NS_L0
+*symbol BSC0906NS_L0 ako DMOS
+d Infineon n-channel DMOS transistor
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 89 38 hcn 100 PART=BSC0906NS_L0
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSC0906NS_L0
+*symbol BSC052N03LS_L0 ako DMOS
+d Infineon n-channel DMOS transistor
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 89 38 hcn 100 PART=BSC052N03LS_L0
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSC052N03LS_L0
+*symbol BSZ019N03LS_L0 ako DMOS
+d Infineon n-channel DMOS transistor
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 89 38 hcn 100 PART=BSZ019N03LS_L0
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSZ019N03LS_L0
+*symbol BSZ0901NS_L0 ako DMOS
+d Infineon n-channel DMOS transistor
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 89 38 hcn 100 PART=BSZ0901NS_L0
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSZ0901NS_L0
+*symbol BSZ0902NS_L0 ako DMOS
+d Infineon n-channel DMOS transistor
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 89 38 hcn 100 PART=BSZ0902NS_L0
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSZ0902NS_L0
+*symbol BSZ065N03LS_L0 ako DMOS
+d Infineon n-channel DMOS transistor
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 89 38 hcn 100 PART=BSZ065N03LS_L0
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSZ065N03LS_L0
+*symbol BSZ0905NS_L0 ako DMOS
+d Infineon n-channel DMOS transistor
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 89 38 hcn 100 PART=BSZ0905NS_L0
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSZ0905NS_L0
+*symbol BSZ0920NS_L0 ako DMOS
+d Infineon n-channel DMOS transistor
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 89 38 hcn 100 PART=BSZ0920NS_L0
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSZ0920NS_L0
+*symbol BSC011N03LSI_L0 ako DMOS
+d Infineon n-channel DMOS transistor
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 89 38 hcn 100 PART=BSC011N03LSI_L0
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSC011N03LSI_L0
+*symbol BSC0901NSI_L0 ako DMOS
+d Infineon n-channel DMOS transistor
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 89 38 hcn 100 PART=BSC0901NSI_L0
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSC0901NSI_L0
+*symbol BSC0902NSI_L0 ako DMOS
+d Infineon n-channel DMOS transistor
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 89 38 hcn 100 PART=BSC0902NSI_L0
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSC0902NSI_L0
+*symbol BSC0904NSI_L0 ako DMOS
+d Infineon n-channel DMOS transistor
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 89 38 hcn 100 PART=BSC0904NSI_L0
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSC0904NSI_L0
+*symbol BSZ0901NSI_L0 ako DMOS
+d Infineon n-channel DMOS transistor
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 89 38 hcn 100 PART=BSZ0901NSI_L0
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSZ0901NSI_L0
+*symbol BSZ0902NSI_L0 ako DMOS
+d Infineon n-channel DMOS transistor
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 89 38 hcn 100 PART=BSZ0902NSI_L0
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSZ0902NSI_L0
+*symbol BSZ0904NSI_L0 ako DMOS
+d Infineon n-channel DMOS transistor
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 89 38 hcn 100 PART=BSZ0904NSI_L0
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=BSZ0904NSI_L0

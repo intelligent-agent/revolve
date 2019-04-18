@@ -1,0 +1,214 @@
+*version 9.1 2973022093
+@index
+symloc DMOS_S2_L3_n 0 1664 b
+symloc SPD50N03S2-07:DMOS_S2_L3_n 1664 568
+symloc SPD30N03S2L-10:DMOS_S2_L3_n 2232 571
+symloc DMOS_S2_L1_n 2803 1261
+symloc SPD30N03S2L-10_L1:DMOS_S2_L1_n 4064 505
+symloc SPD50N03S2-07_L1:DMOS_S2_L1_n 4569 498
+*symbol DMOS_S2_L3_n b
+d Infineon DMOS with thermal network
+@type p 8.0
+@attributes
+a 0 sp 11 0 38 -3 hln 100 PART=DMOS_S2_L3_n
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %drain %gate %source %Tj %Tcase @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth| 
+a 0 s 9 0 -3 0 hcn 100 REFDES=X?
+a 0 sp 0:13 0 5 50 hcn 100 MODEL=DMOS_L3
+a 0 u 0:13 0 0 10 hlb 100 dVth=
+a 0 u 0:13 0 0 20 hlb 100 dRdson=
+a 0 u 0:13 0 0 30 hlb 100 dgfs=
+a 0 u 0:13 0 0 40 hlb 100 dC=
+a 0 u 0:13 0 0 50 hlb 100 dZth=
+@pins
+p 0 25 40 hcn 100 source n 30 40 v
+a 0 s 0:1 0 31 38 hln 100 PIN=3
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 10 20 hcn 100 gate n 0 20 h
+a 0 s 0:1 0 1 18 hln 100 PIN=2
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 25 10 hcn 100 drain n 30 0 d
+a 0 s 0:1 0 31 -2 hln 100 PIN=1
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 70 8 hrn 100 Tj n 60 10 u
+a 0 s 0:1 0 51 16 hln 100 PIN=4
+a 0 s 0:13 0 60 10 hln 100 ERC=x
+a 0 s 0:13 0 0 10 hln 100 FLOAT=r
+p 0 88 26 hrn 100 Tcase n 60 30 u
+a 0 s 0:1 0 51 36 hln 100 PIN=5
+a 0 s 0:13 0 60 30 hln 100 ERC=x
+@graphics 60 40 0 0 10
+v 0 25 16
+20 20
+;
+v 0 20 20
+25 24
+;
+v 0 20 10
+30 10
+;
+v 0 20 30
+30 30
+;
+v 0 30 20
+20 20
+;
+v 0 10 20
+15 20
+;
+v 0 15 10
+15 30
+;
+v 0 30 20
+30 30
+;
+v 0 20 33
+20 27
+;
+v 0 20 13
+20 7
+;
+v 0 20 23
+20 17
+;
+v 0 38 10
+30 10
+;
+v 0 30 30
+38 30
+38 10
+;
+c 0 30 10 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 30 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+v 0 38 18 d_info:,,,,4/1/6/6,ON,0/0/255,,,,,,,, 
+35 22
+41 22
+38 18
+;
+r 0 35 17 41 18 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 25 20 20 d_info:,0/0/0,,,,,,,,,,,,, 
+z 26 54 6 hln 100 2 d_info:,,,,,,,,,,,,,5, 
+Tj
+z 26 46 27 hln 100 5 d_info:,,,,,,,,,,,,,5, 
+Tcase
+*symbol SPD50N03S2-07 ako DMOS_S2_L3_n
+d Infineon DMOS with thermal network
+@type p 8.0
+@attributes
+a 0 sp 11 0 38 -3 hln 100 PART=SPD50N03S2-07
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %drain %gate %source %Tj %Tcase @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth| 
+a 0 s 9 0 -3 0 hcn 100 REFDES=X?
+a 0 sp 0:13 0 5 50 hcn 100 MODEL=SPD50N03S2-07
+a 0 u 0:13 0 0 10 hlb 100 dVth=
+a 0 u 0:13 0 0 20 hlb 100 dRdson=
+a 0 u 0:13 0 0 30 hlb 100 dgfs=
+a 0 u 0:13 0 0 40 hlb 100 dC=
+a 0 u 0:13 0 0 50 hlb 100 dZth=
+*symbol SPD30N03S2L-10 ako DMOS_S2_L3_n
+d Infineon DMOS with thermal network
+@type p 9.1
+@attributes
+a 0 sp 11 0 38 -3 hln 100 PART=SPD30N03S2L-10
+a 0 sp 0 0 0 0 hln 100 TEMPLATE=X^@refdes %drain %gate %source %Tj %Tcase @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?dZth|Zthtype=@dZth| 
+a 0 s 9 0 -3 0 hcn 100 REFDES=X?
+a 0 sp 0:13 0 5 50 hcn 100 MODEL=SPD30N03S2L-10
+a 0 u 0:13 0 0 10 hlb 100 dVth=
+a 0 u 0:13 0 0 20 hlb 100 dRdson=
+a 0 u 0:13 0 0 30 hlb 100 dgfs=
+a 0 u 0:13 0 0 40 hlb 100 dC=
+a 0 u 0:13 0 0 50 hlb 100 dZth=
+*symbol DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC|
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=DMOS_S2_L1_n
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=DMOS_S2_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+@pins
+p 0 25 40 hcn 100 source n 30 40 v
+a 0 s 0:1 0 31 38 hln 100 PIN=3
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 10 20 hcn 100 gate n 0 20 h
+a 0 s 0:1 0 1 18 hln 100 PIN=2
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 25 10 hcn 100 drain n 30 0 d
+a 0 s 0:1 0 31 -2 hln 100 PIN=1
+a 0 s 0 0 0 0 hln 100 ERC=x
+@graphics 46 40 0 20 10
+c 0 25 20 20 d_info:,0/0/0,,,,,,,,,,,,, 
+v 0 38 10
+38 30
+28 30
+;
+v 0 38 18 d_info:,,,,4/1/6/6,ON,0/0/255,,,,,,,, 
+35 22
+41 22
+38 18
+;
+v 0 25 16
+20 20
+;
+v 0 20 20
+25 24
+;
+r 0 35 17 41 18 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 30 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 10 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+v 0 30 20
+30 30
+;
+v 0 30 20
+20 20
+;
+v 0 38 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 10 20
+15 20
+;
+v 0 20 10
+30 10
+;
+v 0 20 30
+30 30
+;
+v 0 20 23
+20 17
+;
+v 0 20 33
+20 27
+;
+v 0 20 13
+20 7
+;
+*symbol SPD30N03S2L-10_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p 9.1
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC|
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=SPD30N03S2L-10_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=SPD30N03S2L-10_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+*symbol SPD50N03S2-07_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC|
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 89 35 hcn 100 PART=SPD50N03S2-07_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=SPD50N03S2-07_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=

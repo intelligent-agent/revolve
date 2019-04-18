@@ -1,0 +1,302 @@
+*version 8.0 147637377
+@index
+symloc DMOS_S2_L1_n 0 1402 b
+symloc IPF039N03L_L1:DMOS_S2_L1_n 1402 626
+symloc IPF050N03L_L1:DMOS_S2_L1_n 2028 626
+symloc IPF060N03L_L1:DMOS_S2_L1_n 2654 626
+symloc IPF075N03L_L1:DMOS_S2_L1_n 3280 626
+symloc IPF090N03L_L1:DMOS_S2_L1_n 3906 626
+symloc IPF105N03L_L1:DMOS_S2_L1_n 4532 626
+symloc IPF135N03L_L1:DMOS_S2_L1_n 5158 626
+symloc IPU039N03L_L1:DMOS_S2_L1_n 5784 626
+symloc IPU050N03L_L1:DMOS_S2_L1_n 6410 626
+symloc IPU060N03L_L1:DMOS_S2_L1_n 7036 626
+symloc IPU075N03L_L1:DMOS_S2_L1_n 7662 626
+symloc IPU090N03L_L1:DMOS_S2_L1_n 8288 626
+symloc IPU105N03L_L1:DMOS_S2_L1_n 8914 626
+symloc IPU135N03L_L1:DMOS_S2_L1_n 9540 626
+*symbol DMOS_S2_L1_n b
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=DMOS_S2_L1_n
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=DMOS_S2_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+a 0 u 0:13 0 0 10 hcn 100 Ls=1n
+a 0 u 0:13 0 0 20 hcn 100 Ld=0.5n
+a 0 u 0:13 0 0 30 hcn 100 Lg=2n
+@pins
+p 0 25 40 hcn 100 source n 30 40 v
+a 0 s 0:1 0 31 38 hln 100 PIN=3
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 10 20 hcn 100 gate n 0 20 h
+a 0 s 0:1 0 1 18 hln 100 PIN=2
+a 0 s 0 0 0 0 hln 100 ERC=x
+p 0 25 10 hcn 100 drain n 30 0 d
+a 0 s 0:1 0 31 -2 hln 100 PIN=1
+a 0 s 0 0 0 0 hln 100 ERC=x
+@graphics 46 40 0 20 10
+c 0 25 20 20 d_info:,0/0/0,,,,,,,,,,,,, 
+v 0 38 10
+38 30
+28 30
+;
+v 0 38 18 d_info:,,,,4/1/6/6,ON,0/0/255,,,,,,,, 
+35 22
+41 22
+38 18
+;
+v 0 25 16
+20 20
+;
+v 0 20 20
+25 24
+;
+r 0 35 17 41 18 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 30 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+c 0 30 10 1 d_info:,,,,,ON,0/0/255,,,,,,,, 
+v 0 30 20
+30 30
+;
+v 0 30 20
+20 20
+;
+v 0 38 10
+30 10
+;
+v 0 15 10
+15 30
+;
+v 0 10 20
+15 20
+;
+v 0 20 10
+30 10
+;
+v 0 20 30
+30 30
+;
+v 0 20 23
+20 17
+;
+v 0 20 33
+20 27
+;
+v 0 20 13
+20 7
+;
+*symbol IPF039N03L_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=IPF039N03L_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=IPF039N03L_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+a 0 u 0:13 0 0 10 hlb 100 Ls=2n
+a 0 u 0:13 0 0 20 hlb 100 Ld=2n
+a 0 u 0:13 0 0 30 hlb 100 Lg=3n
+*symbol IPF050N03L_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=IPF050N03L_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=IPF050N03L_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+a 0 u 0:13 0 0 10 hlb 100 Ls=2n
+a 0 u 0:13 0 0 20 hlb 100 Ld=2n
+a 0 u 0:13 0 0 30 hlb 100 Lg=3n
+*symbol IPF060N03L_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=IPF060N03L_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=IPF060N03L_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+a 0 u 0:13 0 0 10 hlb 100 Ls=2n
+a 0 u 0:13 0 0 20 hlb 100 Ld=2n
+a 0 u 0:13 0 0 30 hlb 100 Lg=3n
+*symbol IPF075N03L_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=IPF075N03L_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=IPF075N03L_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+a 0 u 0:13 0 0 10 hlb 100 Ls=2n
+a 0 u 0:13 0 0 20 hlb 100 Ld=2n
+a 0 u 0:13 0 0 30 hlb 100 Lg=3n
+*symbol IPF090N03L_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=IPF090N03L_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=IPF090N03L_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+a 0 u 0:13 0 0 10 hlb 100 Ls=2n
+a 0 u 0:13 0 0 20 hlb 100 Ld=2n
+a 0 u 0:13 0 0 30 hlb 100 Lg=3n
+*symbol IPF105N03L_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=IPF105N03L_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=IPF105N03L_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+a 0 u 0:13 0 0 10 hlb 100 Ls=2n
+a 0 u 0:13 0 0 20 hlb 100 Ld=2n
+a 0 u 0:13 0 0 30 hlb 100 Lg=3n
+*symbol IPF135N03L_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=IPF135N03L_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=IPF135N03L_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+a 0 u 0:13 0 0 10 hlb 100 Ls=2n
+a 0 u 0:13 0 0 20 hlb 100 Ld=2n
+a 0 u 0:13 0 0 30 hlb 100 Lg=3n
+*symbol IPU039N03L_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=IPU039N03L_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=IPU039N03L_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+a 0 u 0:13 0 0 10 hlb 100 Ls=2n
+a 0 u 0:13 0 0 20 hlb 100 Ld=2n
+a 0 u 0:13 0 0 30 hlb 100 Lg=3n
+*symbol IPU050N03L_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=IPU050N03L_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=IPU050N03L_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+a 0 u 0:13 0 0 10 hlb 100 Ls=2n
+a 0 u 0:13 0 0 20 hlb 100 Ld=2n
+a 0 u 0:13 0 0 30 hlb 100 Lg=3n
+*symbol IPU060N03L_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=IPU060N03L_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=IPU060N03L_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+a 0 u 0:13 0 0 10 hlb 100 Ls=2n
+a 0 u 0:13 0 0 20 hlb 100 Ld=2n
+a 0 u 0:13 0 0 30 hlb 100 Lg=3n
+*symbol IPU075N03L_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=IPU075N03L_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=IPU075N03L_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+a 0 u 0:13 0 0 10 hlb 100 Ls=2n
+a 0 u 0:13 0 0 20 hlb 100 Ld=2n
+a 0 u 0:13 0 0 30 hlb 100 Lg=3n
+*symbol IPU090N03L_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=IPU090N03L_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=IPU090N03L_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+a 0 u 0:13 0 0 10 hlb 100 Ls=2n
+a 0 u 0:13 0 0 20 hlb 100 Ld=2n
+a 0 u 0:13 0 0 30 hlb 100 Lg=3n
+*symbol IPU105N03L_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=IPU105N03L_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=IPU105N03L_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+a 0 u 0:13 0 0 10 hlb 100 Ls=2n
+a 0 u 0:13 0 0 20 hlb 100 Ld=2n
+a 0 u 0:13 0 0 30 hlb 100 Lg=3n
+*symbol IPU135N03L_L1 ako DMOS_S2_L1_n
+d Infineon n-channel DMOS
+@type p 8.0
+@attributes
+a 1 sp 0 0 0 0 hcn 100 TEMPLATE=X^@refdes %drain %gate %source @MODEL PARAMS: ?dVth|dVth=@dVth| ?dRdson|dRdson=@dRdson| ?dgfs|dgfs=@dgfs| ?dC|dC=@dC| ?Ls|Ls=@Ls| ?Ld|Ld=@Ld| ?Lg|Lg=@Lg| 
+a 0 s 9 0 61 12 hcn 100 REFDES=X?
+a 0 sp 11 0 87 34 hcn 100 PART=IPU135N03L_L1
+a 0 sp 0:13 0 4 40 hcn 100 MODEL=IPU135N03L_L1
+a 0 u 0:13 0 0 10 hcn 100 dVth=
+a 0 u 0:13 0 0 20 hcn 100 dRdson=
+a 0 u 0:13 0 0 30 hcn 100 dgfs=
+a 0 u 0:13 0 0 40 hcn 100 dC=
+a 0 u 0:13 0 0 10 hlb 100 Ls=2n
+a 0 u 0:13 0 0 20 hlb 100 Ld=2n
+a 0 u 0:13 0 0 30 hlb 100 Lg=3n

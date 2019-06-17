@@ -14,19 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L pspice:VSOURCE Vinput
-U 1 1 5D599E1E
-P 1900 3950
-F 0 "Vinput" H 2128 3996 50  0000 L CNN
-F 1 "PULSE (0 -24 1n 1u 1u 1 1)" H 2128 3905 50  0000 L CNN
-F 2 "" H 1900 3950 50  0001 C CNN
-F 3 "~" H 1900 3950 50  0001 C CNN
-F 4 "V" H 1900 3950 50  0001 C CNN "Spice_Primitive"
-F 5 "Y" H 1900 3950 50  0001 C CNN "Spice_Netlist_Enabled"
-	1    1900 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1600 3150 1900 3150
 Wire Wire Line
@@ -49,19 +36,6 @@ Text GLabel 1600 3150 0    50   Input ~ 0
 vin
 Text GLabel 6750 3150 2    50   Input ~ 0
 vout
-Text Notes 1250 4550 0    50   ~ 0
-.tran 10n 10u
-$Comp
-L Device:R R1
-U 1 1 5E4EB923
-P 6150 3600
-F 0 "R1" H 6220 3646 50  0000 L CNN
-F 1 "1K" H 6220 3555 50  0000 L CNN
-F 2 "" V 6080 3600 50  0001 C CNN
-F 3 "~" H 6150 3600 50  0001 C CNN
-	1    6150 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6150 3150 6150 3450
 Connection ~ 6150 3150
@@ -109,36 +83,7 @@ Connection ~ 2950 3150
 Wire Wire Line
 	2950 2350 2950 2100
 Wire Wire Line
-	3800 2100 3800 2200
-Wire Wire Line
-	3500 2400 3250 2400
-Wire Wire Line
-	2950 3150 3250 3150
-$Comp
-L Device:Q_PMOS_DGS Q3
-U 1 1 5DB2EED0
-P 3700 2400
-F 0 "Q3" H 3906 2354 50  0000 L CNN
-F 1 "Q_PMOS_DGS" H 3906 2445 50  0000 L CNN
-F 2 "" H 3900 2500 50  0001 C CNN
-F 3 "~" H 3700 2400 50  0001 C CNN
-F 4 "X" H 3700 2400 50  0001 C CNN "Spice_Primitive"
-F 5 "SiSS27DN" H 3700 2400 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3700 2400 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "siss27dn/SiSS27DN_PS Rev A.LIB" H 3700 2400 50  0001 C CNN "Spice_Lib_File"
-	1    3700 2400
-	1    0    0    1   
-$EndComp
-Wire Wire Line
 	2950 2100 3800 2100
-Wire Wire Line
-	3250 2400 3250 3150
-Connection ~ 3250 3150
-Wire Wire Line
-	3250 3150 3300 3150
-Wire Wire Line
-	3500 4000 3800 4000
-Connection ~ 3800 4000
 $Comp
 L Device:Q_NMOS_DGS Q6
 U 1 1 5DB5B5C4
@@ -229,9 +174,64 @@ Connection ~ 4150 3150
 Wire Wire Line
 	4150 3150 4150 3450
 Wire Wire Line
-	3800 2600 3800 4000
+	6150 3750 6150 4650
 Wire Wire Line
 	3800 4000 4150 4000
 Wire Wire Line
-	6150 3750 6150 4650
+	3500 4000 3800 4000
+Connection ~ 3800 4000
+$Comp
+L Device:R R1
+U 1 1 5E4EB923
+P 6150 3600
+F 0 "R1" H 6220 3646 50  0000 L CNN
+F 1 "1K" H 6220 3555 50  0000 L CNN
+F 2 "" V 6080 3600 50  0001 C CNN
+F 3 "~" H 6150 3600 50  0001 C CNN
+	1    6150 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:VSOURCE Vinput
+U 1 1 5D599E1E
+P 1900 3950
+F 0 "Vinput" H 2128 3996 50  0000 L CNN
+F 1 "PULSE (0 24 1n 1u 1u 1 1)" H 2128 3905 50  0000 L CNN
+F 2 "" H 1900 3950 50  0001 C CNN
+F 3 "~" H 1900 3950 50  0001 C CNN
+F 4 "V" H 1900 3950 50  0001 C CNN "Spice_Primitive"
+F 5 "Y" H 1900 3950 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    1900 3950
+	1    0    0    -1  
+$EndComp
+Text Notes 1250 4550 0    50   ~ 0
+.tran 10n 10u
+Wire Wire Line
+	3800 2600 3800 4000
+Wire Wire Line
+	3800 2100 3800 2200
+$Comp
+L Device:Q_PMOS_DGS Q3
+U 1 1 5DB2EED0
+P 3700 2400
+F 0 "Q3" H 3906 2354 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 3906 2445 50  0000 L CNN
+F 2 "" H 3900 2500 50  0001 C CNN
+F 3 "~" H 3700 2400 50  0001 C CNN
+F 4 "X" H 3700 2400 50  0001 C CNN "Spice_Primitive"
+F 5 "SiSS27DN" H 3700 2400 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 3700 2400 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "siss27dn/SiSS27DN_PS Rev A.LIB" H 3700 2400 50  0001 C CNN "Spice_Lib_File"
+	1    3700 2400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3500 2400 3250 2400
+Wire Wire Line
+	3250 3150 3300 3150
+Wire Wire Line
+	2950 3150 3250 3150
+Connection ~ 3250 3150
+Wire Wire Line
+	3250 2400 3250 3150
 $EndSCHEMATC

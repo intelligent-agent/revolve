@@ -50,7 +50,7 @@ ENDDEF
 #
 # Revolve_A4-eagle-import_22-?-0205-7028
 #
-DEF ~Revolve_A4-eagle-import_22-?-0205-7028 J 0 40 Y Y 2 L N
+DEF Revolve_A4-eagle-import_22-?-0205-7028 J 0 40 Y Y 2 L N
 F0 "J" 100 -30 51 H V L BNN
 F1 "Revolve_A4-eagle-import_22-?-0205-7028" -30 55 59 H I L BNN
 F2 "" 0 0 50 H I C CNN
@@ -65,7 +65,7 @@ ENDDEF
 #
 # Revolve_A4-eagle-import_22-?-0305-7038
 #
-DEF ~Revolve_A4-eagle-import_22-?-0305-7038 J 0 40 Y Y 3 L N
+DEF Revolve_A4-eagle-import_22-?-0305-7038 J 0 40 Y Y 3 L N
 F0 "J" 100 -30 51 H V L BNN
 F1 "Revolve_A4-eagle-import_22-?-0305-7038" -30 55 59 H I L BNN
 F2 "" 0 0 50 H I C CNN
@@ -82,7 +82,7 @@ ENDDEF
 #
 # Revolve_A4-eagle-import_22-?-0405-7048
 #
-DEF ~Revolve_A4-eagle-import_22-?-0405-7048 J 0 40 Y Y 4 L N
+DEF Revolve_A4-eagle-import_22-?-0405-7048 J 0 40 Y Y 4 L N
 F0 "J" 100 -30 51 H V L BNN
 F1 "Revolve_A4-eagle-import_22-?-0405-7048" -30 55 59 H I L BNN
 F2 "" 0 0 50 H I C CNN
@@ -147,7 +147,7 @@ ENDDEF
 #
 # Revolve_A4-eagle-import_741G126DCK
 #
-DEF ~Revolve_A4-eagle-import_741G126DCK IC 0 40 Y Y 2 L N
+DEF Revolve_A4-eagle-import_741G126DCK IC 0 40 Y Y 2 L N
 F0 "IC" -25 -25 59 H V L BNN
 F1 "Revolve_A4-eagle-import_741G126DCK" 100 -200 59 H I L BNN
 F2 "" 0 0 50 H I C CNN
@@ -169,7 +169,7 @@ ENDDEF
 #
 # Revolve_A4-eagle-import_A3L-LOC
 #
-DEF ~Revolve_A4-eagle-import_A3L-LOC #FRAME 0 40 Y Y 1 L N
+DEF Revolve_A4-eagle-import_A3L-LOC #FRAME 0 40 Y Y 1 L N
 F0 "#FRAME" 0 0 50 H I C CNN
 F1 "Revolve_A4-eagle-import_A3L-LOC" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -345,7 +345,7 @@ ENDDEF
 #
 # Revolve_A4-eagle-import_CC-BY-SA
 #
-DEF ~Revolve_A4-eagle-import_CC-BY-SA ~ 0 40 Y Y 1 L N
+DEF Revolve_A4-eagle-import_CC-BY-SA ~ 0 40 Y Y 1 L N
 F0 "" 0 0 50 H I C CNN
 F1 "Revolve_A4-eagle-import_CC-BY-SA" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -507,7 +507,7 @@ ENDDEF
 #
 # Revolve_A4-eagle-import_DMC2038LVT
 #
-DEF ~Revolve_A4-eagle-import_DMC2038LVT Q 0 40 Y Y 1 L N
+DEF Revolve_A4-eagle-import_DMC2038LVT Q 0 40 Y Y 1 L N
 F0 "Q" 0 0 50 H I C CNN
 F1 "Revolve_A4-eagle-import_DMC2038LVT" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -594,7 +594,7 @@ ENDDEF
 #
 # Revolve_A4-eagle-import_FIDUCIAL1X2.5
 #
-DEF ~Revolve_A4-eagle-import_FIDUCIAL1X2.5 JP 0 40 Y Y 1 L N
+DEF Revolve_A4-eagle-import_FIDUCIAL1X2.5 JP 0 40 Y Y 1 L N
 F0 "JP" 0 0 50 H I C CNN
 F1 "Revolve_A4-eagle-import_FIDUCIAL1X2.5" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -640,7 +640,7 @@ ENDDEF
 #
 # Revolve_A4-eagle-import_HDMI4
 #
-DEF ~Revolve_A4-eagle-import_HDMI4 X 0 40 Y Y 1 L N
+DEF Revolve_A4-eagle-import_HDMI4 X 0 40 Y Y 1 L N
 F0 "X" 0 0 50 H I C CNN
 F1 "Revolve_A4-eagle-import_HDMI4" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -925,7 +925,7 @@ ENDDEF
 #
 # Revolve_A4-eagle-import_MOUNTING_HOLE
 #
-DEF ~Revolve_A4-eagle-import_MOUNTING_HOLE MGT 0 40 Y Y 1 L N
+DEF Revolve_A4-eagle-import_MOUNTING_HOLE MGT 0 40 Y Y 1 L N
 F0 "MGT" 30 -80 42 H V L BNN
 F1 "Revolve_A4-eagle-import_MOUNTING_HOLE" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -1580,7 +1580,7 @@ ENDDEF
 #
 # Revolve_A4-eagle-import_OSHW_LOGO_FILLX0200-NT
 #
-DEF ~Revolve_A4-eagle-import_OSHW_LOGO_FILLX0200-NT LOGO 0 40 Y Y 1 L N
+DEF Revolve_A4-eagle-import_OSHW_LOGO_FILLX0200-NT LOGO 0 40 Y Y 1 L N
 F0 "LOGO" 0 0 50 H I C CNN
 F1 "Revolve_A4-eagle-import_OSHW_LOGO_FILLX0200-NT" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -1693,7 +1693,7 @@ ENDDEF
 #
 # Revolve_A4-eagle-import_TACT_SWITCH
 #
-DEF ~Revolve_A4-eagle-import_TACT_SWITCH ~ 0 40 Y Y 1 L N
+DEF Revolve_A4-eagle-import_TACT_SWITCH ~ 0 40 Y Y 1 L N
 F0 "" 0 0 50 H I C CNN
 F1 "Revolve_A4-eagle-import_TACT_SWITCH" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -1839,7 +1839,7 @@ ENDDEF
 #
 # Revolve_A4-eagle-import_TPB1,27
 #
-DEF ~Revolve_A4-eagle-import_TPB1,27 TP 0 40 Y Y 1 L N
+DEF Revolve_A4-eagle-import_TPB1,27 TP 0 40 Y Y 1 L N
 F0 "TP" -50 50 59 H V L BNN
 F1 "Revolve_A4-eagle-import_TPB1,27" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -1856,7 +1856,7 @@ ENDDEF
 #
 # Revolve_A4-eagle-import_TPD12S016-RKT
 #
-DEF ~Revolve_A4-eagle-import_TPD12S016-RKT ~ 0 40 Y Y 1 L N
+DEF Revolve_A4-eagle-import_TPD12S016-RKT ~ 0 40 Y Y 1 L N
 F0 "" 0 0 50 H I C CNN
 F1 "Revolve_A4-eagle-import_TPD12S016-RKT" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -1939,7 +1939,7 @@ ENDDEF
 #
 # Revolve_A4-eagle-import_TPS54202
 #
-DEF ~Revolve_A4-eagle-import_TPS54202 ~ 0 40 Y Y 1 L N
+DEF Revolve_A4-eagle-import_TPS54202 ~ 0 40 Y Y 1 L N
 F0 "" 0 0 50 H I C CNN
 F1 "Revolve_A4-eagle-import_TPS54202" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -1960,7 +1960,7 @@ ENDDEF
 #
 # Revolve_A4-eagle-import_TPTP06R
 #
-DEF ~Revolve_A4-eagle-import_TPTP06R TP 0 40 Y Y 1 L N
+DEF Revolve_A4-eagle-import_TPTP06R TP 0 40 Y Y 1 L N
 F0 "TP" -50 50 59 H V L BNN
 F1 "Revolve_A4-eagle-import_TPTP06R" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -1977,7 +1977,7 @@ ENDDEF
 #
 # Revolve_A4-eagle-import_TPTP10R
 #
-DEF ~Revolve_A4-eagle-import_TPTP10R TP 0 40 Y Y 1 L N
+DEF Revolve_A4-eagle-import_TPTP10R TP 0 40 Y Y 1 L N
 F0 "TP" -50 50 59 H V L BNN
 F1 "Revolve_A4-eagle-import_TPTP10R" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -1994,7 +1994,7 @@ ENDDEF
 #
 # Revolve_A4-eagle-import_TPTP11R
 #
-DEF ~Revolve_A4-eagle-import_TPTP11R TP 0 40 Y Y 1 L N
+DEF Revolve_A4-eagle-import_TPTP11R TP 0 40 Y Y 1 L N
 F0 "TP" -50 50 59 H V L BNN
 F1 "Revolve_A4-eagle-import_TPTP11R" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
